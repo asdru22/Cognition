@@ -1,0 +1,2 @@
+execute if data storage srn:storage root.temp.item.Slot run item modify entity @s weapon.offhand srn:decrease_count/1
+execute unless data storage srn:storage root.temp.item.Slot run item modify entity @s weapon.mainhand srn:decrease_count/1

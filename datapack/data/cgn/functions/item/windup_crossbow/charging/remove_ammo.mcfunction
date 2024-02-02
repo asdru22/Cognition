@@ -1,0 +1,1 @@
+$item modify entity @s container.$(slot) srn:decrease_count/1
