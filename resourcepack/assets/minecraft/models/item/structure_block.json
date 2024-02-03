@@ -60,6 +60,12 @@
         "custom_model_data": 880009
       },
       "model": "cgn:item/empty"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 880010
+      },
+      "model": "cgn:item/wispthorn"
     }
   ]
 }

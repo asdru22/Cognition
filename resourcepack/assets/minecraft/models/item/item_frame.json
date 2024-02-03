@@ -33,6 +33,12 @@
           "custom_model_data": 880004
         },
         "model": "cgn:block/midnight_rose_age3"
+        },
+        {
+        "predicate": {
+          "custom_model_data": 880005
+        },
+        "model": "cgn:block/wispthorn"
         }
     ]
 }

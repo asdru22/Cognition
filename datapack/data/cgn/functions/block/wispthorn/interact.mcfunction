@@ -1,0 +1,1 @@
+execute if entity @s[tag=srn.potted] unless data storage srn:storage root.temp.item{id:"minecraft:structure_block",tag:{cgn:{id:"wispthorn"}}} run function cgn:block/wispthorn/potted/pick_up
