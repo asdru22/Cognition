@@ -1,5 +1,13 @@
 # Cognition
 
-Damaging wet Bolted Creatures has a chance to generate Electroplasm. Bolted Creatures can hold up to 5-8 Electroplasm.
-Electroplasm can be picked up by players and stored as long as they are wearing 1 Gloomstone/Ebonite armor piece
-Some tools require Electroplasm to be used, like the <light gun> and <beam gun>
+Leaving Midnight Roses in Soul Sand Valleys for a long period of time can cause them to turn into Wispthorns.
+Wispthorns can be cobined with raw copper and magma cream to make Electroplasm
+Electroplasm can be brewed into Electroplasm Potions, which grant electroplasm when drank
+
+<Weapon> can harvest Electroplasm off of Bolted Creatures
+
+<Fractured Sword> fractured sword bits in animated texture, can extend with fragments like a raycast
+
+Electromage armor made out electroplasm and leather
+
+Double knives where u can combo

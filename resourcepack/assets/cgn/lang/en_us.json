@@ -41,6 +41,12 @@
     "item.cgn.ebognite": "Ebognite",
     "item.cgn.midnight_rose": "Midnight Rose",
     "item.cgn.midnight_rose_seed": "Midnight Rose Seed",
+    "item.cgn.electroplasm": "Electroplasm",
+    "item.cgn.potion.effect.surge": "Surge Potion",
+    "item.cgn.splash_potion.effect.surge": "Surge Splash Potion",
+    "item.cgn.lingering_potion.effect.surge": "Surge Lingering Potion",
+
+
 
     "subtitle.cgn.item.double_edged_sword.throw": "Doubled Edged Sword clangs",
     "subtitle.cgn.item.double_edged_sword.bounce": "Doubled Edged Sword bounces",

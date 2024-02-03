@@ -1,0 +1,11 @@
+{
+  "parent": "item/glistering_melon_slice",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 880000
+      },
+      "model": "cgn:item/electroplasm"
+    }
+  ]
+}
