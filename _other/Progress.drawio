@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2024-02-01T23:09:32.441Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.18 Chrome/120.0.6099.199 Electron/28.1.2 Safari/537.36" etag="eYAN4n9Kptg69moqMOD2" version="22.1.18" type="device">
+<mxfile host="Electron" modified="2024-02-04T17:38:20.165Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.18 Chrome/120.0.6099.199 Electron/28.1.2 Safari/537.36" etag="c8CYQj6_xzH9e-umeyPX" version="22.1.18" type="device">
   <diagram name="Pagina-1" id="g1vDIpvNt1iP5FNlEiaI">
-    <mxGraphModel dx="1621" dy="1680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2271" dy="2098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -28,7 +28,7 @@
         <mxCell id="6QQouXsAkMZPYascOKj7-5" value="Gloomstone Blade" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Arial;" parent="1" vertex="1">
           <mxGeometry x="80" y="280" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="P54RX8BekjCUxdzTFuDR-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="6QQouXsAkMZPYascOKj7-9" target="6QQouXsAkMZPYascOKj7-62">
+        <mxCell id="P54RX8BekjCUxdzTFuDR-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="6QQouXsAkMZPYascOKj7-9" target="6QQouXsAkMZPYascOKj7-62" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6QQouXsAkMZPYascOKj7-9" value="Axe&lt;br&gt;Pickaxe&lt;br&gt;Shovel&lt;br&gt;Hoe" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Arial;" parent="1" vertex="1">
@@ -46,7 +46,7 @@
         <mxCell id="6QQouXsAkMZPYascOKj7-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="6QQouXsAkMZPYascOKj7-14" target="6QQouXsAkMZPYascOKj7-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="P54RX8BekjCUxdzTFuDR-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6QQouXsAkMZPYascOKj7-14" target="P54RX8BekjCUxdzTFuDR-2">
+        <mxCell id="P54RX8BekjCUxdzTFuDR-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="6QQouXsAkMZPYascOKj7-14" target="P54RX8BekjCUxdzTFuDR-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6QQouXsAkMZPYascOKj7-14" value="Midnight Rose" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Arial;" parent="1" vertex="1">
@@ -164,8 +164,20 @@
         <mxCell id="6QQouXsAkMZPYascOKj7-82" value="Decaying Workshop" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Arial;labelBackgroundColor=none;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
           <mxGeometry x="320" y="440" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="P54RX8BekjCUxdzTFuDR-2" value="Radiant Rose" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Arial;" vertex="1" parent="1">
+        <mxCell id="go4O8EBCEYeqajolpf1W-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P54RX8BekjCUxdzTFuDR-2" target="go4O8EBCEYeqajolpf1W-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P54RX8BekjCUxdzTFuDR-2" value="Wispthorn" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Arial;" parent="1" vertex="1">
           <mxGeometry x="560" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="go4O8EBCEYeqajolpf1W-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="go4O8EBCEYeqajolpf1W-1" target="go4O8EBCEYeqajolpf1W-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="go4O8EBCEYeqajolpf1W-1" value="Electroplasm" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="560" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="go4O8EBCEYeqajolpf1W-3" value="Surge Potion" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="560" y="240" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

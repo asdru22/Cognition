@@ -8,6 +8,6 @@ Electroplasm can be brewed into Electroplasm Potions, which grant electroplasm w
 
 <Fractured Sword> fractured sword bits in animated texture, can extend with fragments like a raycast
 
-Electromage armor made out electroplasm and leather
+Shockweave armor made out electroplasm and leather
 
-Double knives where u can combo
+Electroplasm Carvers where u can combo, made out of 2 ebonite daggers 

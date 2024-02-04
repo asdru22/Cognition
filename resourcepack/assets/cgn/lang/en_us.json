@@ -47,8 +47,6 @@
     "item.cgn.lingering_potion.effect.surge": "Surge Lingering Potion",
     "item.cgn.wispthorn": "Wispthorn",
 
-
-
     "subtitle.cgn.item.double_edged_sword.throw": "Doubled Edged Sword clangs",
     "subtitle.cgn.item.double_edged_sword.bounce": "Doubled Edged Sword bounces",
     "subtitle.cgn.item.double_edged_sword.swoosh": "Doubled Edged Sword swooshes",
@@ -61,6 +59,10 @@
     "death.attack.cgn.player_lightning.item": "%s was struck by %s's lightning using %s",
     "death.attack.cgn.double_edged_sword": "%s was sliced",
     "death.attack.cgn.double_edged_sword.player": "%s was sliced by %s",
-    "death.attack.cgn.double_edged_sword.item": "%s was sliced by %s using %s"
+    "death.attack.cgn.double_edged_sword.item": "%s was sliced by %s using %s",
+
+    "actionbar.cgn.electroplasm.full":"\ua004\ua001",
+    "actionbar.cgn.electroplasm.half":"\ua004\ua002",
+    "actionbar.cgn.electroplasm.empty":"\ua004\ua003"
 
 }

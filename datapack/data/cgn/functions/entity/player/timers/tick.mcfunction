@@ -5,3 +5,5 @@ execute if score @s[tag=!cgn.charged_armor_jump] cgn.sneak_time matches 1.. run 
 execute if score @s cgn.air_time matches 1.. run function cgn:item/chargeable_armor/in_air/tick
 
 advancement revoke @s[advancements={cgn:technical/using_item/shield=true}] only cgn:technical/using_item/shield
+
+execute if entity @s[scores={cgn.electroplasm.current=1..},gamemode=!creative,gamemode=!spectator] run function cgn:entity/player/electroplasm/display/main
