@@ -46,6 +46,7 @@
     "item.cgn.splash_potion.effect.surge": "Surge Splash Potion",
     "item.cgn.lingering_potion.effect.surge": "Surge Lingering Potion",
     "item.cgn.wispthorn": "Wispthorn",
+    "item.cgn.electroplasm_carvers": "Electroplasm Carvers",
 
     "subtitle.cgn.item.double_edged_sword.throw": "Doubled Edged Sword clangs",
     "subtitle.cgn.item.double_edged_sword.bounce": "Doubled Edged Sword bounces",
@@ -60,6 +61,15 @@
     "death.attack.cgn.double_edged_sword": "%s was sliced",
     "death.attack.cgn.double_edged_sword.player": "%s was sliced by %s",
     "death.attack.cgn.double_edged_sword.item": "%s was sliced by %s using %s",
+    "death.attack.cgn.electroplasm_wave": "%s couldn't withstand the impact",
+    "death.attack.cgn.electroplasm_wave.player": "%s couldn't withstand the impact",
+    "death.attack.cgn.electroplasm_wave.item": "%s couldn't withstand the impact",
+
+    "advancements.cgn.root.title":"Cognition",
+    "advancements.cgn.root.description":"By Asdru",
+
+    "advancements.cgn.electroplasm_wave_damage.title":"Tsunami",
+    "advancements.cgn.electroplasm_wave_damage.description":"Generate a wave that deals at least 30 damage",
 
     "actionbar.cgn.electroplasm.full":"\ua004\ua001",
     "actionbar.cgn.electroplasm.half":"\ua004\ua002",

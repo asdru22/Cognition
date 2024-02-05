@@ -21,6 +21,18 @@
           "custom_model_data": 880002
         },
         "model": "cgn:item/ebonite_sword"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 880003
+        },
+        "model": "cgn:item/electroplasm_carvers_single"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 880004
+        },
+        "model": "cgn:entity/electroplasm_wave"
       }
     ]
 }

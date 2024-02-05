@@ -1,0 +1,22 @@
+{
+  "parent": "cgn:gameplay/root",
+    "display": {
+      "icon": {
+        "item": "minecraft:diamond_sword",
+        "nbt": "{CustomModelData:880002}"
+      },
+      "title": {
+        "translate": "advancements.cgn.electroplasm_wave_damage.title"
+      },
+      "description": {
+        "translate": "advancements.cgn.electroplasm_wave_damage.description"
+      },
+      "frame": "challenge"
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

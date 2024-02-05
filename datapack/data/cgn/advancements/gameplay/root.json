@@ -1,0 +1,24 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:structure_block",
+        "nbt": "{CustomModelData:880000}"
+      },
+      "title": {
+        "translate": "advancements.cgn.root.title"
+      },
+      "description": {
+        "translate": "advancements.cgn.root.description"
+      },
+      "background": "minecraft:textures/block/tuff_bricks.png",
+      "frame": "task",
+      "show_toast": false,
+      "announce_to_chat": false
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:tick"
+      }
+    }
+  }
+  

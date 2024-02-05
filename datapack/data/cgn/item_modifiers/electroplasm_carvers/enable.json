@@ -1,0 +1,26 @@
+[
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{CustomModelData:880003,cgn:{electroplasm_carvers:\"mainhand\"},srn:{durability:{damage_on_hit:true}}}"
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "name": "",
+          "amount": 5,
+          "operation": "addition",
+          "slot": "mainhand"
+        },
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "name": "",
+          "amount": -2,
+          "operation": "addition",
+          "slot": "mainhand"
+        }
+      ]
+    }
+  ]
+  
