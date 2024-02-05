@@ -151,5 +151,23 @@
             ["leather","","leather"],
             ["cgn:electroplasm","","cgn:electroplasm"]
         ]
+    },
+    "cog":{
+        "type":"item",
+        "count":3,
+        "recipe":[
+            ["","copper_ingot",""],
+            ["copper_ingot","","copper_ingot"],
+            ["","copper_ingot",""]
+        ]
+    },
+    "screw":{
+        "type":"item",
+        "count":3,
+        "recipe":[
+            ["","copper_ingot",""],
+            ["","copper_ingot","copper_ingot"],
+            ["copper_ingot","",""]
+        ]
     }
 }

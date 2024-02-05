@@ -1,2 +1,2 @@
-#item #tool 
+#item #weapon
 [[Ebonite Sword]]

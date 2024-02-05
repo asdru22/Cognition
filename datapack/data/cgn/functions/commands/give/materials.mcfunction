@@ -6,3 +6,5 @@ loot give @s loot cgn:items/ebonite_ingot
 loot give @s loot cgn:items/cog
 loot give @s loot cgn:items/screw
 loot give @s loot cgn:items/midnight_rose
+loot give @s loot cgn:items/electroplasm
+loot give @s loot cgn:items/wispthorn

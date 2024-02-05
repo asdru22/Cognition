@@ -1,4 +1,4 @@
-#item #material 
+#item #material #starter 
 [[Automatic Bow]]
 [[Windup Crossbow]]
 [[Gloomstone Helmet]]

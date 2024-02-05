@@ -25,7 +25,6 @@ with open(root+"_other/scripts/crafting/recipes.json") as recipes:
             col += 1
             ## empty list case
         if value["recipe"][1] == [] or value["recipe"][2] == []:
-            print(value)
             out +="} "
             if value["recipe"][1] == [] and value["recipe"][2] == []:
                 out += "if data storage smithed.crafter:input recipe{1:[],2:[]"

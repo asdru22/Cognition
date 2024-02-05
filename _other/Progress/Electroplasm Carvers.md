@@ -1,1 +1,1 @@
-#item #tool
+#item #weapon
