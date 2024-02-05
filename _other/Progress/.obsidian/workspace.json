@@ -1,0 +1,187 @@
+{
+  "main": {
+    "id": "6ab2b1ec1445b0b2",
+    "type": "split",
+    "children": [
+      {
+        "id": "e2b77a9d2bcca718",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6eec77aa4f2dc52d",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "dd6e3d1f031907ce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Eelctroplasm.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fd7193e7de9a897a",
+    "type": "split",
+    "children": [
+      {
+        "id": "669fe59ff206a6dd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e88cb082390620f3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "52f3ed3c3460d92c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5be85012576779af",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "97ba8496e90903ae",
+    "type": "split",
+    "children": [
+      {
+        "id": "3981f37cd5e043ea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a46c276932398e7c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ec3af9f37309bcc6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "330fb5e6aaf12961",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "4c7abf66049f1ab4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "6eec77aa4f2dc52d",
+  "lastOpenFiles": [
+    "Gloomstone Dagger.md",
+    "Eelctroplasm.md",
+    "Electroplasm Carvers.md",
+    "Ebonite Ingot.md",
+    "Ebonite Upgrade Smithing Template.md",
+    "Gloomstone.md",
+    "Decaying Workshop.md",
+    "Screw.md",
+    "Gloomstone Blade.md",
+    "Cog.md",
+    "Gloomstone Helmet.md",
+    "Windup Crossbow.md",
+    "Automatic Bow.md",
+    "Gloomstone Sword.md",
+    "Gloomstone Shovel.md",
+    "Gloomstone Shard.md",
+    "Gloomstone Pickaxe.md",
+    "Gloomstone Leggings.md",
+    "Gloomstone Hoe.md",
+    "Gloomstone Chestplate.md",
+    "Gloomstone Boots.md",
+    "Gloomstone Axe.md",
+    "Ebonite Helmet.md",
+    "Ebonite Shovel.md",
+    "Ebonite Axe.md",
+    "Ebognite.md",
+    "Structures",
+    "Blocks",
+    "Items",
+    "Materials"
+  ]
+}

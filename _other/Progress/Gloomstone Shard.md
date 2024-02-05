@@ -1,0 +1,2 @@
+#material #item 
+[[Gloomstone]]

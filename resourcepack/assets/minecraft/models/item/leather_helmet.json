@@ -72,6 +72,12 @@
           "custom_model_data": 880001
         },
         "model": "cgn:item/ebonite_helmet"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 880002
+        },
+        "model": "cgn:item/shockweave_helmet"
       }
     ],
     "textures": {

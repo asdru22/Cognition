@@ -47,6 +47,10 @@
     "item.cgn.lingering_potion.effect.surge": "Surge Lingering Potion",
     "item.cgn.wispthorn": "Wispthorn",
     "item.cgn.electroplasm_carvers": "Electroplasm Carvers",
+    "item.cgn.shockweave_helmet": "Shockweave Helmet",
+    "item.cgn.shockweave_chestplate": "Shockweave Chestplate",
+    "item.cgn.shockweave_leggings": "Shockweave Leggings",
+    "item.cgn.shockweave_boots": "Shockweave Boots",
 
     "subtitle.cgn.item.double_edged_sword.throw": "Doubled Edged Sword clangs",
     "subtitle.cgn.item.double_edged_sword.bounce": "Doubled Edged Sword bounces",
@@ -67,12 +71,13 @@
 
     "advancements.cgn.root.title":"Cognition",
     "advancements.cgn.root.description":"By Asdru",
-
     "advancements.cgn.electroplasm_wave_damage.title":"Tsunami",
-    "advancements.cgn.electroplasm_wave_damage.description":"Generate a wave that deals at least 30 damage",
+    "advancements.cgn.electroplasm_wave_damage.description":"Create an Electroplasm wave that deals at least 30 damage",
 
     "actionbar.cgn.electroplasm.full":"\ua004\ua001",
     "actionbar.cgn.electroplasm.half":"\ua004\ua002",
-    "actionbar.cgn.electroplasm.empty":"\ua004\ua003"
+    "actionbar.cgn.electroplasm.empty":"\ua004\ua003",
+
+    "attribute.name.generic.max_electroplasm": "Max Electroplasm"
 
 }

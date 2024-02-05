@@ -111,5 +111,45 @@
             ["cgn:gloomstone","deepslate","cgn:gloomstone"],
             ["cgn:gloomstone","cgn:gloomstone","cgn:gloomstone"]
         ]
+    },
+    "electroplasm_carvers":{
+        "type":"item",
+        "recipe":[
+            ["cgn:electroplasm","","cgn:electroplasm"],
+            ["cgn:gloomstone_dagger","chain","cgn:gloomstone_dagger"],
+            []
+        ]
+    },
+    "shockweave_helmet":{
+        "type":"item",
+        "recipe":[
+            ["leather","leather","leather"],
+            ["leather","cgn:electroplasm","leather"],
+            []
+        ]
+    },
+    "shockweave_chestplate":{
+        "type":"item",
+        "recipe":[
+            ["leather","cgn:electroplasm","leather"],
+            ["leather","leather","leather"],
+            ["leather","leather","leather"]
+        ]
+    },
+    "shockweave_leggings":{
+        "type":"item",
+        "recipe":[
+            ["leather","leather","leather"],
+            ["leather","cgn:electroplasm","leather"],
+            ["leather","","leather"]
+        ]
+    },
+    "shockweave_boots":{
+        "type":"item",
+        "recipe":[
+            ["leather","","leather"],
+            ["leather","","leather"],
+            ["cgn:electroplasm","","cgn:electroplasm"]
+        ]
     }
 }
