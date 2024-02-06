@@ -2,4 +2,4 @@ execute if entity @s[tag=cgn.double_edged_sword] run function cgn:item/double_ed
 
 execute if entity @s[tag=cgn.block] run function cgn:block/timers/tick
 
-execute if entity @s[tag=cgn.electroplasm_wave] run function cgn:item/electroplasm_carvers/projectile/tick
+execute if entity @s[tag=cgn.electroplasm_wave] run function cgn:item/electroplasm_carver/projectile/tick

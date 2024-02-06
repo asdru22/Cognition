@@ -1,6 +1,6 @@
 #item #material
 [[Surge Potion]]
-[[Electroplasm Carvers]]
+[[Electroplasm Carver]]
 [[Shockweave Helmet]]
 [[Shockweave Chestplate]]
 [[Shockweave Leggings]]

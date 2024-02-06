@@ -11,9 +11,9 @@ scoreboard objectives add cgn.electroplasm.current dummy
 scoreboard objectives add cgn.electroplasm.max dummy
 
 scoreboard objectives add cgn.damage_dealt custom:damage_dealt
-scoreboard objectives add cgn.electroplasm_carvers.damage dummy
-scoreboard objectives add cgn.electroplasm_carvers.charges dummy
-scoreboard objectives add cgn.electroplasm_carvers.timer dummy
+scoreboard objectives add cgn.electroplasm_carver.damage dummy
+scoreboard objectives add cgn.electroplasm_carver.charges dummy
+scoreboard objectives add cgn.electroplasm_carver.timer dummy
 
 scoreboard players set #2 cgn.dummy 2
 scoreboard players set #5 cgn.dummy 5

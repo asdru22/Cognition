@@ -1,3 +1,3 @@
 #item #tool
 [[Ebonite Dagger]]
-[[Electroplasm Carvers]]
+[[Electroplasm Carver]]

@@ -1,6 +1,0 @@
-{
-    "parent": "item/handheld_rod",
-    "textures": {
-        "layer0": "cgn:item/electroplasm_carvers_single"
-    }
-}

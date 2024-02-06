@@ -1,1 +1,0 @@
-execute unless score @s srn.id = #temp cgn.dummy run function cgn:item/electroplasm_carvers/hit/damage

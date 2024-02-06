@@ -1,1 +1,0 @@
-execute if entity @s[tag=cgn.electroplasm_carvers,tag=cgn.electroplasm_carvers.click] run function cgn:item/electroplasm_carvers/use/click

@@ -8,6 +8,6 @@ advancement revoke @s[advancements={cgn:technical/using_item/shield=true}] only 
 
 execute if entity @s[gamemode=!creative,gamemode=!spectator] run function cgn:entity/player/electroplasm/display/main
 
-execute if entity @s[predicate=cgn:entity/holding/offhand,tag=!cgn.electroplasm_carvers] run function cgn:item/electroplasm_carvers/drop_mainhand
+execute if entity @s[predicate=cgn:item/electroplasm_carver] run function cgn:item/electroplasm_carver/tick
 
-execute if entity @s[tag=cgn.electroplasm_carvers] run function cgn:item/electroplasm_carvers/tick/main
+execute if entity @s[tag=cgn.electroplasm_carver,predicate=!cgn:item/electroplasm_carver] run function cgn:item/electroplasm_carver/full_reset

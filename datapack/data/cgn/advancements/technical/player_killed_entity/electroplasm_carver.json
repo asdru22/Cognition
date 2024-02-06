@@ -1,0 +1,19 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:reference",
+              "name": "cgn:item/electroplasm_carver"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "cgn:item/electroplasm_carver/use/advancement"
+    }
+  }
+  

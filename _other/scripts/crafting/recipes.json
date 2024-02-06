@@ -112,7 +112,8 @@
             ["cgn:gloomstone","cgn:gloomstone","cgn:gloomstone"]
         ]
     },
-    "electroplasm_carvers":{
+    "electroplasm_carver":{
+        "count":2,
         "type":"item",
         "recipe":[
             ["cgn:electroplasm","","cgn:electroplasm"],
