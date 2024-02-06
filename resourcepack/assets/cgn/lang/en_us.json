@@ -73,6 +73,10 @@
     "advancements.cgn.root.description":"By Asdru",
     "advancements.cgn.electroplasm_wave_damage.title":"Tsunami",
     "advancements.cgn.electroplasm_wave_damage.description":"Create an Electroplasm wave that deals at least 30 damage",
+    "advancements.cgn.unlock_electroplasm.title":"Amped Up",
+    "advancements.cgn.unlock_electroplasm.description":"Discover Electroplasm",
+    "advancements.cgn.make_ebonite.title":"Human Forge",
+    "advancements.cgn.make_ebonite.description":"Make Ebonite by landing on Ebognite with Charged Gloomstone Armor",
 
     "actionbar.cgn.electroplasm.full":"\ua004\ua001",
     "actionbar.cgn.electroplasm.half":"\ua004\ua002",

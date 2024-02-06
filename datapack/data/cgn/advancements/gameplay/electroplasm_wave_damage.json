@@ -1,9 +1,9 @@
 {
-  "parent": "cgn:gameplay/root",
+  "parent": "cgn:gameplay/unlock_electroplasm",
     "display": {
       "icon": {
-        "item": "minecraft:diamond_sword",
-        "nbt": "{CustomModelData:880002}"
+        "item": "minecraft:warped_fungus_on_a_stick",
+        "nbt": "{CustomModelData:880003}"
       },
       "title": {
         "translate": "advancements.cgn.electroplasm_wave_damage.title"

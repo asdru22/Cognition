@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:880003,cgn:{id:\"electroplasm_carver\"},srn:{durability:[870,870],repaired:1b,damage_on_hit:true},Unbreakable:1b,HideFlags:126}"
+              "tag": "{CustomModelData:880003,cgn:{id:\"electroplasm_carver\"},srn:{durability:[870,870],repaired:1b,damage_on_hit:true,ignore_durability:true},Unbreakable:1b,HideFlags:126}"
             },
             {
               "function": "minecraft:set_attributes",

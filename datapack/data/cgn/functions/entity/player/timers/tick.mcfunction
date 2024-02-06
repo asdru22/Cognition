@@ -6,8 +6,8 @@ execute if score @s cgn.air_time matches 1.. run function cgn:item/chargeable_ar
 
 advancement revoke @s[advancements={cgn:technical/using_item/shield=true}] only cgn:technical/using_item/shield
 
-execute if entity @s[gamemode=!creative,gamemode=!spectator] run function cgn:entity/player/electroplasm/display/main
-
+execute if entity @s[predicate=cgn:player/display_electroplasm] run function cgn:entity/player/electroplasm/display/main
+# [gamemode=!creative,gamemode=!spectator,advancements={cgn:gameplay/unlock_electroplasm=true}] 
 execute if entity @s[predicate=cgn:item/electroplasm_carver] run function cgn:item/electroplasm_carver/tick
 
 execute if entity @s[tag=cgn.electroplasm_carver,predicate=!cgn:item/electroplasm_carver] run function cgn:item/electroplasm_carver/full_reset
