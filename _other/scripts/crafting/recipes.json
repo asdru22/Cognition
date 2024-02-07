@@ -177,5 +177,13 @@
             ["cgn:electroplasm","shield","cgn:electroplasm"],
             ["stone","stone","stone"]
         ]
+    },
+    "electromodulator":{
+        "type":"item",
+        "recipe":[
+            ["","lightning_rod",""],
+            ["cgn:cog","cgn:electroplasm","cgn:cog"],
+            ["","copper_ingot",""]
+        ]
     }
 }

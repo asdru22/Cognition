@@ -52,6 +52,8 @@
     "item.cgn.shockweave_leggings": "Shockweave Leggings",
     "item.cgn.shockweave_boots": "Shockweave Boots",
     "item.cgn.soulmender": "Soulmender",
+    "item.cgn.electromodulator": "Electromodulator",
+
 
     "subtitle.cgn.item.double_edged_sword.throw": "Doubled Edged Sword clangs",
     "subtitle.cgn.item.double_edged_sword.bounce": "Doubled Edged Sword bounces",
@@ -62,6 +64,7 @@
     "subtitle.cgn.entity.electroplasm_wave.cast": "Electroplasm Wave forms",
     "subtitle.cgn.entity.electroplasm_wave.hit": "Electroplasm Wave breaks",
     "subtitle.cgn.item.soulmender.heal": "Soulmender Heals",
+    "subtitle.cgn.item.electromodulator.use": "Electromodulator Discharges",
 
     "death.attack.cgn.player_lightning": "%s was struck by lightning",
     "death.attack.cgn.player_lightning.player": "%s was struck by %s's lightning",

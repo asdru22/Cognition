@@ -56,12 +56,16 @@
     "item.chargeable_armor.land": {
         "sounds":   [
             {
-                "name":"item/trident/thunder2",
-                "pitch":1.5
+                "name":"cgn:item/chargeable_armor/land",
+                "pitch":1
             },
             {
-                "name":"item/trident/thunder1",
-                "pitch":1.5
+                "name":"cgn:item/chargeable_armor/land",
+                "pitch":1.2
+            },
+            {
+                "name":"cgn:item/chargeable_armor/land",
+                "pitch":0.9
             }
         ],
         "subtitle" : "subtitle.cgn.item.chargeable_armor.land",
@@ -93,6 +97,13 @@
             "cgn:item/soulmender_heal"
         ],
         "subtitle" : "subtitle.cgn.item.soulmender.heal",
+        "category" : "master"
+    },
+    "item.electromodulator.use": {
+        "sounds":   [
+            "cgn:item/electromodulator_use"
+        ],
+        "subtitle" : "subtitle.cgn.item.electromodulator.use",
         "category" : "master"
     }
 }

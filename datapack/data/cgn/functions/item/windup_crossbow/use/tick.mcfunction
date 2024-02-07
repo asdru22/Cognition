@@ -1,4 +1,3 @@
-scoreboard players reset @s cgn.used_crossbow
 # get item
 data modify storage cgn:storage root.temp.item set from entity @s Inventory[{Slot:-106b,id:"minecraft:crossbow",tag:{cgn:{id:"windup_crossbow"}}}]
 data modify storage cgn:storage root.temp.item set from entity @s SelectedItem{id:"minecraft:crossbow",tag:{cgn:{id:"windup_crossbow"}}}

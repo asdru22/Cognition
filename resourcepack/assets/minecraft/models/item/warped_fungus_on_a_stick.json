@@ -33,6 +33,12 @@
           "custom_model_data": 880004
         },
         "model": "cgn:entity/electroplasm_wave"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 880004
+        },
+        "model": "cgn:item/electromodulator"
       }
     ]
 }

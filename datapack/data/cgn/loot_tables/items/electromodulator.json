@@ -1,0 +1,50 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:warped_fungus_on_a_stick",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:880005,cgn:{id:\"electromodulator\"},srn:{ignore_durability:1b,durability:[51,51],repaired:1b},Unbreakable:1b,HideFlags:126}"
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "translate": "item.cgn.electromodulator",
+                  "color": "white",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "translate": "item.durability",
+                    "color": "white",
+                    "italic": false,
+                    "with": [
+                      51,
+                      51
+                    ]
+                  },
+                  {
+                    "translate": "cgn.tooltip",
+                    "font": "cgn:main",
+                    "color": "white",
+                    "italic": false,
+                    "with": [
+                      {"translate":"pack.cgn","font":"minecraft:default","color":"#F6E79C","italic":true}
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

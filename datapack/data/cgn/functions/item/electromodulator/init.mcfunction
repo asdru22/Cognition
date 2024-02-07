@@ -1,0 +1,1 @@
+execute if score @s cgn.electroplasm.current matches 50.. if predicate cgn:entity/wearing/chargeable_armor/any run function cgn:item/electromodulator/use

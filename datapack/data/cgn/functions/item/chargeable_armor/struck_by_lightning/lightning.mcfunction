@@ -4,4 +4,4 @@ execute store result storage cgn:storage root.temp.rng.pitch int 1 run random va
 
 function cgn:item/chargeable_armor/struck_by_lightning/effect with storage cgn:storage root.temp.rng
 
-particle minecraft:flash ~ ~1 ~
+particle minecraft:flash ~ ~ ~

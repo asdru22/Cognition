@@ -2,4 +2,4 @@ execute store result storage cgn:storage root.temp.item.tag.cgn.charge.amount in
 
 function cgn:item/chargeable_armor/modify/lore with storage cgn:storage root.temp.item.tag.cgn.charge
 
-execute if data storage cgn:storage root.temp.item.tag.cgn.charge{amount:0} run function cgn:item/chargeable_armor/modify_armor/remove_charge
+execute if data storage cgn:storage root.temp.item.tag.cgn.charge{amount:0} run function cgn:item/chargeable_armor/modify/remove_charge

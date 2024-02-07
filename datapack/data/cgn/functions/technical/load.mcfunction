@@ -6,6 +6,7 @@ scoreboard objectives add cgn.air_time dummy
 scoreboard objectives add cgn.used_crossbow used:crossbow
 
 scoreboard objectives add cgn.sneak_time custom:sneak_time
+scoreboard objectives add cgn.jump custom:jump
 
 scoreboard objectives add cgn.electroplasm.current dummy
 scoreboard objectives add cgn.electroplasm.max dummy
