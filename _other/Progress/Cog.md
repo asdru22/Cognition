@@ -6,3 +6,4 @@
 [[Gloomstone Leggings]]
 [[Gloomstone Boots]]
 [[Gloomstone Blade]]
+[[Electromodulator]]

@@ -13,7 +13,27 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Eelctroplasm.md",
+                "file": "Cog.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4111dff41119adf2",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "42e210ac478e5a57",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Electromodulator.md",
                 "mode": "source",
                 "source": false
               }
@@ -164,10 +184,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e5d13600d9924108",
+  "active": "4111dff41119adf2",
   "lastOpenFiles": [
-    "Soulmender.md",
+    "Electromodulator.md",
+    "Cog.md",
     "Eelctroplasm.md",
+    "Soulmender.md",
     "Electroplasm Carver.md",
     "Ebonite Sword.md",
     "Gloomstone Sword.md",
@@ -178,7 +200,6 @@
     "Gloomstone Boots.md",
     "Gloomstone.md",
     "Screw.md",
-    "Cog.md",
     "Gloomstone Dagger.md",
     "Ebonite Ingot.md",
     "Ebonite Upgrade Smithing Template.md",
@@ -191,7 +212,6 @@
     "Gloomstone Shard.md",
     "Gloomstone Pickaxe.md",
     "Gloomstone Leggings.md",
-    "Gloomstone Hoe.md",
     "Structures",
     "Blocks",
     "Items",

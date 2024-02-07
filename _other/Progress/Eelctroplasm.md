@@ -6,3 +6,4 @@
 [[Shockweave Leggings]]
 [[Shockweave Boots]]
 [[Soulmender]]
+[[Electromodulator]]
