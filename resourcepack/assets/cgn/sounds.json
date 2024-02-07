@@ -73,5 +73,26 @@
         ],
         "subtitle" : "subtitle.cgn.item.chargeable_armor.jump",
         "category" : "master"
+    },
+    "entity.electroplasm_wave.cast": {
+        "sounds":   [
+            "cgn:entity/electroplasm_wave/cast"
+        ],
+        "subtitle" : "subtitle.cgn.entity.electroplasm_wave.cast",
+        "category" : "master"
+    },
+    "entity.electroplasm_wave.hit": {
+        "sounds":   [
+            "cgn:entity/electroplasm_wave/hit"
+        ],
+        "subtitle" : "subtitle.cgn.entity.electroplasm_wave.hit",
+        "category" : "master"
+    },
+    "item.soulmender.heal": {
+        "sounds":   [
+            "cgn:item/soulmender_heal"
+        ],
+        "subtitle" : "subtitle.cgn.item.soulmender.heal",
+        "category" : "master"
     }
 }

@@ -59,7 +59,10 @@
     "subtitle.cgn.item.double_edged_sword.punch": "Doubled Edged Sword clinks",
     "subtitle.cgn.item.chargeable_armor.land": "Charged Armor discharges",
     "subtitle.cgn.item.chargeable_armor.jump": "Air brushes",
-    
+    "subtitle.cgn.entity.electroplasm_wave.cast": "Electroplasm Wave forms",
+    "subtitle.cgn.entity.electroplasm_wave.hit": "Electroplasm Wave breaks",
+    "subtitle.cgn.item.soulmender.heal": "Soulmender Heals",
+
     "death.attack.cgn.player_lightning": "%s was struck by lightning",
     "death.attack.cgn.player_lightning.player": "%s was struck by %s's lightning",
     "death.attack.cgn.player_lightning.item": "%s was struck by %s's lightning using %s",

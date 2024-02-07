@@ -5,3 +5,4 @@
 [[Shockweave Chestplate]]
 [[Shockweave Leggings]]
 [[Shockweave Boots]]
+[[Soulmender]]

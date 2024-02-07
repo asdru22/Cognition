@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{CustomModelData:880000,cgn:{id:\"soulmender\"},srn:{durability:[350,350],repaired:1b},Unbreakable:1b,HideFlags:126}"
+                "tag": "{CustomModelData:880000,cgn:{id:\"soulmender\"},srn:{durability:[350,350],repaired:1b,using_timer:true},Unbreakable:1b,HideFlags:126}"
               },
               {
                 "function": "minecraft:set_name",
