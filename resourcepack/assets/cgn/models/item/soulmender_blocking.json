@@ -1,0 +1,6 @@
+{
+    "parent": "srn:item/shield_blocking",
+    "textures": {
+        "1": "cgn:item/soulmender"
+    }
+}

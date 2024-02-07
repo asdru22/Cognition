@@ -113,12 +113,11 @@
         ]
     },
     "electroplasm_carver":{
-        "count":2,
         "type":"item",
         "recipe":[
-            ["cgn:electroplasm","","cgn:electroplasm"],
-            ["cgn:gloomstone_dagger","chain","cgn:gloomstone_dagger"],
-            []
+            ["cgn:electroplasm","",""],
+            ["","cgn:gloomstone_dagger",""],
+            ["","","cgn:screw"]
         ]
     },
     "shockweave_helmet":{
@@ -169,6 +168,14 @@
             ["","copper_ingot",""],
             ["","copper_ingot","copper_ingot"],
             ["copper_ingot","",""]
+        ]
+    },
+    "soulmender":{
+        "type":"item",
+        "recipe":[
+            ["stone","stone","stone"],
+            ["cgn:electroplasm","shield","cgn:electroplasm"],
+            ["stone","stone","stone"]
         ]
     }
 }
