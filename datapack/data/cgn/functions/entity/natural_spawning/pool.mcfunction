@@ -1,0 +1,1 @@
+#execute if predicate cgn:player/spawning/slated_mobs run data modify storage srn:storage root.temp.spawn set value {count_min:2,count_max:4,height:10,distance:10,range:20,cap:10,function:"cgn:entity/natural_spawning/slated_mobs"}

@@ -45,7 +45,7 @@
                     "color":"blue",
                     "italic":false,
                     "with":[
-                      "0.5",
+                      "1",
                       {
                         "translate":"attribute.name.generic.armor"
                       }
@@ -56,7 +56,7 @@
                     "color":"blue",
                     "italic":false,
                     "with":[
-                      "1",
+                      "0.5",
                       {
                         "translate":"attribute.name.generic.max_electroplasm"
                       }

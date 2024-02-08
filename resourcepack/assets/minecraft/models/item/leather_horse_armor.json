@@ -8,19 +8,7 @@
           "predicate": {
             "custom_model_data": 880000
           },
-          "model": "cgn:entity/brass_stalwart/body_idle"
-        },
-        {
-          "predicate": {
-            "custom_model_data": 880001
-          },
-          "model": "cgn:entity/brass_stalwart/body"
-        },
-        {
-          "predicate": {
-            "custom_model_data": 880002
-          },
-          "model": "cgn:entity/brass_stalwart/head"
+          "model": "cgn:entity/slated_skeleton/head"
         }
       ]
   }

@@ -1,4 +1,4 @@
-#item #material #starter
+#item #material
 [[Windup Crossbow]]
 [[Gloomstone Axe]]
 [[Gloomstone Pickaxe]]

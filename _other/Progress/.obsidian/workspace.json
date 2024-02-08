@@ -8,59 +8,14 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5c386399a4aba32d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cog.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4111dff41119adf2",
+            "id": "8d689236c4eab0ea",
             "type": "leaf",
             "state": {
               "type": "graph",
               "state": {}
-            }
-          },
-          {
-            "id": "42e210ac478e5a57",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Electromodulator.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e5d13600d9924108",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "d786920e96478789",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ebonite Sword.md",
-                "mode": "source",
-                "source": false
-              }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "97ba8496e90903ae",
@@ -184,10 +138,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4111dff41119adf2",
+  "active": "8d689236c4eab0ea",
   "lastOpenFiles": [
-    "Electromodulator.md",
+    "Gloomstone Shard.md",
+    "Decaying Workshop.md",
+    "Screw.md",
     "Cog.md",
+    "Electromodulator.md",
     "Eelctroplasm.md",
     "Soulmender.md",
     "Electroplasm Carver.md",
@@ -199,17 +156,14 @@
     "Shockweave Boots.md",
     "Gloomstone Boots.md",
     "Gloomstone.md",
-    "Screw.md",
     "Gloomstone Dagger.md",
     "Ebonite Ingot.md",
     "Ebonite Upgrade Smithing Template.md",
-    "Decaying Workshop.md",
     "Gloomstone Blade.md",
     "Gloomstone Helmet.md",
     "Windup Crossbow.md",
     "Automatic Bow.md",
     "Gloomstone Shovel.md",
-    "Gloomstone Shard.md",
     "Gloomstone Pickaxe.md",
     "Gloomstone Leggings.md",
     "Structures",

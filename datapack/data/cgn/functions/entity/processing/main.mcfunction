@@ -1,0 +1,1 @@
+execute if entity @s[type=skeleton,predicate=cgn:entity/spawn/slated] run function cgn:entity/processing/slated_skeleton

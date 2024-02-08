@@ -1,0 +1,23 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+      {
+        "condition": "minecraft:random_chance",
+        "chance": 0.33
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "location": {
+            "position": {
+              "y": {
+                "max": 0
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+  

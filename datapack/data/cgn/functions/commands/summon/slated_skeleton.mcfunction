@@ -1,0 +1,3 @@
+summon skeleton ~ ~ ~ {Team:"srn.no_nametag",DeathLootTable:"cgn:entities/slated_skeleton",Tags:["cgn.slated_skeleton","cgn.10_seconds","cgn.entity"],CustomName:'{"translate":"entity.cgn.slated_skeleton"}',HandItems:[{id:"minecraft:bow",Count:1b,tag:{CustomModelData:880000}},{id:"minecraft:tipped_arrow",Count:1b,tag:{CustomModelData:880000,custom_potion_effects:[{id:"minecraft:blindness",amplifier:0b,duration:80,ambient:0b}]}}],HandDropChances:[-10000.000F,-10000.000F],ArmorItems:[{},{},{},{id:"minecraft:leather_horse_armor",Count:1b,tag:{CustomModelData:880000}}],ArmorDropChances:[-10000.000F,-10000.000F,-10000.000F,-10000.000F]}
+
+tellraw @s {"translate":"commands.summon.success","with": [{"translate":"entity.cgn.slated_skeleton"}]}

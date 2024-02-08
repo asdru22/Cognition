@@ -18,14 +18,6 @@
           },
           {
             "type": "minecraft:item",
-            "name": "minecraft:emerald"
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:diamond"
-          },
-          {
-            "type": "minecraft:item",
             "name": "minecraft:glass_bottle"
           },
           {
