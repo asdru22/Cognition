@@ -1,0 +1,15 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "offhand": {
+            "items": [
+              "minecraft:fishing_rod"
+            ],
+            "nbt": "{cgn:{id:\"electroplasm_carver\"}}"
+          }
+      }
+    }
+  }
+  

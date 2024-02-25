@@ -6,7 +6,7 @@
           "player": [
             {
               "condition": "minecraft:reference",
-              "name": "cgn:item/electroplasm_carver"
+              "name": "cgn:item/electroplasm_carver/main"
             }
           ]
         }

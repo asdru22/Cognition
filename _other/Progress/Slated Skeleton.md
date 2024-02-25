@@ -1,0 +1,2 @@
+#starter #entity
+[[Gloomstone Shard]]

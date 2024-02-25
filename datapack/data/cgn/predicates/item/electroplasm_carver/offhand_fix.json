@@ -3,15 +3,9 @@
     "entity": "this",
     "predicate": {
       "equipment": {
-        "mainhand": {
-          "items": [
-            "minecraft:warped_fungus_on_a_stick"
-          ],
-          "nbt": "{cgn:{id:\"electroplasm_carver\"}}"
-        },
         "offhand": {
             "items": [
-              "minecraft:warped_fungus_on_a_stick"
+              "minecraft:diamond_sword"
             ],
             "nbt": "{cgn:{id:\"electroplasm_carver\"}}"
           }

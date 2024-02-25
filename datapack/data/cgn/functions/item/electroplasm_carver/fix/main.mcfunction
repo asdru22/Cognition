@@ -1,0 +1,2 @@
+execute if entity @s[predicate=cgn:item/electroplasm_carver/mainhand_fix] run function cgn:item/electroplasm_carver/fix/mainhand 
+execute if entity @s[predicate=cgn:item/electroplasm_carver/offhand_fix] run function cgn:item/electroplasm_carver/fix/offhand
