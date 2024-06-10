@@ -1,0 +1,26 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:custom_model_data": 880008,
+            "minecraft:item_name": "{\"translate\":\"item.cgn.ebognite\"}",
+            "minecraft:lore": [
+              "{\"translate\": \"cgn.tooltip\",\"font\": \"cgn:main\",\"color\": \"white\",\"italic\": false,\"with\": [{\"translate\":\"pack.cgn\",\"font\":\"minecraft:default\",\"color\":\"#F6E79C\",\"italic\":true}]}"
+            ],
+            "!minecraft:food": {}
+          }
+        }
+      ]
+    }
+  ]
+}

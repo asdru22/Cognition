@@ -1,0 +1,44 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_sword"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:custom_model_data": 880000,
+            "minecraft:item_name": "{\"translate\":\"item.cgn.electroplasm_carver\"}",
+            "minecraft:lore": [
+              "{\"translate\": \"cgn.tooltip\",\"font\": \"cgn:main\",\"color\": \"white\",\"italic\": false,\"with\": [{\"translate\":\"pack.cgn\",\"font\":\"minecraft:default\",\"color\":\"#F6E79C\",\"italic\":true}]}"
+            ],
+            "minecraft:max_damage": 2031,
+            "minecraft:attribute_modifiers": {
+                "modifiers": [
+                  {
+                    "id": "cgn:attack_speed",
+                    "type": "minecraft:generic.attack_speed",
+                    "amount": -2,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  },
+                  {
+                    "id": "cgn:attack_damage",
+                    "type": "minecraft:generic.attack_damage",
+                    "amount": 5,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  }
+                ]
+              }
+          }
+        }
+      ]
+    }
+  ]
+}
