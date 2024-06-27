@@ -3,7 +3,7 @@
     "icon": {
       "id": "minecraft:poisonous_potato",
       "components": {
-        "minecraft:custom_model_data": 880003
+        "minecraft:custom_model_data": 880008
       }
     },
     "title": {

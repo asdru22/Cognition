@@ -7,3 +7,6 @@ loot give @s loot cgn:items/gloomstone_helmet
 loot give @s loot cgn:items/gloomstone_chestplate
 loot give @s loot cgn:items/gloomstone_leggings
 loot give @s loot cgn:items/gloomstone_boots
+
+loot give @s loot cgn:items/gloomstone_sword
+loot give @s loot cgn:items/gloomstone_dagger

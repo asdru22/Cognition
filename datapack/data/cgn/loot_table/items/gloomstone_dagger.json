@@ -19,7 +19,26 @@
                   "cgn":{
                     "ebonite_upgradeable":true
                   }
-                }
+                },
+                "minecraft:attribute_modifiers": {
+                "modifiers": [
+                  {
+                    "id": "cgn:attack_speed",
+                    "type": "minecraft:generic.attack_speed",
+                    "amount": -2,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  },
+                  {
+                    "id": "cgn:attack_damage",
+                    "type": "minecraft:generic.attack_damage",
+                    "amount": 4,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  }
+                ],
+                "show_in_tooltip": false
+              }
               }
             }
           ]

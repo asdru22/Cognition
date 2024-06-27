@@ -6,7 +6,7 @@
         "entity": "this",
         "predicate": {
           "type_specific": {
-            "type": "player",
+            "type": "minecraft:player",
             "advancements": {
               "cgn:gameplay/unlock_electroplasm": true
             }
@@ -20,21 +20,11 @@
           "entity": "this",
           "predicate": {
             "type_specific": {
-              "type": "player",
-              "gamemode": "creative"
-            }
-          }
-        }
-      },
-      {
-        "condition": "minecraft:inverted",
-        "term": {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "type_specific": {
-              "type": "player",
-              "gamemode": "spectator"
+              "type": "minecraft:player",
+              "gamemode": [
+                "creative",
+                "spectator"
+              ]
             }
           }
         }

@@ -1,7 +1,7 @@
 {
     "display": {
       "icon": {
-        "id": "minecraft:structure_block",
+        "id": "minecraft:poisonous_potato",
         "components": {
         "minecraft:custom_model_data": 880003
       }

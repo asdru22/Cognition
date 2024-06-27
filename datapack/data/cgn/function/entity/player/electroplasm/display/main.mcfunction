@@ -23,6 +23,6 @@ execute if score #current cgn.dummy matches 1.. run function cgn:entity/player/e
 
 execute if score #max cgn.dummy matches 1.. run function cgn:entity/player/electroplasm/display/empty_iter
 
-execute if score @s cgn.air matches ..299 run return run title @s actionbar [{"text":"\ua005","font":"cgn:electroplasm/default"},{"nbt":"root.temp.display[]","storage":"cgn:storage","color":"#4e5c24","font":"cgn:electroplasm/negative","separator":"","interpret":true},{"nbt":"root.temp.display[]","storage":"cgn:storage","color":"#4e5c24","font":"cgn:electroplasm/high","separator":"","interpret":true}]
+execute if score @s cgn.air_time matches ..299 run return run title @s actionbar [{"text":"\ua005","font":"cgn:electroplasm/default"},{"nbt":"root.temp.display[]","storage":"cgn:storage","color":"#4e5c24","font":"cgn:electroplasm/negative","separator":"","interpret":true},{"nbt":"root.temp.display[]","storage":"cgn:storage","color":"#4e5c24","font":"cgn:electroplasm/high","separator":"","interpret":true}]
 
 title @s actionbar [{"text":"\ua005","font":"cgn:electroplasm/default"},{"nbt":"root.temp.display[]","storage":"cgn:storage","color":"#4e5c24","font":"cgn:electroplasm/negative","separator":"","interpret":true},{"nbt":"root.temp.display[]","storage":"cgn:storage","color":"#4e5c24","font":"cgn:electroplasm/default","separator":"","interpret":true}]
