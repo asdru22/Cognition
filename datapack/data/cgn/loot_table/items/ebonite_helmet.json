@@ -23,7 +23,7 @@
                 {
                   "id": "cgn:armor",
                   "type": "minecraft:generic.armor",
-                  "amount": 8,
+                  "amount": 3,
                   "operation": "add_value",
                   "slot": "head"
                 },
