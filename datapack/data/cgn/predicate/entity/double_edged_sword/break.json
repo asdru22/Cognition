@@ -18,7 +18,7 @@
         "condition": "minecraft:location_check",
         "predicate": {
           "block": {
-            "tag": "srn:raycast_ignore"
+            "blocks": "#srn:raycast_ignore"
           }
         }
       }

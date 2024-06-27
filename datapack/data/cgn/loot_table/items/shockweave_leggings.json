@@ -1,91 +1,42 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:leather_leggings",
-            "functions": [
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{CustomModelData:880002,cgn:{id:\"shockweave_leggings\",max_electroplasm:20},srn:{durability:[410,410],repaired:1b},Unbreakable:1b,HideFlags:126,display:{color:4325386}}"
-              },
-              {
-                "function": "minecraft:set_name",
-                "name": {
-                  "translate": "item.cgn.shockweave_leggings",
-                  "color": "white",
-                  "italic": false
-                }
-              },
-              {
-                "function": "minecraft:set_attributes",
-                "modifiers": [
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:custom_model_data": 880002,
+            "minecraft:item_name": "{\"translate\":\"item.cgn.shockweave_leggings\"}",
+            "minecraft:lore": [
+              "{\"translate\": \"cgn.tooltip\",\"font\": \"cgn:main\",\"color\": \"white\",\"italic\": false,\"with\": [{\"translate\":\"pack.cgn\",\"font\":\"minecraft:default\",\"color\":\"#F6E79C\",\"italic\":true}]}","\"\"","{\"translate\":\"item.modifiers.legs\",\"color\":\"gray\",\"italic\":false}","{\"translate\":\"attribute.modifier.plus.0\",\"color\":\"blue\",\"italic\":false,\"with\":[\"4\",{\"translate\":\"attribute.name.generic.armor\"}]}","{\"translate\":\"attribute.modifier.plus.0\",\"color\":\"blue\",\"italic\":false,\"with\":[\"1\",{\"translate\":\"attribute.name.generic.max_electroplasm\"}]}"
+            ],
+            "minecraft:max_damage": 410,
+            "minecraft:attribute_modifiers": {
+              "modifiers": [
                 {
-                  "attribute": "minecraft:generic.armor",
-                  "name": "",
+                  "id": "cgn:armor",
+                  "type": "minecraft:generic.armor",
                   "amount": 4,
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "legs"
                 }
-              ]
-              },
-              {
-                "function": "minecraft:set_lore",
-                "lore": [
-                  "",
-                  {
-                    "translate":"item.modifiers.legs",
-                    "color":"gray",
-                    "italic":false
-                  },
-                  {
-                    "translate":"attribute.modifier.plus.0",
-                    "color":"blue",
-                    "italic":false,
-                    "with":[
-                      "4",
-                      {
-                        "translate":"attribute.name.generic.armor"
-                      }
-                    ]
-                  },
-                  {
-                    "translate":"attribute.modifier.plus.0",
-                    "color":"blue",
-                    "italic":false,
-                    "with":[
-                      "1",
-                      {
-                        "translate":"attribute.name.generic.max_electroplasm"
-                      }
-                    ]
-                  },
-                  {
-                    "translate": "item.durability",
-                    "color": "white",
-                    "italic": false,
-                    "with": [
-                      410,
-                      410
-                    ]
-                  },
-                  {
-                    "translate": "cgn.tooltip",
-                    "font": "cgn:main",
-                    "color": "white",
-                    "italic": false,
-                    "with": [
-                      {"translate":"pack.cgn","font":"minecraft:default","color":"#F6E79C","italic":true}
-                    ]
-                  }
-                ]
-              }
-            ]
+              ],
+              "show_in_tooltip":false
+            },
+            "minecraft:dyed_color": {
+              "rgb": 4325386,
+              "show_in_tooltip": false
+            }
           }
-        ]
-      }
-    ]
-  }
-
+        }
+      ]
+    }
+  ]
+}

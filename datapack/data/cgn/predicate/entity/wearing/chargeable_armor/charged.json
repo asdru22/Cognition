@@ -1,25 +1,64 @@
 {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-      "equipment": {
-        "head": {
-            "items":["leather_helmet"],
-            "nbt": "{cgn:{charge:{charged:1b}}}"
+    "condition":"minecraft:entity_properties",
+    "entity":"this",
+    "predicate":{
+      "equipment":{
+        "head":{
+          "items":[
+            "leather_helmet"
+          ],
+          "components":{
+            "custom_data":{
+              "cgn":{
+                "charge":{
+                  "charged":true
+                }
+              }
+            }
+          }
         },
-        "chest": {
-            "items":["leather_chestplate"],
-            "nbt": "{cgn:{charge:{charged:1b}}}"
+        "chest":{
+          "items":[
+            "leather_chestplate"
+          ],
+          "components":{
+            "custom_data":{
+              "cgn":{
+                "charge":{
+                  "charged":true
+                }
+              }
+            }
+          }
         },
-        "legs": {
-            "items":["leather_leggings"],
-            "nbt": "{cgn:{charge:{charged:1b}}}"
+        "legs":{
+          "items":[
+            "leather_leggings"
+          ],
+          "components":{
+            "custom_data":{
+              "cgn":{
+                "charge":{
+                  "charged":true
+                }
+              }
+            }
+          }
         },
-        "feet": {
-            "items":["leather_boots"],
-            "nbt": "{cgn:{charge:{charged:1b}}}"
+        "feet":{
+          "items":[
+            "leather_boots"
+          ],
+          "components":{
+            "custom_data":{
+              "cgn":{
+                "charge":{
+                  "charged":true
+                }
+              }
+            }
+          }
         }
       }
     }
   }
-  

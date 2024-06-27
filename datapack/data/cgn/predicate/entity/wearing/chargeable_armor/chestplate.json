@@ -10,7 +10,9 @@
             "items": [
               "minecraft:leather_chestplate"
             ],
-            "nbt": "{cgn:{id:\"gloomstone_chestplate\"}}"
+            "components":{
+              "item_name":"{\"translate\":\"item.cgn.gloomstone_chestplate\"}"
+              }
           }
         }
       }
@@ -24,7 +26,9 @@
             "items": [
               "minecraft:leather_chestplate"
             ],
-            "nbt": "{cgn:{id:\"ebonite_chestplate\"}}"
+            "components":{
+              "item_name":"{\"translate\":\"item.cgn.ebonite_chestplate\"}"
+              }
           }
         }
       }

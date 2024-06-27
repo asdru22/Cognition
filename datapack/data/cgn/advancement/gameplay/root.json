@@ -1,8 +1,10 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:structure_block",
-        "nbt": "{CustomModelData:880000}"
+        "id": "minecraft:structure_block",
+        "components": {
+        "minecraft:custom_model_data": 880003
+      }
       },
       "title": {
         "translate": "advancements.cgn.root.title"

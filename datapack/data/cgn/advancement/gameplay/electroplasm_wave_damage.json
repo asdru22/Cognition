@@ -1,22 +1,23 @@
 {
-  "parent": "cgn:gameplay/unlock_electroplasm",
-    "display": {
-      "icon": {
-        "item": "minecraft:warped_fungus_on_a_stick",
-        "nbt": "{CustomModelData:880003}"
-      },
-      "title": {
-        "translate": "advancements.cgn.electroplasm_wave_damage.title"
-      },
-      "description": {
-        "translate": "advancements.cgn.electroplasm_wave_damage.description"
-      },
-      "frame": "challenge"
-    },
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:impossible"
+  "display": {
+    "icon": {
+      "id": "minecraft:warped_fungus_on_a_stick",
+      "components": {
+        "minecraft:custom_model_data": 880003
       }
+    },
+    "title": {
+      "translate": "advancements.cgn.electroplasm_wave_damage.title"
+    },
+    "description": {
+      "translate": "advancements.cgn.electroplasm_wave_damage.description"
+    },
+    "frame": "challenge"
+  },
+  "parent": "cgn:gameplay/unlock_electroplasm",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
     }
   }
-  
+}

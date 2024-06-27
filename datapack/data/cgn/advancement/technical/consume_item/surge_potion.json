@@ -1,18 +1,26 @@
 {
-  "criteria": {
-    "requirement": {
-      "trigger": "minecraft:consume_item",
-      "conditions": {
-        "item": {
-          "items": [
+  "criteria":{
+    "requirement":{
+      "trigger":"minecraft:consume_item",
+      "conditions":{
+        "item":{
+          "items":[
             "minecraft:potion"
           ],
-          "nbt": "{srn:{potion:{id:\"cgn:surge\"}}}"
+          "components":{
+            "minecraft:custom_data":{
+              "srn":{
+                "potion":{
+                  "id":"cgn:surge"
+                }
+              }
+            }
+          }
         }
       }
     }
   },
-  "rewards": {
-    "function": "cgn:item/surge_potion/drink"
+  "rewards":{
+    "function":"cgn:item/surge_potion/drink"
   }
 }

@@ -7,7 +7,9 @@
           "items": [
             "minecraft:fishing_rod"
           ],
-          "nbt": "{cgn:{id:\"electroplasm_carver\"}}"
+          "components":{
+            "item_name":"{\"translate\":\"item.cgn.electroplasm_carver\"}"
+            }
         }
     }
   }

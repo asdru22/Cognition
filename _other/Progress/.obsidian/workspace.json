@@ -11,29 +11,9 @@
             "id": "8d689236c4eab0ea",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "5be58729803efb91",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "Slated Skeleton.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "49bb863f3a254dfe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ebonite Dagger.md",
+                "file": "Surge Potion.md",
                 "mode": "source",
                 "source": false
               }
@@ -89,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "97ba8496e90903ae",
@@ -106,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Surge Potion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Surge Potion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Surge Potion.md"
+              }
             }
           }
         ]
@@ -163,12 +146,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8d689236c4eab0ea",
+  "active": "e88cb082390620f3",
   "lastOpenFiles": [
-    "Electromodulator.md",
     "Soulmender.md",
-    "Slated Skeleton.md",
     "Ebonite Dagger.md",
+    "Slated Skeleton.md",
+    "Electromodulator.md",
     "Gloomstone Dagger.md",
     "Gloomstone Shard.md",
     "Decaying Workshop.md",

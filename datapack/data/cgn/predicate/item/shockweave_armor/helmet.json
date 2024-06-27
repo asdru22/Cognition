@@ -4,7 +4,9 @@
     "predicate": {
       "equipment": {
         "head": {
-          "nbt": "{cgn:{id:\"shockweave_helmet\"}}"
+          "components":{
+                "item_name":"{\"translate\":\"item.cgn.shockweave_helmet\"}"
+            }
         }
       }
     }

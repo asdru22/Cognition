@@ -10,7 +10,9 @@
               "items": [
                 "minecraft:crossbow"
               ],
-              "nbt": "{cgn:{id:\"windup_crossbow\"}}"
+              "components":{
+                "item_name":"{\"translate\":\"item.cgn.windup_crossbow\"}"
+                }
             }
           }
         }
@@ -24,7 +26,9 @@
               "items": [
                 "minecraft:crossbow"
               ],
-              "nbt": "{cgn:{id:\"windup_crossbow\"}}"
+              "components":{
+                "item_name":"{\"translate\":\"item.cgn.windup_crossbow\"}"
+                }
             }
           }
         }

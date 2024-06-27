@@ -7,7 +7,9 @@
           "items": [
             "minecraft:shield"
           ],
-          "nbt": "{cgn:{id:\"soulmender\"}}"
+          "components":{
+                "item_name":"{\"translate\":\"item.cgn.soulmender\"}"
+            }
         }
       }
     }

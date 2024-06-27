@@ -1,21 +1,23 @@
 {
-  "parent": "cgn:gameplay/root",
-    "display": {
-      "icon": {
-        "item": "minecraft:structure_block",
-        "nbt": "{CustomModelData:880006}"
-      },
-      "title": {
-        "translate": "advancements.cgn.make_ebonite.title"
-      },
-      "description": {
-        "translate": "advancements.cgn.make_ebonite.description"
-      },
-      "frame": "task"
-    },
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:impossible"
+  "display": {
+    "icon": {
+      "id": "minecraft:poisonous_potato",
+      "components": {
+        "minecraft:custom_model_data": 880003
       }
+    },
+    "title": {
+      "translate": "advancements.cgn.make_ebonite.title"
+    },
+    "description": {
+      "translate": "advancements.cgn.make_ebonite.description"
+    },
+    "frame": "task"
+  },
+  "parent": "cgn:gameplay/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
     }
   }
+}

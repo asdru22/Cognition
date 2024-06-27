@@ -7,7 +7,9 @@
         "items": [
           "minecraft:warped_fungus_on_a_stick"
         ],
-        "nbt": "{cgn:{id:\"gloomstone_sword\"}}"
+        "components":{
+            "item_name":"{\"translate\":\"item.cgn.gloomstone_sword\"}"
+        }
       }
     }
   }
