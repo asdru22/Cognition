@@ -1,98 +1,53 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:leather_chestplate",
-            "functions": [
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{CustomModelData:880000,cgn:{id:\"gloomstone_chestplate\",ebonite_upgradeable:1b},srn:{durability:[528,528],repaired:1b},Unbreakable:1b,HideFlags:126,display:{color:4325377}}"
-              },
-              {
-                "function": "minecraft:set_name",
-                "name": {
-                  "translate": "item.cgn.gloomstone_chestplate",
-                  "color": "white",
-                  "italic": false
-                }
-              },
-              {
-                "function": "minecraft:set_attributes",
-                "modifiers": [
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:custom_model_data": 880000,
+            "minecraft:item_name": "{\"translate\":\"item.cgn.gloomstone_chestplate\"}",
+            "minecraft:lore": [
+              "{\"translate\": \"cgn.tooltip\",\"font\": \"cgn:main\",\"color\": \"white\",\"italic\": false,\"with\": [{\"translate\":\"pack.cgn\",\"font\":\"minecraft:default\",\"color\":\"#F6E79C\",\"italic\":true}]}"
+            ],
+            "minecraft:max_damage": 528,
+            "minecraft:attribute_modifiers": {
+              "modifiers": [
                 {
-                  "attribute": "minecraft:generic.armor",
-                  "name": "",
+                  "id": "cgn:armor",
+                  "type": "minecraft:generic.armor",
                   "amount": 8,
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "chest"
                 },
                 {
-                  "attribute": "minecraft:generic.armor_toughness",
-                  "name": "",
+                  "id": "cgn:armor_toughness",
+                  "type": "minecraft:generic.armor_toughness",
                   "amount": 2,
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "chest"
                 }
               ]
-              },
-              {
-                "function": "minecraft:set_lore",
-                "lore": [
-                  "",
-                  {
-                    "translate":"item.modifiers.chest",
-                    "color":"gray",
-                    "italic":false
-                  },
-                  {
-                    "translate":"attribute.modifier.plus.0",
-                    "color":"blue",
-                    "italic":false,
-                    "with":[
-                      "8",
-                      {
-                        "translate":"attribute.name.generic.armor"
-                      }
-                    ]
-                  },
-                  {
-                    "translate":"attribute.modifier.plus.0",
-                    "color":"blue",
-                    "italic":false,
-                    "with":[
-                      "2",
-                      {
-                        "translate":"attribute.name.generic.armor_toughness"
-                      }
-                    ]
-                  },
-                  {
-                    "translate": "item.durability",
-                    "color": "white",
-                    "italic": false,
-                    "with": [
-                      528,
-                      528
-                    ]
-                  },
-                  {
-                    "translate": "cgn.tooltip",
-                    "font": "cgn:main",
-                    "color": "white",
-                    "italic": false,
-                    "with": [
-                      {"translate":"pack.cgn","font":"minecraft:default","color":"#F6E79C","italic":true}
-                    ]
-                  }
-                ]
+            },
+            "minecraft:dyed_color": {
+              "rgb": 4325377,
+              "show_in_tooltip": false
+            },
+            "custom_data": {
+              "cgn":{
+                "ebonite_upgradeable":true
               }
-            ]
+            }
           }
-        ]
-      }
-    ]
-  }
-
+        }
+      ]
+    }
+  ]
+}
