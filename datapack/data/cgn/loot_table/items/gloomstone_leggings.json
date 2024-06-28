@@ -21,14 +21,14 @@
             "minecraft:attribute_modifiers": {
               "modifiers": [
                 {
-                  "id": "cgn:armor",
+                  "id": "cgn:armor_legs",
                   "type": "minecraft:generic.armor",
                   "amount": 6,
                   "operation": "add_value",
                   "slot": "legs"
                 },
                 {
-                  "id": "cgn:armor_toughness",
+                  "id": "cgn:armor_toughness_legs",
                   "type": "minecraft:generic.armor_toughness",
                   "amount": 2,
                   "operation": "add_value",

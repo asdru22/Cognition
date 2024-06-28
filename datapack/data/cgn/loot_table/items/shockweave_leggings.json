@@ -21,7 +21,7 @@
             "minecraft:attribute_modifiers": {
               "modifiers": [
                 {
-                  "id": "cgn:armor",
+                  "id": "cgn:armor_legs",
                   "type": "minecraft:generic.armor",
                   "amount": 4,
                   "operation": "add_value",

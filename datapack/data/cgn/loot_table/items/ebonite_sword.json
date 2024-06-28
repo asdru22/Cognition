@@ -22,14 +22,14 @@
                 "minecraft:attribute_modifiers":{
                   "modifiers":[
                     {
-                      "id":"cgn:attack_speed",
+                      "id":"cgn:attack_speed_mainhand",
                       "type":"minecraft:generic.attack_speed",
                       "amount":-2.7,
                       "operation":"add_value",
                       "slot":"mainhand"
                     },
                     {
-                      "id":"cgn:attack_damage",
+                      "id":"cgn:attack_damage_mainhand",
                       "type":"minecraft:generic.attack_damage",
                       "amount":10,
                       "operation":"add_value",

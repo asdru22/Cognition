@@ -21,14 +21,14 @@
             "minecraft:attribute_modifiers": {
               "modifiers": [
                 {
-                  "id": "cgn:armor",
+                  "id": "cgn:armor_chest",
                   "type": "minecraft:generic.armor",
                   "amount": 8,
                   "operation": "add_value",
                   "slot": "chest"
                 },
                 {
-                  "id": "cgn:armor_toughness",
+                  "id": "cgn:armor_toughness_chest",
                   "type": "minecraft:generic.armor_toughness",
                   "amount": 2,
                   "operation": "add_value",

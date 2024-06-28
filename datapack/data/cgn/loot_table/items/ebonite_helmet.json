@@ -21,21 +21,21 @@
             "minecraft:attribute_modifiers": {
               "modifiers": [
                 {
-                  "id": "cgn:armor",
+                  "id": "cgn:armor_head",
                   "type": "minecraft:generic.armor",
                   "amount": 3,
                   "operation": "add_value",
                   "slot": "head"
                 },
                 {
-                  "id": "cgn:armor_toughness",
+                  "id": "cgn:armor_toughness_head",
                   "type": "minecraft:generic.armor_toughness",
                   "amount": 3,
                   "operation": "add_value",
                   "slot": "head"
                 },
                 {
-                  "id": "cgn:knockback_resistance",
+                  "id": "cgn:knockback_resistance_head",
                   "type": "minecraft:generic.knockback_resistance",
                   "amount": 0.1,
                   "operation": "add_value",
