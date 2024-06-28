@@ -1,0 +1,1 @@
+execute if predicate cgn:entity/holding/throwable_sword run function cgn:item/double_edged_sword/init

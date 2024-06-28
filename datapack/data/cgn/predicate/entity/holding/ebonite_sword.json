@@ -8,10 +8,10 @@
           "equipment": {
             "mainhand": {
               "items": [
-                "minecraft:diamond_sword"
+                "minecraft:netherite_sword"
               ],
               "components":{
-                "item_name":"{\"translate\":\"item.cgn.gloomstone_sword\"}"
+                "item_name":"{\"translate\":\"item.cgn.ebonite_sword\"}"
                 }
             }
           }
@@ -24,10 +24,10 @@
           "equipment": {
             "offhand": {
               "items": [
-                "minecraft:diamond_sword"
+                "minecraft:netherite_sword"
               ],
               "components":{
-                "item_name":"{\"translate\":\"item.cgn.gloomstone_sword\"}"
+                "item_name":"{\"translate\":\"item.cgn.ebonite_sword\"}"
                 }
             }
           }

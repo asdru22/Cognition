@@ -1,7 +1,7 @@
 scoreboard objectives add cgn.dummy dummy
 scoreboard objectives add cgn.dummy2 dummy
 
-scoreboard objectives add cgn.air_time dummy
+scoreboard objectives add cgn.air_time air
 
 scoreboard objectives add cgn.used_crossbow used:crossbow
 scoreboard objectives add cgn.used_fishing_rod used:fishing_rod

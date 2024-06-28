@@ -16,7 +16,7 @@ execute if entity @s[tag=!cgn.double_edged_sword.return] run function cgn:item/d
 
 execute if entity @s[predicate=cgn:entity/double_edged_sword/break] run function cgn:item/double_edged_sword/drop/item
 
-execute if entity @s[predicate=cgn:entity/double_edged_sword/go_to_player] anchored eyes run function cgn:item/double_edged_sword/tick/track_owner with entity @s item.tag.cgn
+execute if entity @s[predicate=cgn:entity/double_edged_sword/go_to_player] anchored eyes run function cgn:item/double_edged_sword/tick/track_owner with entity @s item.components."minecraft:custom_data".cgn
 
 scoreboard players operation #temp cgn.dummy = @s srn.id
 scoreboard players reset #kill cgn.dummy

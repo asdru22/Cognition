@@ -5,12 +5,12 @@
       "entries":[
         {
           "type":"minecraft:item",
-          "name":"minecraft:warped_fungus_on_a_stick",
+          "name":"minecraft:netherite_sword",
           "functions":[
             {
               "function":"minecraft:set_components",
               "components":{
-                "minecraft:custom_model_data":880002,
+                "minecraft:custom_model_data":880001,
                 "minecraft:item_name":"{\"translate\": \"item.cgn.ebonite_sword\"}",
                 "minecraft:lore":[
                   "{\"translate\":\"cgn.tooltip\",\"font\":\"cgn:main\",\"color\":\"white\",\"italic\":false,\"with\":[{\"translate\":\"pack.cgn\",\"font\":\"minecraft:default\",\"color\":\"#F6E79C\",\"italic\":true}]}",
@@ -41,7 +41,16 @@
                 "minecraft:custom_data":{
                   "cgn":{
                     "throwing_damage":7
-                  }
+                  },
+                  "srn":{
+                    "usable":true
+                    }
+                },
+                "minecraft:food":{
+                    "nutrition":0,
+                    "saturation":0,
+                    "can_always_eat":true,
+                    "eat_seconds":100000
                 }
               }
             }
