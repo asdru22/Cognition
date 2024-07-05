@@ -1,0 +1,2 @@
+execute if data storage srn:storage root.temp.item.Slot run return run function srn:technical/macros/damage_slot/main {slot:"weapon.offhand",slot_raw:"item",amount:"1"}
+function srn:technical/macros/damage_slot/main {slot:"weapon.mainhand",amount:"1"}

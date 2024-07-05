@@ -3,7 +3,7 @@ particle flash ~ ~1 ~
 
 tag @s add cgn.chargeable_armor.jump
 
-attribute @s minecraft:generic.jump_strength modifier add 5615aea3-7dfd-4ed4-99fe-08a93b9c2bc2 "cgn.chargeable_armor" 1 add
-attribute @s generic.jump_strength modifier remove a3b56875-068e-4ca4-9eb4-4c4b4523416c
+attribute @s minecraft:generic.jump_strength modifier add cgn:chargeable_armor_jump_strength 1 add_value
+attribute @s generic.jump_strength modifier remove cgn:chargeable_armor_no_jump
 
-execute if entity @s[gamemode=!creative] run function cgn:item/chargeable_armor/modify_armor/init
+execute if entity @s[gamemode=!creative] run function cgn:item/chargeable_armor/modify/init

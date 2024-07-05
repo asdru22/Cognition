@@ -1,4 +1,4 @@
-execute store result score $temp cgn.dummy run data get entity @s Item.Count
+execute store result score $temp cgn.dummy run data get entity @s Item.count
 kill @s
 loot spawn ~ ~ ~ loot cgn:technical/count/ebonite_ingot
 

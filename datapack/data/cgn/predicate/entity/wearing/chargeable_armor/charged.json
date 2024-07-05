@@ -7,7 +7,7 @@
           "items":[
             "leather_helmet"
           ],
-          "components":{
+          "predicates":{
             "custom_data":{
               "cgn":{
                 "charge":{
@@ -21,7 +21,7 @@
           "items":[
             "leather_chestplate"
           ],
-          "components":{
+          "predicates":{
             "custom_data":{
               "cgn":{
                 "charge":{
@@ -35,7 +35,7 @@
           "items":[
             "leather_leggings"
           ],
-          "components":{
+          "predicates":{
             "custom_data":{
               "cgn":{
                 "charge":{
@@ -49,7 +49,7 @@
           "items":[
             "leather_boots"
           ],
-          "components":{
+          "predicates":{
             "custom_data":{
               "cgn":{
                 "charge":{

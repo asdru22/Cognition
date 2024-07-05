@@ -5,4 +5,4 @@ execute if entity @s[gamemode=creative] unless data storage cgn:storage root.tem
 
 execute if data storage cgn:storage root.temp.ammo run function cgn:item/automatic_bow/shoot
 
-execute if entity @s[gamemode=!creative] run function srn:item/warped_fungus_on_a_stick/damage
+execute if entity @s[gamemode=!creative] run function cgn:item/automatic_bow/damage

@@ -3,7 +3,9 @@ execute if entity @s[predicate=cgn:player/display_electroplasm] run function cgn
 
 # score based events
 execute if score @s cgn.used_crossbow matches 1.. run function cgn:entity/player/scores/used_crossbow
+
 execute if score @s cgn.used_fishing_rod matches 1.. run function cgn:entity/player/scores/used_fishing_rod
+
 execute if score @s cgn.sneak_time matches 1.. run function cgn:entity/player/scores/sneak_time
 execute if score @s cgn.air_time matches 1.. run function cgn:item/chargeable_armor/in_air/tick
 execute if entity @s[scores={cgn.jump=1..}] run function cgn:entity/player/scores/jump

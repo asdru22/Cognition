@@ -1,2 +1,3 @@
-data remove storage cgn:storage root.temp.item.tag.cgn.charge
-data remove storage cgn:storage root.temp.item.tag.display.Lore[0]
+data remove storage cgn:storage root.temp.item.tag.components."minecraft:custom_data".charge
+data remove storage cgn:storage root.temp.item.tag.components."minecraft:lore"[0]
+data remove storage cgn:storage root.temp.item.tag.components."minecraft:lore"[0]
