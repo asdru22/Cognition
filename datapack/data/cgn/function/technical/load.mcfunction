@@ -1,28 +1,29 @@
 scoreboard objectives add cgn.dummy dummy
 scoreboard objectives add cgn.dummy2 dummy
 
-scoreboard objectives add cgn.air_time dummy
+scoreboard objectives add cgn.id dummy
 
-scoreboard objectives add cgn.used_crossbow used:crossbow
-scoreboard objectives add cgn.used_fishing_rod used:fishing_rod
+scoreboard objectives add cgn.old_xp dummy
 
-scoreboard objectives add cgn.sneak_time custom:sneak_time
-scoreboard objectives add cgn.jump custom:jump
+scoreboard objectives add cgn.using_item dummy
+scoreboard objectives add cgn.using_item_new dummy
 
-scoreboard objectives add cgn.electroplasm.current dummy
-scoreboard objectives add cgn.electroplasm.max dummy
+scoreboard objectives add cgn.throw_lingering_potion used:lingering_potion
+scoreboard objectives add cgn.throw_splash_potion used:splash_potion
+scoreboard objectives add cgn.used_warped_fungus_on_a_stick used:warped_fungus_on_a_stick
 
-scoreboard objectives add cgn.damage_dealt custom:damage_dealt
-scoreboard objectives add cgn.electroplasm_carver.damage dummy
-scoreboard objectives add cgn.electroplasm_carver.charges dummy
-scoreboard objectives add cgn.electroplasm_carver.timer dummy
+scoreboard objectives add cgn.used_item_frame used:item_frame
 
-scoreboard players set #2 cgn.dummy 2
-scoreboard players set #5 cgn.dummy 5
-scoreboard players set #8 cgn.dummy 8
-scoreboard players set #10 cgn.dummy 10
-scoreboard players set #20 cgn.dummy 20
+scoreboard objectives add cgn.leave_game custom:leave_game
+
+execute positioned 3000000 ~ 3066 run forceload add ~ ~
+setblock 3000000 0 3066 air
+setblock 3000000 0 3066 barrel{Items:[{count:1b,id:"minecraft:stone",Slot:0b}]}
+
+function cgn:entity/natural_spawning/timer
+function cgn:technical/timers/second
+execute unless score $mob_cap cgn.dummy matches -2147483648..2147483647 run scoreboard players set $mob_cap cgn.dummy 0
+
 scoreboard players set #100 cgn.dummy 100
 
-schedule function cgn:technical/timers/second 1t replace
-schedule function cgn:technical/timers/10_seconds 1t replace
+execute unless data storage cgn:storage root.players[] run data modify storage cgn:storage root.players set value []

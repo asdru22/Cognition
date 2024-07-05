@@ -1,1 +1,0 @@
-execute if entity @s[tag=cgn.slated_skeleton,nbt=!{CustomName:'{"translate":"entity.cgn.slated_skeleton"}'}] run team leave @s

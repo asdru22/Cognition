@@ -1,2 +1,0 @@
-execute if predicate cgn:item/soulmender/offhand run return run function srn:item/durability/damage_generic_amount/offhand_1
-execute if predicate cgn:item/soulmender/mainhand run function srn:item/durability/damage_generic_amount/mainhand_1

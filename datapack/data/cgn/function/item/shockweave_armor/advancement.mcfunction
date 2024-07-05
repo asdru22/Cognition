@@ -1,1 +1,0 @@
-schedule function cgn:item/shockweave_armor/schedule 2t

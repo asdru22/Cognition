@@ -1,3 +1,0 @@
-summon interaction ~ ~ ~ {width:0.5f,height:0.7f,Tags:["smithed.block","smithed.strict","cgn.wispthorn","cgn.tick","cgn.block","srn.interaction","cgn.setup","srn.potted"],Passengers:[{id:"item_display",transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0.0f,0.6375f,0.f],scale:[0.75f,0.75f,0.75f]},item:{id:"minecraft:item_frame",Count:1b,tag:{CustomModelData:880005}}}]}
-
-execute as @e[type=interaction,tag=cgn.setup,limit=1,sort=nearest,distance=..1] run function cgn:block/wispthorn/setup

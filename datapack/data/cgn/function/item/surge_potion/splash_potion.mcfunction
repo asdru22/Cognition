@@ -1,1 +1,0 @@
-execute as @a run function cgn:entity/player/electroplasm/add {amount:10}

@@ -1,1 +1,0 @@
-execute if entity @s[tag=cgn.chargeable_armor.jump] run function cgn:item/chargeable_armor/sneak/idle
