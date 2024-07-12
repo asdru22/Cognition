@@ -1,0 +1,1 @@
+execute summon vindicator run function cgn:entity/gloomstone_sentinel/setup

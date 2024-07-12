@@ -1,0 +1,2 @@
+execute if entity @s[tag=!cgn.entity.hurt,nbt={HurtTime:10s}] run function cgn:entity/custom/hurt/apply with entity @s ArmorItems[3].components."minecraft:dyed_color"
+execute if entity @s[tag=cgn.entity.hurt,nbt={HurtTime:0s}] run function cgn:entity/custom/hurt/remove with entity @s ArmorItems[3].components."minecraft:dyed_color"

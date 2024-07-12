@@ -1,0 +1,1 @@
+execute if entity @s[tag=cgn.entity.custom] run function cgn:entity/custom/tick

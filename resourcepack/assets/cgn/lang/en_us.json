@@ -3,6 +3,8 @@
     "cgn.tooltip": "\ua000 %s",
     "cgn.attribute": " %s %s",
 
+    "entity.cgn.gloomstone_sentinel": "Gloomstone Sentinel",
+
     "item.cgn.automatic_bow": "Automatic Bow",
     "item.cgn.windup_crossbow": "Windup Crossbow",
     "item.cgn.windup_crossbow.projectiles": "%s Loaded Projectiles",

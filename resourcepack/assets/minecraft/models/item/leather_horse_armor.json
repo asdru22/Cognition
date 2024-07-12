@@ -4,11 +4,12 @@
       "layer0": "minecraft:item/leather_horse_armor"
     },
       "overrides": [
-        {
-          "predicate": {
-            "custom_model_data": 880000
-          },
-          "model": "cgn:entity/slated_skeleton/head"
-        }
+        {"predicate": {"custom_model_data": 880000},"model": "cgn:entity/gloomstone_sentinel/walk"},
+        {"predicate": {"custom_model_data": 880001},"model": "cgn:entity/gloomstone_sentinel/idle"},
+        {"predicate": {"custom_model_data": 880002},"model": "cgn:entity/gloomstone_sentinel/attack_melee"},
+        {"predicate": {"custom_model_data": 880003},"model": "cgn:entity/gloomstone_sentinel/open"},
+        {"predicate": {"custom_model_data": 880004},"model": "cgn:entity/gloomstone_sentinel/open_loop"},
+        {"predicate": {"custom_model_data": 880005},"model": "cgn:entity/gloomstone_sentinel/close"},
+        {"predicate": {"custom_model_data": 880006},"model": "cgn:entity/gloomstone_sentinel/die"}
       ]
   }
