@@ -45,6 +45,36 @@
           "pull": 0.9
         },
         "model": "item/bow_pulling_2"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 880000,
+          "pulling": 0
+        },
+        "model": "cgn:entity/slated_skeleton/bow_arm/0"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 880000,
+          "pulling": 1
+        },
+        "model": "cgn:entity/slated_skeleton/bow_arm/1"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 880000,
+          "pulling": 1,
+          "pull": 0.65
+        },
+        "model": "cgn:entity/slated_skeleton/bow_arm/2"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 880000,
+          "pulling": 1,
+          "pull": 0.9
+        },
+        "model": "cgn:entity/slated_skeleton/bow_arm/3"
       }
     ]
   }

@@ -1,3 +1,5 @@
+$playsound cgn:entity.$(id).death hostile @a[distance=..16]
+
 execute on attacker run tag @s add cgn.temp 
 
 damage @s 999999999999999 minecraft:generic_kill by @n[tag=cgn.temp]

@@ -14,12 +14,13 @@
         "predicate": {
           "custom_model_data": 880001
         },
-        "model": "cgn:item/ebonite_dagger"
-      },{
+        "model": "cgn:item/electroplasm_carver"
+      },
+      {
         "predicate": {
           "custom_model_data": 880002
         },
-        "model": "cgn:item/electroplasm_carver"
+        "model": "cgn:item/gloomstone_sword"
       }
     ]
   }

@@ -12,3 +12,5 @@ scoreboard players operation @s cgn.health -= $damage cgn.dummy
 execute if score @s cgn.health matches ..0 run return run function cgn:entity/custom/states/dead/main
 
 data merge entity @s {Health:2048}
+
+function cgn:entity/custom/hurt/sound with entity @s ArmorItems[3].components."minecraft:custom_data".cgn

@@ -1,0 +1,1 @@
+$playsound cgn:entity.$(id).hurt hostile @a[distance=..16]

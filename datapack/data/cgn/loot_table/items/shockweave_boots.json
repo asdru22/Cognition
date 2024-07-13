@@ -1,0 +1,43 @@
+  {
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_boots"
+          }
+        ],
+        "functions": [
+          {
+            "function": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_model_data": 880002,
+              "minecraft:item_name": "{\"translate\":\"item.cgn.shockweave_boots\"}",
+              "minecraft:lore": [
+                "{\"translate\": \"cgn.tooltip\",\"font\": \"cgn:main\",\"color\": \"white\",\"italic\": false,\"with\": [{\"translate\":\"pack.cgn\",\"font\":\"minecraft:default\",\"color\":\"#F6E79C\",\"italic\":true}]}","\"\"","{\"translate\":\"item.modifiers.feet\",\"color\":\"gray\",\"italic\":false}","{\"translate\":\"attribute.modifier.plus.0\",\"color\":\"blue\",\"italic\":false,\"with\":[\"1\",{\"translate\":\"attribute.name.generic.armor\"}]}","{\"translate\":\"attribute.modifier.plus.0\",\"color\":\"blue\",\"italic\":false,\"with\":[\"0.5\",{\"translate\":\"attribute.name.generic.max_electroplasm\"}]}"
+              ],
+              "minecraft:max_damage": 270,
+              "minecraft:attribute_modifiers": {
+                "modifiers": [
+                  {
+                    "id": "cgn:armor_feet",
+                    "type": "minecraft:generic.armor",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "feet"
+                  }
+                ],
+                "show_in_tooltip":false
+              },
+              "minecraft:dyed_color": {
+                "rgb": 4325386,
+                "show_in_tooltip": false
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+  

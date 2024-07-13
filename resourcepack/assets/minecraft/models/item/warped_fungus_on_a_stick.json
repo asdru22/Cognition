@@ -24,15 +24,15 @@
       },
       {
         "predicate": {
-          "custom_model_data": 880004
+          "custom_model_data": 880003
         },
-        "model": "cgn:entity/electroplasm_wave"
+        "model": "cgn:item/electromodulator"
       },
       {
         "predicate": {
-          "custom_model_data": 880005
+          "custom_model_data": 880004
         },
-        "model": "cgn:item/electromodulator"
+        "model": "cgn:entity/electroplasm_wave"
       }
     ]
 }
