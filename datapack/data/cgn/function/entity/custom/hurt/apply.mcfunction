@@ -9,6 +9,6 @@ scoreboard players set $damage cgn.dummy 102400
 scoreboard players operation $damage cgn.dummy -= $temp cgn.dummy
 scoreboard players operation @s cgn.health -= $damage cgn.dummy
 
-execute if score @s cgn.health matches ..0 run return run function cgn:entity/custom/death
+execute if score @s cgn.health matches ..0 run return run function cgn:entity/custom/states/dead/main
 
 data merge entity @s {Health:2048}
