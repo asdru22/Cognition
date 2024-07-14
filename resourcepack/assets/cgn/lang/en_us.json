@@ -79,6 +79,8 @@
     "death.attack.cgn.electroplasm_wave.player": "%s couldn't withstand the impact",
     "death.attack.cgn.electroplasm_wave.item": "%s couldn't withstand the impact",
 
+    "death.attack.cgn.gloomstone_beam": "%s's molecules were shredded",
+
     "advancements.cgn.root.title":"Cognition",
     "advancements.cgn.root.description":"By Asdru",
     "advancements.cgn.electroplasm_wave_damage.title":"Tsunami",

@@ -1,5 +1,3 @@
-tag @s add cgn.me
-execute as @a[distance=..2,gamemode=!creative,gamemode=!spectator] run damage @s 5 generic by @e[type=vindicator,tag=cgn.me,limit=1,sort=nearest,distance=..10]
-tag @s remove cgn.me
-
-playsound cgn:entity.gloomstone_sentinel.attack hostile @a[distance=..16]
+scoreboard players set $damage cgn.dummy 1
+function cgn:entity/gloomstone_sentinel/find_player
+scoreboard players reset $damage cgn.dummy
