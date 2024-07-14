@@ -105,5 +105,75 @@
         ],
         "subtitle" : "subtitle.cgn.item.electromodulator.use",
         "category" : "master"
+    },
+    "entity.gloomstone_sentinel.hurt": {
+        "sounds":   [
+            "cgn:entity/gloomstone_sentinel/hurt1",
+            "cgn:entity/gloomstone_sentinel/hurt2",
+            "cgn:entity/gloomstone_sentinel/hurt3"
+        ],
+        "subtitle" : "subtitle.cgn.entity.gloomstone_sentinel.hurt",
+        "category" : "master"
+    },
+    "entity.gloomstone_sentinel.death": {
+        "sounds":   [
+            "cgn:entity/gloomstone_sentinel/death"
+        ],
+        "subtitle" : "subtitle.cgn.entity.gloomstone_sentinel.death",
+        "category" : "master"
+    },
+    "entity.gloomstone_sentinel.ranged_attack": {
+        "sounds":   [
+            "cgn:entity/gloomstone_sentinel/ranged_attack"
+        ],
+        "subtitle" : "subtitle.cgn.entity.gloomstone_sentinel.ranged_attack",
+        "category" : "master"
+    },
+    "entity.gloomstone_sentinel.open": {
+        "sounds":   [
+            "cgn:entity/gloomstone_sentinel/open"
+        ],
+        "subtitle" : "subtitle.cgn.entity.gloomstone_sentinel.open",
+        "category" : "master"
+    },
+    "entity.gloomstone_sentinel.idle": {
+        "sounds":   [
+            "cgn:entity/gloomstone_sentinel/idle1",
+            "cgn:entity/gloomstone_sentinel/idle2"
+        ],
+        "subtitle" : "subtitle.cgn.entity.gloomstone_sentinel.idle",
+        "category" : "master"
+    },
+    "entity.gloomstone_sentinel.open_idle": {
+        "sounds":   [
+            "cgn:entity/gloomstone_sentinel/open_idle1",
+            "cgn:entity/gloomstone_sentinel/open_idle2",
+            "cgn:entity/gloomstone_sentinel/open_idle3",
+            "cgn:entity/gloomstone_sentinel/open_idle4",
+            "cgn:entity/gloomstone_sentinel/open_idle5"
+        ],
+        "subtitle" : "subtitle.cgn.entity.gloomstone_sentinel.open_idle",
+        "category" : "master"
+    },
+    "entity.gloomstone_sentinel.walking": {
+        "sounds":   [
+            "cgn:entity/gloomstone_sentinel/walking"
+        ],
+        "subtitle" : "subtitle.cgn.entity.gloomstone_sentinel.walking",
+        "category" : "master"
+    },
+    "entity.gloomstone_sentinel.close": {
+        "sounds":   [
+            "cgn:entity/gloomstone_sentinel/close"
+        ],
+        "subtitle" : "subtitle.cgn.entity.gloomstone_sentinel.close",
+        "category" : "master"
+    },
+    "entity.gloomstone_sentinel.charge_attack": {
+        "sounds":   [
+            "cgn:entity/gloomstone_sentinel/charge_attack"
+        ],
+        "subtitle" : "subtitle.cgn.entity.gloomstone_sentinel.charge_attack",
+        "category" : "master"
     }
 }

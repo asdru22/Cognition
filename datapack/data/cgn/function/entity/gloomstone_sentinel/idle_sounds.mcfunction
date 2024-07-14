@@ -7,5 +7,3 @@ execute if score @s cgn.state matches 3 if score @s cgn.animation_timer matches 
 execute if score @s cgn.state matches 4 unless entity @a[distance=..20,gamemode=!creative,gamemode=!spectator] run return run function cgn:entity/gloomstone_sentinel/animations/close
 
 execute if score @s cgn.state matches 5 if score @s cgn.animation_timer matches 3 run return run function cgn:entity/gloomstone_sentinel/close
-
-execute if score @s cgn.state matches 6 if score @s cgn.animation_timer matches 0 run return run function cgn:entity/gloomstone_sentinel/ranged_attack/tick

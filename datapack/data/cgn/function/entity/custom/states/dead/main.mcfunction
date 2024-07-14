@@ -11,3 +11,5 @@ function cgn:entity/custom/reset_animation with storage cgn:storage root.temp.an
 item modify entity @s armor.head cgn:copy_cmd
 
 function cgn:entity/custom/hurt/remove with entity @s ArmorItems[3].components."minecraft:dyed_color"
+
+$playsound cgn:entity.$(id).death hostile @a[distance=..16]

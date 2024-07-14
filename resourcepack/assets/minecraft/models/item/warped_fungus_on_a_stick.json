@@ -14,23 +14,11 @@
         "predicate": {
           "custom_model_data": 880001
         },
-        "model": "cgn:item/gloomstone_sword"
-      },
-      {
-        "predicate": {
-          "custom_model_data": 880002
-        },
-        "model": "cgn:item/ebonite_sword"
-      },
-      {
-        "predicate": {
-          "custom_model_data": 880003
-        },
         "model": "cgn:item/electromodulator"
       },
       {
         "predicate": {
-          "custom_model_data": 880004
+          "custom_model_data": 880002
         },
         "model": "cgn:entity/electroplasm_wave"
       }
