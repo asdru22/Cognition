@@ -41,11 +41,9 @@
                 "minecraft:custom_data":{
                   "cgn":{
                     "ebonite_upgradeable":true,
-                    "throwing_damage":6
-                  },
-                  "srn":{
+                    "throwing_damage":6,
                     "usable":true
-                    }
+                  }
                 },
                 "minecraft:food":{
                     "nutrition":0,

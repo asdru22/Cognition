@@ -19,7 +19,7 @@
             ],
             "!minecraft:food": {},
             "custom_data":{
-              "srn":{
+              "cgn":{
                 "pottable":true
               }
             }

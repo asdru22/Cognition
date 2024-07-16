@@ -19,7 +19,7 @@
                     "components":{
                       "minecraft:custom_model_data":880009,
                       "minecraft:custom_data":{
-                        "srn":{
+                        "cgn":{
                           "crop":"midnight_rose_seed"
                         }
                       }
@@ -31,7 +31,7 @@
                   "Silent":true,
                   "Invulnerable":true,
                   "Tags":[
-                    "srn.item_frame_marker"
+                    "cgn.item_frame_marker"
                   ]
                 },
                 "minecraft:item_name":"{\"translate\":\"item.cgn.gloomstone\"}",

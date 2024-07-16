@@ -40,11 +40,9 @@
                 },
                 "minecraft:custom_data":{
                   "cgn":{
-                    "throwing_damage":7
-                  },
-                  "srn":{
+                    "throwing_damage":7,
                     "usable":true
-                    }
+                  }
                 },
                 "minecraft:food":{
                     "nutrition":0,
