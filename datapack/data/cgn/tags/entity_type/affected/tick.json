@@ -1,6 +1,7 @@
 {
     "values": [
         "vindicator",
-        "item_display"
+        "item_display",
+        "interaction"
     ]
 }

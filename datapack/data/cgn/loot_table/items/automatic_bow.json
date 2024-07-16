@@ -17,7 +17,12 @@
             "minecraft:lore": [
               "{\"translate\": \"cgn.tooltip\",\"font\": \"cgn:main\",\"color\": \"white\",\"italic\": false,\"with\": [{\"translate\":\"pack.cgn\",\"font\":\"minecraft:default\",\"color\":\"#F6E79C\",\"italic\":true}]}"
             ],
-            "minecraft:max_damage": 432
+            "minecraft:max_damage": 432,
+            "minecraft:custom_data": {
+              "cgn":{
+                "prevent_striders":true
+              }
+            }
           }
         }
       ]

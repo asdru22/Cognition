@@ -11,6 +11,9 @@ scoreboard objectives add cgn.animation_timer dummy
 
 scoreboard objectives add cgn.leave_game custom:leave_game
 
+scoreboard objectives add cgn.used_warped_fungus_on_a_stick used:warped_fungus_on_a_stick
+
+
 execute store result score $gametime cgn.dummy run time query gametime
 
 execute positioned 3000000 0 3066 run forceload add ~ ~
