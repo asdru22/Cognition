@@ -1,2 +1,0 @@
-execute if entity @s[type=player,nbt={HurtTime:0s}] run function cgn:item/electroplasm_carver/projectile/hit/player
-execute if entity @s[type=!player] run function cgn:item/electroplasm_carver/projectile/hit/damage

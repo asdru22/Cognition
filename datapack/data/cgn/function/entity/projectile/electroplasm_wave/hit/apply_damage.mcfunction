@@ -1,5 +1,3 @@
-#$say $(damage) $(owner)
-
 $damage @s $(damage) cgn:electroplasm_wave by $(owner)
 
 $scoreboard players set #temp cgn.dummy $(damage)

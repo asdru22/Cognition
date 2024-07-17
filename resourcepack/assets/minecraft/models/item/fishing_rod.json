@@ -12,7 +12,7 @@
       },
       {
         "predicate": {
-          "custom_model_data": 880000
+          "custom_model_data": 880002
         },
         "model": "cgn:item/electroplasm_carver"
       }

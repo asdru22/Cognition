@@ -14,3 +14,4 @@ execute if entity @s[scores={cgn.jump=1..}] run function cgn:entity/player/score
 execute if entity @s[predicate=cgn:entity_properties/electroplasm_carver/main] run function cgn:item/electroplasm_carver/tick
 execute if entity @s[tag=cgn.electroplasm_carver,predicate=!cgn:entity_properties/electroplasm_carver/main] run function cgn:item/electroplasm_carver/full_reset
 execute if entity @s[predicate=cgn:entity_properties/electroplasm_carver/fix] run function cgn:item/electroplasm_carver/fix/main
+execute if score @s cgn.used_fishing_rod matches 1.. run function cgn:entity/player/scores/used_fishing_rod

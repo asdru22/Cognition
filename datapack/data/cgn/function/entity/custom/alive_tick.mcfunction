@@ -1,4 +1,4 @@
-execute if entity @s[tag=!cgn.entity.hurt,nbt={HurtTime:10s}] run function cgn:entity/custom/hurt/apply with entity @s ArmorItems[3].components."minecraft:dyed_color"
+execute if entity @s[tag=!cgn.entity.hurt,nbt=!{Health:1024f}] run function cgn:entity/custom/hurt/apply with entity @s ArmorItems[3].components."minecraft:dyed_color"
 execute if entity @s[tag=cgn.entity.hurt,nbt={HurtTime:0s}] run function cgn:entity/custom/hurt/remove with entity @s ArmorItems[3].components."minecraft:dyed_color"
 
 $execute if score @s cgn.state matches 0..1 if function cgn:entity/$(id)/find_player run function cgn:entity/custom/states/start_attacking
