@@ -1,0 +1,41 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "head": {
+          "items": [
+            "minecraft:leather_helmet"
+          ],
+          "predicates": {
+            "minecraft:custom_data": "{cgn:{charged:1b}}"
+          }
+        },
+        "chest": {
+          "items": [
+            "minecraft:leather_chestplate"
+          ],
+          "predicates": {
+            "minecraft:custom_data": "{cgn:{charged:1b}}"
+          }
+        },
+        "legs": {
+          "items": [
+            "minecraft:leather_leggings"
+          ],
+          "predicates": {
+            "minecraft:custom_data": "{cgn:{charged:1b}}"
+          }
+        },
+        "feet": {
+          "items": [
+            "minecraft:leather_boots"
+          ],
+          "predicates": {
+            "minecraft:custom_data": "{cgn:{charged:1b}}"
+          }
+        }
+      }
+    }
+  }
+  

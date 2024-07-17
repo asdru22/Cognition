@@ -14,6 +14,10 @@ scoreboard objectives add cgn.leave_game custom:leave_game
 
 scoreboard objectives add cgn.used_warped_fungus_on_a_stick used:warped_fungus_on_a_stick
 
+scoreboard objectives add cgn.sneak_time custom:sneak_time
+scoreboard objectives add cgn.jump custom:jump
+scoreboard objectives add cgn.air_time dummy
+
 
 execute store result score $gametime cgn.dummy run time query gametime
 
