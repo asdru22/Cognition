@@ -1,6 +1,6 @@
 execute on passengers run kill @s
 
-particle item{item:"warped_fungus_on_a_stick",components:{"minecraft:custom_model_data":88004}} ~ ~ ~ 0.33 0.33 0.33 0.1 5
+particle minecraft:item{item:{id:"minecraft:warped_fungus_on_a_stick",components:{"minecraft:custom_model_data":880007}}} ~ ~ ~ 0.2 0.7 0.2 0.05 25 normal
 
 execute if entity @s[scores={cgn.dummy=0..6}] run loot spawn ~ ~ ~ loot cgn:items/midnight_rose_seed
 execute if entity @s[scores={cgn.dummy=7}] run loot spawn ~ ~ ~ loot cgn:items/midnight_rose

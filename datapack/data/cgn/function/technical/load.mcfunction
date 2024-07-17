@@ -23,3 +23,4 @@ setblock 3000000 0 3066 barrel{Items:[{count:1b,id:"minecraft:stone",Slot:0b}]}
 function cgn:technical/math/set_constants
 
 function cgn:technical/timers/second
+function cgn:technical/timers/10_seconds
