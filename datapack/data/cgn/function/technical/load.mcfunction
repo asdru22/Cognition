@@ -1,4 +1,5 @@
 scoreboard objectives add cgn.dummy dummy
+scoreboard objectives add cgn.dummy2 dummy
 
 scoreboard objectives add cgn.using_item dummy
 scoreboard objectives add cgn.using_item_new dummy

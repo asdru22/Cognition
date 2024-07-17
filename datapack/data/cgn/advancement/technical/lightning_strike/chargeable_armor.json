@@ -1,0 +1,33 @@
+{
+    "criteria": {
+      "lightning_strike": {
+        "trigger": "minecraft:lightning_strike",
+        "conditions": {
+          "lightning": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "minecraft:lightning",
+                  "blocks_set_on_fire": {
+                    "min": 0,
+                    "max": 10
+                  }
+                }
+              }
+            }
+          ],
+          "bystander": []
+        }
+      }
+    },
+    "requirements": [
+      [
+        "lightning_strike"
+      ]
+    ],
+    "rewards": {
+      "function": "cgn:item/chargeable_armor/struck_by_lightning/init"
+    }
+  }

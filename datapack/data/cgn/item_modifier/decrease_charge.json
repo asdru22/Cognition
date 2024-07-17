@@ -1,0 +1,318 @@
+[
+    
+        {
+          "function": "minecraft:set_lore",
+          "entity": "this",
+          "lore": [
+            {"translate": "cgn.tooltip","font": "cgn:main","color": "white","italic": false,"with": [{"translate":"pack.cgn","font":"minecraft:default","color":"#F6E79C","italic":true}]}
+          ],
+          "mode": "replace_all",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "head": {
+                    "predicates": {
+                      "minecraft:custom_data": "{cgn:{charge:1}}"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "function": "minecraft:set_custom_data",
+          "tag": "{cgn:{charge:0,charged:0b}}",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "head": {
+                    "items": "minecraft:leather_helmet",
+                    "predicates": {
+                      "minecraft:custom_data": "{cgn:{charge:1}}"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+      
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [
+        {
+          "translate": "item.cgn.charge",
+          "with": [
+            {
+              "text": "1"
+            }
+          ],
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "mode": "replace_section",
+      "offset": 2,
+      "size": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "head": {
+                "predicates": {
+                  "minecraft:custom_data": "{cgn:{charge:2}}"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_custom_data",
+      "tag": "{cgn:{charge:1}}",
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "head": {
+                "items": "minecraft:leather_helmet",
+                "predicates": {
+                  "minecraft:custom_data": "{cgn:{charge:2}}"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [
+        {
+          "translate": "item.cgn.charge",
+          "with": [
+            {
+              "text": "2"
+            }
+          ],
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "mode": "replace_section",
+      "offset": 2,
+      "size": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "head": {
+                "predicates": {
+                  "minecraft:custom_data": "{cgn:{charge:3}}"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_custom_data",
+      "tag": "{cgn:{charge:2}}",
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "head": {
+                "items": "minecraft:leather_helmet",
+                "predicates": {
+                  "minecraft:custom_data": "{cgn:{charge:3}}"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [
+        {
+          "translate": "item.cgn.charge",
+          "with": [
+            {
+              "text": "3"
+            }
+          ],
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "mode": "replace_section",
+      "offset": 2,
+      "size": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "head": {
+                "predicates": {
+                  "minecraft:custom_data": "{cgn:{charge:4}}"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_custom_data",
+      "tag": "{cgn:{charge:3}}",
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "head": {
+                "items": "minecraft:leather_helmet",
+                "predicates": {
+                  "minecraft:custom_data": "{cgn:{charge:4}}"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [
+        {
+          "translate": "item.cgn.charge",
+          "with": [
+            {
+              "text": "4"
+            }
+          ],
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "mode": "replace_section",
+      "offset": 2,
+      "size": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "head": {
+                "predicates": {
+                  "minecraft:custom_data": "{cgn:{charge:5}}"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_custom_data",
+      "tag": "{cgn:{charge:4}}",
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "head": {
+                "items": "minecraft:leather_helmet",
+                "predicates": {
+                  "minecraft:custom_data": "{cgn:{charge:5}}"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [
+        {
+          "translate": "item.cgn.charge",
+          "with": [
+            {
+              "text": "5"
+            }
+          ],
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "mode": "replace_section",
+      "offset": 2,
+      "size": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "head": {
+                "predicates": {
+                  "minecraft:custom_data": "{cgn:{charge:6}}"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_custom_data",
+      "tag": "{cgn:{charge:5}}",
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "head": {
+                "items": "minecraft:leather_helmet",
+                "predicates": {
+                  "minecraft:custom_data": "{cgn:{charge:6}}"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+  
