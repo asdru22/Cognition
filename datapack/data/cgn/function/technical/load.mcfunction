@@ -4,6 +4,8 @@ scoreboard objectives add cgn.dummy2 dummy
 scoreboard objectives add cgn.using_item dummy
 scoreboard objectives add cgn.using_item_new dummy
 
+scoreboard objectives add cgn.id dummy
+
 scoreboard objectives add cgn.heal dummy
 
 scoreboard objectives add cgn.health dummy
@@ -18,6 +20,10 @@ scoreboard objectives add cgn.sneak_time custom:sneak_time
 scoreboard objectives add cgn.jump custom:jump
 scoreboard objectives add cgn.air_time dummy
 
+scoreboard objectives add cgn.air air
+
+scoreboard objectives add cgn.electroplasm.current dummy
+scoreboard objectives add cgn.electroplasm.max dummy
 
 execute store result score $gametime cgn.dummy run time query gametime
 
