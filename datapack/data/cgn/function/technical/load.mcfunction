@@ -25,6 +25,11 @@ scoreboard objectives add cgn.air air
 scoreboard objectives add cgn.electroplasm.current dummy
 scoreboard objectives add cgn.electroplasm.max dummy
 
+scoreboard objectives add cgn.damage_dealt custom:damage_dealt
+scoreboard objectives add cgn.electroplasm_carver.damage dummy
+scoreboard objectives add cgn.electroplasm_carver.charges dummy
+scoreboard objectives add cgn.electroplasm_carver.timer dummy
+
 execute store result score $gametime cgn.dummy run time query gametime
 
 execute positioned 3000000 0 3066 run forceload add ~ ~

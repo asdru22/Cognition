@@ -1,0 +1,1 @@
+execute unless score @s cgn.id = #temp cgn.dummy run function cgn:item/electroplasm_carver/hit/damage
