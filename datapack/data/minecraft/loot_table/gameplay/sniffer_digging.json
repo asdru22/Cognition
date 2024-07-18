@@ -15,7 +15,7 @@
           },
           {
             "type": "minecraft:loot_table",
-            "name": "cgn:items/midnight_rose_seed",
+            "value": "cgn:items/midnight_rose_seed",
             "conditions": [
               {
                 "condition": "minecraft:location_check",

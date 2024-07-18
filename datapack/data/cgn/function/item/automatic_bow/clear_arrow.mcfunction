@@ -1,0 +1,2 @@
+execute if data storage cgn:storage root.temp.ammo{Slot:-106b} run item modify entity @s weapon.offhand cgn:decrease_count
+execute unless data storage cgn:storage root.temp.ammo{Slot:-106b} run function cgn:item/automatic_bow/track_slots/remove_1 with storage cgn:storage root.temp.ammo

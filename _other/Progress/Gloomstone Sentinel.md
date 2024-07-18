@@ -1,2 +1,2 @@
-#starter #entity
+#entity 
 [[Gloomstone Shard]]

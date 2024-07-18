@@ -20,7 +20,8 @@
             "minecraft:max_damage": 432,
             "minecraft:custom_data": {
               "cgn":{
-                "prevent_striders":true
+                "prevent_striders":true,
+                "ignore_durability":true
               }
             }
           }

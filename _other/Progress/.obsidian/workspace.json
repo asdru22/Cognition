@@ -4,39 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "e2b77a9d2bcca718",
+        "id": "84cf0677dc0e0d2f",
         "type": "tabs",
         "children": [
           {
-            "id": "8d689236c4eab0ea",
+            "id": "ca0ac1cc3479f88e",
             "type": "leaf",
             "state": {
               "type": "graph",
               "state": {}
-            }
-          },
-          {
-            "id": "5be58729803efb91",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Slated Skeleton.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "49bb863f3a254dfe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ebonite Dagger.md",
-                "mode": "source",
-                "source": false
-              }
             }
           }
         ]
@@ -68,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#entity",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "97ba8496e90903ae",
@@ -163,17 +138,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8d689236c4eab0ea",
+  "active": "ca0ac1cc3479f88e",
   "lastOpenFiles": [
+    "Gloomstone Sentinel.md",
+    "Ebonite Dagger.md",
+    "Gloomstone Shard.md",
+    "Cog.md",
+    "Slated Skeleton.md",
+    "Untitled.canvas",
     "Electromodulator.md",
     "Soulmender.md",
-    "Slated Skeleton.md",
-    "Ebonite Dagger.md",
     "Gloomstone Dagger.md",
-    "Gloomstone Shard.md",
     "Decaying Workshop.md",
     "Screw.md",
-    "Cog.md",
     "Eelctroplasm.md",
     "Electroplasm Carver.md",
     "Ebonite Sword.md",
@@ -189,8 +166,6 @@
     "Gloomstone Blade.md",
     "Gloomstone Helmet.md",
     "Windup Crossbow.md",
-    "Automatic Bow.md",
-    "Gloomstone Shovel.md",
     "Structures",
     "Blocks",
     "Items",
