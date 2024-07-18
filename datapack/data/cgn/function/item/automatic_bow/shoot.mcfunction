@@ -4,7 +4,7 @@ data modify storage cgn:storage root.temp.rotation set from entity @s Rotation
 playsound minecraft:entity.arrow.shoot player @a ~ ~ ~ 0.5 1.3
 
 
-execute if entity @s[gamemode=!creative] run function cgn:item/automatic_bow/clear_arrow
+execute if entity @s[gamemode=!creative,predicate=!cgn:random_chance/1_3] run function cgn:item/automatic_bow/clear_arrow
 
 execute positioned 0.0 0.0 0.0 positioned ^ ^ ^1.33 summon marker run function cgn:technical/math/resolve_vector
 

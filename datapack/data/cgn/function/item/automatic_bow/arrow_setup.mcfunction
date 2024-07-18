@@ -1,6 +1,6 @@
 data merge entity @s {damage:1}
 data modify entity @s Owner set from storage cgn:storage root.temp.uuid
-data modify entity @s Motion set from storage cgn:storage root.temp.components
+data modify entity @s Motion set from storage cgn:storage root.temp.motion
 execute if data storage cgn:storage root.temp.ammo.components."minecraft:potion_contents" run function cgn:item/automatic_bow/tipped_arrow
 
 

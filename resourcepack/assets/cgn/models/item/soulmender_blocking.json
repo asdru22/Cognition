@@ -1,5 +1,5 @@
 {
-    "parent": "cgn:item/shield_blocking",
+    "parent": "cgn:item/shield/blocking",
     "textures": {
         "1": "cgn:item/soulmender"
     }

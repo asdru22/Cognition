@@ -1,5 +1,5 @@
 {
-    "parent": "cgn:item/shield",
+    "parent": "cgn:item/shield/default",
     "textures": {
         "1": "cgn:item/soulmender"
     }

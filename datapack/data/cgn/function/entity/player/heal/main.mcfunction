@@ -10,7 +10,7 @@ scoreboard players operation #health.amount cgn.heal -= #health.current cgn.heal
 data remove storage cgn:storage root.temp.macro
 execute store result storage cgn:storage root.temp.macro.amount float 0.001 run scoreboard players operation #health.amount cgn.heal -= @s cgn.heal
 
-attribute @s minecraft:generic.max_health modifier remove f87623f8-bedd-48e9-af01-f15e59176b7d
+attribute @s minecraft:generic.max_health modifier remove cgn:heal
 function cgn:entity/player/heal/apply_attribute with storage cgn:storage root.temp.macro
 
 # Set flag and apply instant health to trigger the advancement.
