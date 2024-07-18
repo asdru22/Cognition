@@ -22,3 +22,6 @@ execute if entity @s[scores={cgn.throw_splash_potion=1..}] run function cgn:item
 
 # windup crossbow
 execute if entity @s[scores={cgn.used_crossbow=1..}] run function cgn:entity/player/scores/used_crossbow
+
+# shield funny business
+execute if score @s cgn.used_shield matches 1.. run function cgn:entity/player/scores/used_shield

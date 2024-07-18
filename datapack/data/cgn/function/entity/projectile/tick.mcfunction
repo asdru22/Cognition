@@ -5,4 +5,6 @@ execute if entity @s[tag=cgn.projectile.electroplasm_wave] run function cgn:enti
 
 execute if entity @s[tag=cgn.projectile.thrown_potion,predicate=!cgn:entity_properties/has_vehicle] run function cgn:entity/projectile/thrown_potion
 
+execute if entity @s[tag=cgn.projectile.double_edged_sword] run function cgn:item/double_edged_sword/tick/main
+
 kill @s[tag=!cgn.projectile.no_timer,scores={cgn.animation_timer=..0}]

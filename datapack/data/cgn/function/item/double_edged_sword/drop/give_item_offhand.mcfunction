@@ -1,0 +1,2 @@
+execute if data entity @s Inventory[{Slot:-106b}].id run function cgn:item/double_edged_sword/drop/slot_occupied
+$execute unless data entity @s Inventory[{Slot:-106b}].id run loot replace entity @s weapon.offhand loot {"pools":[{"rolls":1,"entries":[{"type":"minecraft:item","name":"$(id)","functions":[{"function":"minecraft:set_components","components":$(components)},{"function":"minecraft:set_count","count":$(count)}]}]}]}

@@ -1,0 +1,1 @@
+execute if predicate cgn:entity_properties/double_edged_sword/any run function cgn:item/double_edged_sword/init

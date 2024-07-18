@@ -36,6 +36,8 @@ scoreboard objectives add cgn.throw_splash_potion used:splash_potion
 
 scoreboard objectives add cgn.used_crossbow used:crossbow
 
+scoreboard objectives add cgn.used_shield dummy
+
 execute store result score $gametime cgn.dummy run time query gametime
 
 function cgn:technical/math/set_constants
