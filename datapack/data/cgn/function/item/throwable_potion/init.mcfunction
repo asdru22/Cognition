@@ -1,0 +1,4 @@
+#execute as @e[type=potion,sort=nearest,limit=1,distance=..3] if items entity @s contents #cgn:throwable_potion[minecraft:custom_data~{cgn:{id:"potion"}}] unless predicate cgn:entity_properties/has_passenger at @s run function cgn:item/throwable_potion/as_potion
+execute as @e[type=potion,sort=nearest,limit=1,distance=..3,nbt={Item:{components:{"minecraft:custom_data":{cgn:{id:"potion"}}}}}] unless predicate cgn:entity_properties/has_passenger at @s run function cgn:item/throwable_potion/as_potion
+scoreboard players reset @s cgn.throw_lingering_potion
+scoreboard players reset @s cgn.throw_splash_potion

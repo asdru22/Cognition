@@ -15,3 +15,7 @@ execute if entity @s[predicate=cgn:entity_properties/electroplasm_carver/main] r
 execute if entity @s[tag=cgn.electroplasm_carver,predicate=!cgn:entity_properties/electroplasm_carver/main] run function cgn:item/electroplasm_carver/full_reset
 execute if entity @s[predicate=cgn:entity_properties/electroplasm_carver/fix] run function cgn:item/electroplasm_carver/fix/main
 execute if score @s cgn.used_fishing_rod matches 1.. run function cgn:entity/player/scores/used_fishing_rod
+
+# throwable potions
+execute if entity @s[scores={cgn.throw_lingering_potion=1..}] run function cgn:item/throwable_potion/init
+execute if entity @s[scores={cgn.throw_splash_potion=1..}] run function cgn:item/throwable_potion/init
