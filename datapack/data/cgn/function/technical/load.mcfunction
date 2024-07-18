@@ -34,6 +34,8 @@ scoreboard objectives add cgn.used_fishing_rod used:fishing_rod
 scoreboard objectives add cgn.throw_lingering_potion used:lingering_potion
 scoreboard objectives add cgn.throw_splash_potion used:splash_potion
 
+scoreboard objectives add cgn.used_crossbow used:crossbow
+
 execute store result score $gametime cgn.dummy run time query gametime
 
 function cgn:technical/math/set_constants

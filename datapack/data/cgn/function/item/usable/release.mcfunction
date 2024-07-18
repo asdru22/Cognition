@@ -2,3 +2,4 @@
 scoreboard players reset @s cgn.using_item
 
 # item specific
+execute if entity @s[tag=cgn.item.windup_crossbow.release] if items entity @s weapon.* crossbow[item_name='{"translate": "item.cgn.windup_crossbow"}'] run function cgn:item/windup_crossbow/release

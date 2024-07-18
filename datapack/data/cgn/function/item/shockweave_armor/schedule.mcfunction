@@ -1,0 +1,1 @@
+execute as @a[advancements={cgn:technical/inventory_changed/shockweave_armor=true}] run function cgn:item/shockweave_armor/init

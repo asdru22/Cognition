@@ -20,7 +20,7 @@
             "minecraft:max_damage":545,
             "custom_data":{
               "cgn":{
-                "using_timer":true
+                "usable":true
               }
             }
           }
