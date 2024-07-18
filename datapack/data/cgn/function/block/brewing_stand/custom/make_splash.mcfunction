@@ -1,0 +1,1 @@
+execute if data storage cgn:storage root.temp.item.tag.cgn.potion{id:"cgn:surge"} run data modify storage cgn:storage root.temp.item.tag.display.Name set value '{"translate":"item.cgn.splash_potion.effect.surge","italic":false}'

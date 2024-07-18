@@ -1,0 +1,1 @@
+execute if entity @s[tag=cgn.block.brewing_stand] run return run function cgn:block/brewing_stand/brewing/second_clock

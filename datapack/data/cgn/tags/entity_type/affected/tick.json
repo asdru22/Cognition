@@ -2,6 +2,7 @@
     "values": [
         "vindicator",
         "item_display",
-        "interaction"
+        "interaction",
+        "marker"
     ]
 }
