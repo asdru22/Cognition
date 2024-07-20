@@ -2,7 +2,7 @@ scoreboard players operation $strength player_motion.api.launch = @e[type=item_d
 
 scoreboard players operation $strength player_motion.api.launch < #64 cgn.dummy
 
-scoreboard players operation $strength player_motion.api.launch *= #256 cgn.dummy
+scoreboard players operation $strength player_motion.api.launch *= #128 cgn.dummy
 execute rotated as @s anchored eyes facing ^ ^ ^-1 run function player_motion:api/launch_looking
 
 data modify storage cgn:storage root.temp.item set from entity @s SelectedItem{id:"minecraft:shield"}
