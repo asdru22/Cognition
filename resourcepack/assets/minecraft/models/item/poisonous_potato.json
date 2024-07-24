@@ -69,6 +69,30 @@
         "custom_model_data": 880010
       },
       "model": "cgn:item/wispthorn"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 880011
+      },
+      "model": "cgn:item/automatic_bow"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 880012
+      },
+      "model": "cgn:item/automatic_bow_pulling_0"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 880013
+      },
+      "model": "cgn:item/automatic_bow_pulling_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 880013
+      },
+      "model": "cgn:item/automatic_bow_pulling_2"
     }
   ]
 }

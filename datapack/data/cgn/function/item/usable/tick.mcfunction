@@ -5,3 +5,6 @@ execute if score @s cgn.using_item matches 1 run function cgn:item/usable/use_on
 
 # item specific
 execute if items entity @s weapon.* crossbow[item_name='{"translate": "item.cgn.windup_crossbow"}'] run function cgn:item/windup_crossbow/charging/tick
+
+# item specific
+execute if items entity @s weapon.* poisonous_potato[item_name='{"translate": "item.cgn.automatic_bow"}'] run function cgn:item/automatic_bow/charging/tick

@@ -5,24 +5,49 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:warped_fungus_on_a_stick"
+          "name": "minecraft:poisonous_potato"
         }
       ],
       "functions": [
         {
           "function": "minecraft:set_components",
           "components": {
-            "minecraft:custom_model_data": 880000,
+            "minecraft:custom_model_data": 880011,
             "minecraft:item_name": "{\"translate\":\"item.cgn.automatic_bow\"}",
             "minecraft:lore": [
               "{\"translate\": \"cgn.tooltip\",\"font\": \"cgn:main\",\"color\": \"white\",\"italic\": false,\"with\": [{\"translate\":\"pack.cgn\",\"font\":\"minecraft:default\",\"color\":\"#F6E79C\",\"italic\":true}]}"
             ],
             "minecraft:max_damage": 432,
-            "minecraft:custom_data": {
+            "max_stack_size":1,
+            "minecraft:attribute_modifiers":{
+              "modifiers":[
+                {
+                  "id":"cgn:attack_speed_mainhand",
+                  "type":"minecraft:generic.attack_speed",
+                  "amount":-1000,
+                  "operation":"add_value",
+                  "slot":"mainhand"
+                },
+                {
+                  "id":"cgn:attack_speed_offhand",
+                  "type":"minecraft:generic.attack_speed",
+                  "amount":-1000,
+                  "operation":"add_value",
+                  "slot":"offhand"
+                }
+              ],
+              "show_in_tooltip":false
+            },
+            "minecraft:custom_data":{
               "cgn":{
-                "prevent_striders":true,
-                "ignore_durability":true
+                "usable":true
               }
+            },
+            "minecraft:food":{
+                "nutrition":0,
+                "saturation":0,
+                "can_always_eat":true,
+                "eat_seconds":100000
             }
           }
         }
