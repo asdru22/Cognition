@@ -1,0 +1,1 @@
+$damage @s $(throwing_damage) cgn:double_edged_sword by $(owner)

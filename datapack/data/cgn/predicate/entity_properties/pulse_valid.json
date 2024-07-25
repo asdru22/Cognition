@@ -1,0 +1,14 @@
+[
+    {
+      "condition": "minecraft:reference",
+      "name": "cgn:entity_properties/chargeable_armor/charged"
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "#cgn:displays_armor"
+      }
+    }
+  ]
+  

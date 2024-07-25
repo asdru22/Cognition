@@ -1,3 +1,3 @@
 $damage @s $(throwing_damage) cgn:double_edged_sword by $(owner)
 
-execute if entity @e[type=item_display,tag=cgn.me,limit=1,sort=nearest,tag=cgn.double_edged_sword.fire_aspect] run data modify entity @s Fire set value 60s
+execute as @n[type=item_display,tag=cgn.projectile.double_edged_sword,tag=cgn.me,tag=!cgn.double_edged_sword.return] run function cgn:item/double_edged_sword/bounce

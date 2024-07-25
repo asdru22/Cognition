@@ -7,4 +7,7 @@ execute if entity @s[tag=cgn.projectile.thrown_potion,predicate=!cgn:entity_prop
 
 execute if entity @s[tag=cgn.projectile.double_edged_sword] run function cgn:item/double_edged_sword/tick/main
 
+execute if entity @s[tag=cgn.projectile.double_edged_sword_mace] run function cgn:item/ebonite_sword/mace/tick
+
+
 kill @s[tag=!cgn.projectile.no_timer,scores={cgn.animation_timer=..0}]

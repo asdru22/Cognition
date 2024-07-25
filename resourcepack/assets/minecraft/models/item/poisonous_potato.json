@@ -93,6 +93,12 @@
         "custom_model_data": 880013
       },
       "model": "cgn:item/automatic_bow_pulling_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 880014
+      },
+      "model": "cgn:item/music_disc_sunrise"
     }
   ]
 }
