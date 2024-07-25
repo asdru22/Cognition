@@ -8,3 +8,5 @@ CreeperMagnet_, TheNuclearNexus, 1000hr celebration (Code)
 - fix effect when throwing sword in air 
 - source for recoil enchantment
 - source for music disc
+- gloomstone sentry spawning/despawning
+- implement actionbar
