@@ -3,3 +3,4 @@
 [[Cog]]
 [[Screw]]
 [[Gloomstone Shard]]
+[[Enchanted Book (Pulse)]]

@@ -2,8 +2,8 @@
     "description": {
       "translate": "enchantment.cgn.pulse"
     },
-    "exclusive_set": "#minecraft:exclusive_set/damage",
     "supported_items": "#minecraft:enchantable/mace",
+    "primary_items": "#minecraft:enchantable/mace",
     "weight": 2,
     "max_level": 1,
     "min_cost": {
@@ -31,3 +31,4 @@
       ]
     }
   }
+  
