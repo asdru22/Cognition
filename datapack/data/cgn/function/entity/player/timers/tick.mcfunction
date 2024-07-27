@@ -1,5 +1,5 @@
 # actionbar
-execute if entity @s[predicate=cgn:entity_properties/display_electroplasm] run function cgn:entity/player/electroplasm/display/main
+execute if entity @s[predicate=cgn:entity_properties/display_electroplasm] unless score @s smithed.actionbar.freeze matches -2147483648..2147483647 run function cgn:entity/player/electroplasm/display/main
 
 # right click item
 execute if score @s cgn.using_item matches 1.. run function cgn:item/usable/tick
