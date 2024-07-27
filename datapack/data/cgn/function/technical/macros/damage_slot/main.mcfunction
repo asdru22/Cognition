@@ -6,11 +6,11 @@ $execute if items entity @s $(slot) *[minecraft:enchantments~[{enchantments:"min
 
 execute store result score $temp cgn.dummy run data get storage cgn:storage root.temp.item.components."minecraft:damage"
 
-data remove storage cgn:storage root.temp.macro.damage
-$execute store result storage cgn:storage root.temp.macro.damage int 1 run scoreboard players add $temp cgn.dummy $(amount)
-$data modify storage cgn:storage root.temp.macro.slot set value $(slot)
+data remove storage cgn:macro root.damage
+$execute store result storage cgn:macro root.damage int 1 run scoreboard players add $temp cgn.dummy $(amount)
+$data modify storage cgn:macro root.slot set value $(slot)
 
-function cgn:technical/macros/damage_slot/damage with storage cgn:storage root.temp.macro
+function cgn:technical/macros/damage_slot/damage with storage cgn:macro root
 
 # Anything after this line runs if the item should break
 $execute if items entity @s $(slot) *[minecraft:damage~{durability:{min:1}}] run return 0

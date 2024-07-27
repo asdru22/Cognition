@@ -4,9 +4,11 @@ execute if entity @s[gamemode=!creative] run function cgn:item/double_edged_swor
 execute store result score #gamemode cgn.dummy if entity @s[gamemode=creative]
 
 function cgn:technical/string_uuid/init
-data modify storage cgn:storage root.temp.macro.owner set from storage cgn:storage root.temp.uuid.out
-data modify storage cgn:storage root.temp.macro.rotation set from entity @s Rotation
+data remove storage cgn:macro root
 
-execute anchored eyes positioned ^ ^ ^ summon item_display run function cgn:item/double_edged_sword/summon with storage cgn:storage root.temp.macro
+data modify storage cgn:macro root.owner set from storage cgn:storage root.temp.uuid.out
+data modify storage cgn:macro root.rotation set from entity @s Rotation
+
+execute anchored eyes positioned ^ ^ ^ summon item_display run function cgn:item/double_edged_sword/summon with storage cgn:macro root
 
 playsound cgn:item.double_edged_sword.throw master @a[distance=..16]
