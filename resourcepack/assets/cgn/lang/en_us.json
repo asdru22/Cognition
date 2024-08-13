@@ -2,9 +2,7 @@
     "pack.cgn": "Cognition",
     "cgn.tooltip": "\ua000 %s",
     "cgn.attribute": " %s %s",
-
     "entity.cgn.gloomstone_sentinel": "Gloomstone Sentinel",
-
     "item.cgn.automatic_bow": "Automatic Bow",
     "item.cgn.windup_crossbow": "Windup Crossbow",
     "item.cgn.windup_crossbow.projectiles": "%s Loaded Projectiles",
@@ -56,7 +54,10 @@
     "item.cgn.soulmender": "Soulmender",
     "item.cgn.electromodulator": "Electromodulator",
     "item.cgn.music_disc_sunrise": "Music Disc",
+    "item.cgn.stygian_relic": "Stygian Relic",
 
+    "block.cgn.stygian_totem": "Stygian Totem",
+    
     "enchantment.cgn.recoil": "Recoil",
     "enchantment.cgn.pulse": "Pulse",
 
@@ -72,7 +73,6 @@
     "subtitle.cgn.item.electromodulator.use": "Electromodulator Discharges",
     "subtitle.cgn.item.ebonite_sword.hit": "Mace Strikes Ebonite Sword",
     "subtitle.cgn.item.ebonite_sword.hit_block": "Heavy Impact",
-
     "death.attack.cgn.player_lightning": "%s was struck by lightning",
     "death.attack.cgn.player_lightning.player": "%s was struck by %s's lightning",
     "death.attack.cgn.player_lightning.item": "%s was struck by %s's lightning using %s",
@@ -82,22 +82,17 @@
     "death.attack.cgn.electroplasm_wave": "%s couldn't withstand the impact",
     "death.attack.cgn.electroplasm_wave.player": "%s couldn't withstand the impact",
     "death.attack.cgn.electroplasm_wave.item": "%s couldn't withstand the impact",
-
     "death.attack.cgn.gloomstone_beam": "%s's molecules were shredded",
-
-    "advancements.cgn.root.title":"Cognition",
-    "advancements.cgn.root.description":"By Asdru",
-    "advancements.cgn.electroplasm_wave_damage.title":"Tsunami",
-    "advancements.cgn.electroplasm_wave_damage.description":"Create an Electroplasm wave that deals at least 30 damage",
-    "advancements.cgn.unlock_electroplasm.title":"Amped Up",
-    "advancements.cgn.unlock_electroplasm.description":"Discover Electroplasm",
-    "advancements.cgn.make_ebonite.title":"Human Forge",
-    "advancements.cgn.make_ebonite.description":"Create Ebonite by landing on Ebognite with Charged Gloomstone Armor",
-
-    "actionbar.cgn.electroplasm.full":"\ua004\ua001",
-    "actionbar.cgn.electroplasm.half":"\ua004\ua002",
-    "actionbar.cgn.electroplasm.empty":"\ua004\ua003",
-
+    "advancements.cgn.root.title": "Cognition",
+    "advancements.cgn.root.description": "By Asdru",
+    "advancements.cgn.electroplasm_wave_damage.title": "Tsunami",
+    "advancements.cgn.electroplasm_wave_damage.description": "Create an Electroplasm wave that deals at least 30 damage",
+    "advancements.cgn.unlock_electroplasm.title": "Amped Up",
+    "advancements.cgn.unlock_electroplasm.description": "Discover Electroplasm",
+    "advancements.cgn.make_ebonite.title": "Human Forge",
+    "advancements.cgn.make_ebonite.description": "Create Ebonite by landing on Ebognite with Charged Gloomstone Armor",
+    "actionbar.cgn.electroplasm.full": "\ua004\ua001",
+    "actionbar.cgn.electroplasm.half": "\ua004\ua002",
+    "actionbar.cgn.electroplasm.empty": "\ua004\ua003",
     "attribute.name.generic.max_electroplasm": "Max Electroplasm"
-
 }

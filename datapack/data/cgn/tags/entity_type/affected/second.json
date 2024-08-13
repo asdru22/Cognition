@@ -2,6 +2,7 @@
     "values": [
         "vindicator",
         "marker",
-        "area_effect_cloud"
+        "area_effect_cloud",
+        "item_display"
     ]
 }

@@ -1,0 +1,49 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{cgn:{id:\"stygian_totem\",custom_block:1b}}"
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": 880000,
+                                "minecraft:container": [
+                                    {
+                                        "slot": 0,
+                                        "item": {
+                                            "id": "minecraft:barrel",
+                                            "count": 1,
+                                            "components": {
+                                                "minecraft:custom_data": {
+                                                    "cgn": {
+                                                        "placed_block": true,
+                                                        "block": "stygian_totem"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                ],
+                                "minecraft:rarity": "epic",
+                                "minecraft:item_name": "{\"translate\":\"block.cgn.stygian_totem\"}",
+                                "minecraft:lore": [
+                                    "{\"translate\": \"cgn.tooltip\",\"font\": \"cgn:main\",\"color\": \"white\",\"italic\": false,\"with\": [{\"translate\":\"pack.cgn\",\"font\":\"minecraft:default\",\"color\":\"#F6E79C\",\"italic\":true}]}"
+                                ]
+                            }
+                        }
+                    ],
+                    "name": "minecraft:barrel"
+                }
+            ]
+        }
+    ],
+    "random_sequence": "cgn:items/stygian_totem"
+}

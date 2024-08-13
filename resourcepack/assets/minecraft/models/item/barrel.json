@@ -1,0 +1,17 @@
+{
+    "parent": "minecraft:block/barrel",
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 880000
+            },
+            "model": "cgn:block/stygian_totem"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 880001
+            },
+            "model": "cgn:block/stygian_totem_activated"
+        }
+    ]
+}

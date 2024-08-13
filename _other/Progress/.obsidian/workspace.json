@@ -14,8 +14,41 @@
               "type": "graph",
               "state": {}
             }
+          },
+          {
+            "id": "000dcf28205f13b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Stygian Relic.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a486f03be0273e50",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Stygian Totem.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b43f0e6c339a4d12",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -81,6 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Stygian Totem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Stygian Totem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +153,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Stygian Totem.md"
+              }
             }
           }
         ]
@@ -138,12 +175,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ca0ac1cc3479f88e",
+  "active": "a486f03be0273e50",
   "lastOpenFiles": [
+    "Stygian Relic.md",
+    "Music Disc (Sunrise).md",
+    "Stygian Totem.md",
+    "Midnight Rose Seed.md",
     "Gloomstone Helmet.md",
     "Gloomstone Dagger.md",
     "Gloomstone Sentinel.md",
-    "Music Disc (Sunrise).md",
     "Decaying Workshop.md",
     "Gloomstone Blade.md",
     "Gloomstone.md",
@@ -164,9 +204,6 @@
     "Eelctroplasm.md",
     "Electroplasm Carver.md",
     "Ebonite Sword.md",
-    "Gloomstone Sword.md",
-    "Shockweave Helmet.md",
-    "Shockweave Chestplate.md",
     "Structures",
     "Blocks",
     "Items",

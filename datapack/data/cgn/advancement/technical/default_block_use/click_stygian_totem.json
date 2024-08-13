@@ -1,0 +1,30 @@
+{
+    "criteria": {
+        "click_stygian_totem": {
+            "trigger": "minecraft:default_block_use",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:barrel"
+                                ],
+                                "nbt": "{Lock:\"\u00a7stygian_totem\\\\uF001\"}"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "cgn:block/stygian_totem/click/advancement"
+    },
+    "requirements": [
+        [
+            "click_stygian_totem"
+        ]
+    ]
+}

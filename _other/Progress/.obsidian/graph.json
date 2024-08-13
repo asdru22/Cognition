@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "tag:#starter  ",
@@ -43,6 +43,13 @@
       }
     },
     {
+      "query": "tag:#cosmetic  ",
+      "color": {
+        "a": 1,
+        "rgb": 2889010
+      }
+    },
+    {
       "query": "tag:#block  ",
       "color": {
         "a": 1,
@@ -64,7 +71,7 @@
       }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": true,
   "textFadeMultiplier": -3,
   "nodeSizeMultiplier": 2.00743944636678,
@@ -74,6 +81,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 500,
-  "scale": 0.3628873693012082,
+  "scale": 0.6024013357398906,
   "close": false
 }
