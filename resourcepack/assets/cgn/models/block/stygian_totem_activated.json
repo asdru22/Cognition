@@ -4,7 +4,8 @@
 	"texture_size": [64, 64],
 	"textures": {
 		"0": "cgn:block/stygian_totem_activated",
-		"particle": "cgn:block/stygian_totem_activated"
+		"particle": "cgn:block/stygian_totem_activated",
+		"tendrils": "cgn:block/stygian_totem_tendrils"
 	},
 	"elements": [
 		{
@@ -18,28 +19,41 @@
 				"up": {"uv": [8, 8, 16, 16], "texture": "#0"},
 				"down": {"uv": [0, 8, 8, 16], "texture": "#0"}
 			}
+		},
+		{
+			"from": [-1, 16, 7],
+			"to": [7, 24, 7],
+			"rotation": {"angle": -45, "axis": "y", "origin": [3, 20, 13]},
+			"faces": {
+				"north": {"uv": [12, 8, 4, 16], "texture": "#tendrils"},
+				"east": {"uv": [0, 0, 0, 0], "texture": "#tendrils"},
+				"south": {"uv": [12, 8, 4, 16], "texture": "#tendrils"},
+				"west": {"uv": [0, 0, 0, 0], "texture": "#tendrils"},
+				"up": {"uv": [0, 0, 0, 0], "texture": "#tendrils"},
+				"down": {"uv": [0, 0, 0, 0], "texture": "#tendrils"}
+			}
+		},
+		{
+			"from": [-1, 16, 10],
+			"to": [7, 24, 10],
+			"rotation": {"angle": 45, "axis": "y", "origin": [3, 20, 3]},
+			"faces": {
+				"north": {"uv": [12, 8, 4, 16], "texture": "#tendrils"},
+				"east": {"uv": [0, 0, 0, 0], "texture": "#tendrils"},
+				"south": {"uv": [12, 8, 4, 16], "texture": "#tendrils"},
+				"west": {"uv": [0, 0, 0, 0], "texture": "#tendrils"},
+				"up": {"uv": [0, 0, 0, 0], "texture": "#tendrils"},
+				"down": {"uv": [0, 0, 0, 0], "texture": "#tendrils"}
+			}
 		}
 	],
 	"groups": [
 		0,
 		{
-			"name": "group",
-			"origin": [0, 0, 0],
+			"name": "tendrils",
+			"origin": [8, 8, 8],
 			"color": 0,
-			"children": [
-				{
-					"name": "group",
-					"origin": [0, 0, 0],
-					"color": 0,
-					"children": []
-				},
-				{
-					"name": "group",
-					"origin": [0, 0, 0],
-					"color": 0,
-					"children": []
-				}
-			]
+			"children": [1, 2]
 		}
 	]
 }

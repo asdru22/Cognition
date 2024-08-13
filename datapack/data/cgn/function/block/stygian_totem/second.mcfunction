@@ -1,2 +1,5 @@
-effect give @a[distance=..32] darkness 5 0 true
-particle minecraft:sculk_soul ~ ~ ~ 0.2 0.3 0.2 0.05 10 normal
+execute if entity @s[tag=cgn.block.stygian_totem.active] run function cgn:block/stygian_totem/effect
+
+execute if entity @s[tag=!cgn.block.stygian_totem.active] if function cgn:block/redstone_power/check run return run function cgn:block/stygian_totem/activate
+
+execute if entity @s[tag=cgn.block.stygian_totem.active] unless function cgn:block/redstone_power/check run return run function cgn:block/stygian_totem/deactivate

@@ -1,189 +1,477 @@
 {
-    "windup_crossbow":{
-        "type":"item",
-        "recipe":[
-            ["","string","cgn:cog"],
-            ["string","crossbow","iron_nugget"],
-            ["cgn:cog","iron_nugget","cgn:screw"]
+    "windup_crossbow": {
+        "type": "item",
+        "recipe": [
+            [
+                "",
+                "string",
+                "cgn:cog"
+            ],
+            [
+                "string",
+                "crossbow",
+                "iron_nugget"
+            ],
+            [
+                "cgn:cog",
+                "iron_nugget",
+                "cgn:screw"
+            ]
         ]
     },
-    "automatic_bow":{
-        "type":"item",
-        "recipe":[
-            ["","","cgn:cog"],
-            ["","bow","chain"],
-            ["cgn:cog","chain","iron_ingot"]
+    "automatic_bow": {
+        "type": "item",
+        "recipe": [
+            [
+                "",
+                "",
+                "cgn:cog"
+            ],
+            [
+                "",
+                "bow",
+                "chain"
+            ],
+            [
+                "cgn:cog",
+                "chain",
+                "iron_ingot"
+            ]
         ]
     },
-    "gloomstone_hoe":{
-        "type":"item",
-        "recipe":[
-            ["cgn:gloomstone","cgn:gloomstone","cgn:screw"],
-            ["","stick",""],
-            ["","stick",""]
+    "gloomstone_hoe": {
+        "type": "item",
+        "recipe": [
+            [
+                "cgn:gloomstone",
+                "cgn:gloomstone",
+                "cgn:screw"
+            ],
+            [
+                "",
+                "stick",
+                ""
+            ],
+            [
+                "",
+                "stick",
+                ""
+            ]
         ]
     },
-    "gloomstone_axe":{
-        "type":"item",
-        "recipe":[
-            ["cgn:gloomstone","cgn:screw",""],
-            ["cgn:gloomstone","stick","cgn:gloomstone"],
-            ["","stick",""]
+    "gloomstone_axe": {
+        "type": "item",
+        "recipe": [
+            [
+                "cgn:gloomstone",
+                "cgn:screw",
+                ""
+            ],
+            [
+                "cgn:gloomstone",
+                "stick",
+                "cgn:gloomstone"
+            ],
+            [
+                "",
+                "stick",
+                ""
+            ]
         ]
     },
-    "gloomstone_pickaxe":{
-        "type":"item",
-        "recipe":[
-            ["cgn:gloomstone","cgn:gloomstone","cgn:gloomstone"],
-            ["cgn:screw","stick","cgn:screw"],
-            ["","stick",""]
+    "gloomstone_pickaxe": {
+        "type": "item",
+        "recipe": [
+            [
+                "cgn:gloomstone",
+                "cgn:gloomstone",
+                "cgn:gloomstone"
+            ],
+            [
+                "cgn:screw",
+                "stick",
+                "cgn:screw"
+            ],
+            [
+                "",
+                "stick",
+                ""
+            ]
         ]
     },
-    "gloomstone_shovel":{
-        "type":"item",
-        "recipe":[
-            ["cgn:screw","cgn:gloomstone",""],
-            ["","stick",""],
-            ["","stick",""]
+    "gloomstone_shovel": {
+        "type": "item",
+        "recipe": [
+            [
+                "cgn:screw",
+                "cgn:gloomstone",
+                ""
+            ],
+            [
+                "",
+                "stick",
+                ""
+            ],
+            [
+                "",
+                "stick",
+                ""
+            ]
         ]
     },
-    "gloomstone_blade":{
-        "type":"item",
-        "recipe":[
-            ["","","cgn:gloomstone"],
-            ["","cgn:gloomstone",""],
-            ["cgn:cog","",""]
+    "gloomstone_blade": {
+        "type": "item",
+        "recipe": [
+            [
+                "",
+                "",
+                "cgn:gloomstone"
+            ],
+            [
+                "",
+                "cgn:gloomstone",
+                ""
+            ],
+            [
+                "cgn:cog",
+                "",
+                ""
+            ]
         ]
     },
-    "gloomstone_sword":{
-        "type":"item",
-        "recipe":[
-            ["","cgn:gloomstone_blade",""],
-            ["cgn:screw","stick","cgn:screw"],
-            ["","cgn:gloomstone_blade",""]
+    "gloomstone_sword": {
+        "type": "item",
+        "recipe": [
+            [
+                "",
+                "cgn:gloomstone_blade",
+                ""
+            ],
+            [
+                "cgn:screw",
+                "stick",
+                "cgn:screw"
+            ],
+            [
+                "",
+                "cgn:gloomstone_blade",
+                ""
+            ]
         ]
     },
-    "gloomstone_dagger":{
-        "type":"item",
-        "recipe":[
-            ["cgn:gloomstone_blade","",""],
-            ["stick","",""],
-            ["cgn:screw","",""]
+    "gloomstone_dagger": {
+        "type": "item",
+        "recipe": [
+            [
+                "cgn:gloomstone_blade",
+                "",
+                ""
+            ],
+            [
+                "stick",
+                "",
+                ""
+            ],
+            [
+                "cgn:screw",
+                "",
+                ""
+            ]
         ]
     },
-    "gloomstone_helmet":{
-        "type":"item",
-        "recipe":[
-            ["cgn:gloomstone","cgn:gloomstone","cgn:gloomstone"],
-            ["cgn:gloomstone","cgn:cog","cgn:gloomstone"],
+    "gloomstone_helmet": {
+        "type": "item",
+        "recipe": [
+            [
+                "cgn:gloomstone",
+                "cgn:gloomstone",
+                "cgn:gloomstone"
+            ],
+            [
+                "cgn:gloomstone",
+                "cgn:cog",
+                "cgn:gloomstone"
+            ],
             []
         ]
     },
-    "gloomstone_chestplate":{
-        "type":"item",
-        "recipe":[
-            ["cgn:gloomstone","cgn:cog","cgn:gloomstone"],
-            ["cgn:gloomstone","cgn:gloomstone","cgn:gloomstone"],
-            ["cgn:gloomstone","cgn:gloomstone","cgn:gloomstone"]
+    "gloomstone_chestplate": {
+        "type": "item",
+        "recipe": [
+            [
+                "cgn:gloomstone",
+                "cgn:cog",
+                "cgn:gloomstone"
+            ],
+            [
+                "cgn:gloomstone",
+                "cgn:gloomstone",
+                "cgn:gloomstone"
+            ],
+            [
+                "cgn:gloomstone",
+                "cgn:gloomstone",
+                "cgn:gloomstone"
+            ]
         ]
     },
-    "gloomstone_leggings":{
-        "type":"item",
-        "recipe":[
-            ["cgn:gloomstone","cgn:gloomstone","cgn:gloomstone"],
-            ["cgn:gloomstone","cgn:cog","cgn:gloomstone"],
-            ["cgn:gloomstone","","cgn:gloomstone"]
+    "gloomstone_leggings": {
+        "type": "item",
+        "recipe": [
+            [
+                "cgn:gloomstone",
+                "cgn:gloomstone",
+                "cgn:gloomstone"
+            ],
+            [
+                "cgn:gloomstone",
+                "cgn:cog",
+                "cgn:gloomstone"
+            ],
+            [
+                "cgn:gloomstone",
+                "",
+                "cgn:gloomstone"
+            ]
         ]
     },
-    "gloomstone_boots":{
-        "type":"item",
-        "recipe":[
-            ["cgn:gloomstone","","cgn:gloomstone"],
-            ["cgn:gloomstone","","cgn:gloomstone"],
-            ["cgn:cog","","cgn:cog"]
+    "gloomstone_boots": {
+        "type": "item",
+        "recipe": [
+            [
+                "cgn:gloomstone",
+                "",
+                "cgn:gloomstone"
+            ],
+            [
+                "cgn:gloomstone",
+                "",
+                "cgn:gloomstone"
+            ],
+            [
+                "cgn:cog",
+                "",
+                "cgn:cog"
+            ]
         ]
     },
-    "ebonite_upgrade_smithing_template":{
-        "type":"item",
-        "count":2,
-        "recipe":[
-            ["cgn:gloomstone","cgn:ebonite_upgrade_smithing_template","cgn:gloomstone"],
-            ["cgn:gloomstone","deepslate","cgn:gloomstone"],
-            ["cgn:gloomstone","cgn:gloomstone","cgn:gloomstone"]
+    "ebonite_upgrade_smithing_template": {
+        "type": "item",
+        "count": 2,
+        "recipe": [
+            [
+                "cgn:gloomstone",
+                "cgn:ebonite_upgrade_smithing_template",
+                "cgn:gloomstone"
+            ],
+            [
+                "cgn:gloomstone",
+                "deepslate",
+                "cgn:gloomstone"
+            ],
+            [
+                "cgn:gloomstone",
+                "cgn:gloomstone",
+                "cgn:gloomstone"
+            ]
         ]
     },
-    "electroplasm_carver":{
-        "type":"item",
-        "recipe":[
-            ["cgn:electroplasm","",""],
-            ["","cgn:gloomstone_dagger",""],
-            ["","","cgn:screw"]
+    "electroplasm_carver": {
+        "type": "item",
+        "recipe": [
+            [
+                "cgn:electroplasm",
+                "",
+                ""
+            ],
+            [
+                "",
+                "cgn:gloomstone_dagger",
+                ""
+            ],
+            [
+                "",
+                "",
+                "cgn:screw"
+            ]
         ]
     },
-    "shockweave_helmet":{
-        "type":"item",
-        "recipe":[
-            ["leather","leather","leather"],
-            ["leather","cgn:electroplasm","leather"],
+    "shockweave_helmet": {
+        "type": "item",
+        "recipe": [
+            [
+                "leather",
+                "leather",
+                "leather"
+            ],
+            [
+                "leather",
+                "cgn:electroplasm",
+                "leather"
+            ],
             []
         ]
     },
-    "shockweave_chestplate":{
-        "type":"item",
-        "recipe":[
-            ["leather","cgn:electroplasm","leather"],
-            ["leather","leather","leather"],
-            ["leather","leather","leather"]
+    "shockweave_chestplate": {
+        "type": "item",
+        "recipe": [
+            [
+                "leather",
+                "cgn:electroplasm",
+                "leather"
+            ],
+            [
+                "leather",
+                "leather",
+                "leather"
+            ],
+            [
+                "leather",
+                "leather",
+                "leather"
+            ]
         ]
     },
-    "shockweave_leggings":{
-        "type":"item",
-        "recipe":[
-            ["leather","leather","leather"],
-            ["leather","cgn:electroplasm","leather"],
-            ["leather","","leather"]
+    "shockweave_leggings": {
+        "type": "item",
+        "recipe": [
+            [
+                "leather",
+                "leather",
+                "leather"
+            ],
+            [
+                "leather",
+                "cgn:electroplasm",
+                "leather"
+            ],
+            [
+                "leather",
+                "",
+                "leather"
+            ]
         ]
     },
-    "shockweave_boots":{
-        "type":"item",
-        "recipe":[
-            ["leather","","leather"],
-            ["leather","","leather"],
-            ["cgn:electroplasm","","cgn:electroplasm"]
+    "shockweave_boots": {
+        "type": "item",
+        "recipe": [
+            [
+                "leather",
+                "",
+                "leather"
+            ],
+            [
+                "leather",
+                "",
+                "leather"
+            ],
+            [
+                "cgn:electroplasm",
+                "",
+                "cgn:electroplasm"
+            ]
         ]
     },
-    "cog":{
-        "type":"item",
-        "count":3,
-        "recipe":[
-            ["","copper_ingot",""],
-            ["copper_ingot","","copper_ingot"],
-            ["","copper_ingot",""]
+    "cog": {
+        "type": "item",
+        "count": 3,
+        "recipe": [
+            [
+                "",
+                "copper_ingot",
+                ""
+            ],
+            [
+                "copper_ingot",
+                "",
+                "copper_ingot"
+            ],
+            [
+                "",
+                "copper_ingot",
+                ""
+            ]
         ]
     },
-    "screw":{
-        "type":"item",
-        "count":3,
-        "recipe":[
-            ["","copper_ingot",""],
-            ["","copper_ingot","copper_ingot"],
-            ["copper_ingot","",""]
+    "screw": {
+        "type": "item",
+        "count": 3,
+        "recipe": [
+            [
+                "",
+                "copper_ingot",
+                ""
+            ],
+            [
+                "",
+                "copper_ingot",
+                "copper_ingot"
+            ],
+            [
+                "copper_ingot",
+                "",
+                ""
+            ]
         ]
     },
-    "soulmender":{
-        "type":"item",
-        "recipe":[
-            ["stone","stone","stone"],
-            ["cgn:electroplasm","shield","cgn:electroplasm"],
-            ["stone","stone","stone"]
+    "soulmender": {
+        "type": "item",
+        "recipe": [
+            [
+                "stone",
+                "stone",
+                "stone"
+            ],
+            [
+                "cgn:electroplasm",
+                "shield",
+                "cgn:electroplasm"
+            ],
+            [
+                "stone",
+                "stone",
+                "stone"
+            ]
         ]
     },
-    "electromodulator":{
-        "type":"item",
-        "recipe":[
-            ["","lightning_rod",""],
-            ["cgn:cog","cgn:electroplasm","cgn:cog"],
-            ["","copper_ingot",""]
+    "electromodulator": {
+        "type": "item",
+        "recipe": [
+            [
+                "",
+                "lightning_rod",
+                ""
+            ],
+            [
+                "cgn:cog",
+                "cgn:electroplasm",
+                "cgn:cog"
+            ],
+            [
+                "",
+                "copper_ingot",
+                ""
+            ]
+        ]
+    },
+    "stygian_totem": {
+        "type": "item",
+        "recipe": [
+            [
+                "sculk",
+                "sculk",
+                "sculk"
+            ],
+            [
+                "cgn:cog",
+                "cgn:stygian_relic",
+                "cgn:cog"
+            ],
+            [
+                "deepslate",
+                "deepslate",
+                "deepslate"
+            ]
         ]
     }
 }

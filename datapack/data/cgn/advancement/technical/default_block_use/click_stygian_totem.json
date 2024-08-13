@@ -9,7 +9,7 @@
                         "predicate": {
                             "block": {
                                 "blocks": [
-                                    "minecraft:barrel"
+                                    "minecraft:dropper"
                                 ],
                                 "nbt": "{Lock:\"\u00a7stygian_totem\\\\uF001\"}"
                             }

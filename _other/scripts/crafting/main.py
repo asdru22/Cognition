@@ -25,12 +25,7 @@ with open(root+"_other/scripts/crafting/recipes.json") as recipes:
                     elif not ":" in item:
                         out += "{Slot:"+str(slot)+"b,id:\"minecraft:"+item+"\"}"
                     elif "cgn:" in item:
-                        out += json.dumps(
-                            {"Slot":f"{slot}b",
-                             "components":{
-                                "minecraft:item_name":"{\"translate\":\"item.cgn."+item[4:]+"\"}"
-                            }
-                        })
+                        out += "{Slot:"+str(slot)+"b,components:{\"minecraft:item_name\":'{\"translate\":\"item.cgn."+item[4:]+"\"}'}}"
                     slot +=1
                     if not slot == 3: out +=","
                 out += "],"

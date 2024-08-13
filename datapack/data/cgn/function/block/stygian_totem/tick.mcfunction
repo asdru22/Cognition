@@ -1,1 +1,1 @@
-execute positioned ~ ~-1 ~ unless block ~ ~ ~ barrel run function cgn:block/stygian_totem/destroy
+execute positioned ~ ~-1 ~ unless block ~ ~ ~ dropper run function cgn:block/stygian_totem/destroy

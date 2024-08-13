@@ -19,7 +19,7 @@
                                     {
                                         "slot": 0,
                                         "item": {
-                                            "id": "minecraft:barrel",
+                                            "id": "minecraft:dropper",
                                             "count": 1,
                                             "components": {
                                                 "minecraft:custom_data": {
@@ -40,7 +40,7 @@
                             }
                         }
                     ],
-                    "name": "minecraft:barrel"
+                    "name": "minecraft:dropper"
                 }
             ]
         }
