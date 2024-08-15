@@ -1,49 +1,53 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:diamond_sword",
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:custom_model_data": 880000,
-                "minecraft:item_name": "{\"translate\":\"item.cgn.gloomstone_dagger\"}",
-                "minecraft:lore": [
-                  "{\"translate\":\"cgn.tooltip\",\"font\":\"cgn:main\",\"color\":\"white\",\"italic\":false,\"with\":[{\"translate\":\"pack.cgn\",\"font\":\"minecraft:default\",\"color\":\"#F6E79C\",\"italic\":true}]}","{\"text\":\"\"}","{\"translate\":\"item.modifiers.mainhand\",\"color\":\"gray\",\"italic\":false}","{\"translate\":\"cgn.attribute\",\"color\":\"dark_green\",\"italic\":false,\"with\":[\"4\",{\"translate\":\"attribute.name.generic.attack_damage\"}]}","{\"translate\":\"cgn.attribute\",\"color\":\"dark_green\",\"italic\":false,\"with\":[\"2\",{\"translate\":\"attribute.name.generic.attack_speed\"}]}"
-                ],
-                "custom_data": {
-                  "cgn":{
-                    "ebonite_upgradeable":true
-                  }
-                },
-                "minecraft:attribute_modifiers": {
-                "modifiers": [
-                  {
-                    "id": "cgn:attack_speed_mainhand",
-                    "type": "minecraft:generic.attack_speed",
-                    "amount": -2,
-                    "operation": "add_value",
-                    "slot": "mainhand"
-                  },
-                  {
-                    "id": "cgn:attack_damage_mainhand",
-                    "type": "minecraft:generic.attack_damage",
-                    "amount": 4,
-                    "operation": "add_value",
-                    "slot": "mainhand"
-                  }
-                ],
-                "show_in_tooltip": false
-              }
-              }
-            }
-          ]
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_sword",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": 880000,
+                                "minecraft:item_name": "{\"translate\":\"item.cgn.gloomstone_dagger\"}",
+                                "minecraft:lore": [
+                                    "{\"translate\":\"cgn.tooltip\",\"font\":\"cgn:main\",\"color\":\"white\",\"italic\":false,\"with\":[{\"translate\":\"pack.cgn\",\"font\":\"minecraft:default\",\"color\":\"#F6E79C\",\"italic\":true}]}",
+                                    "{\"text\":\"\"}",
+                                    "{\"translate\":\"item.modifiers.mainhand\",\"color\":\"gray\",\"italic\":false}",
+                                    "{\"translate\":\"cgn.attribute\",\"color\":\"dark_green\",\"italic\":false,\"with\":[\"4\",{\"translate\":\"attribute.name.attack_damage\"}]}",
+                                    "{\"translate\":\"cgn.attribute\",\"color\":\"dark_green\",\"italic\":false,\"with\":[\"2\",{\"translate\":\"attribute.name.attack_speed\"}]}"
+                                ],
+                                "custom_data": {
+                                    "cgn": {
+                                        "ebonite_upgradeable": true
+                                    }
+                                },
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "id": "cgn:attack_speed_mainhand",
+                                            "type": "minecraft:attack_speed",
+                                            "amount": -2,
+                                            "operation": "add_value",
+                                            "slot": "mainhand"
+                                        },
+                                        {
+                                            "id": "cgn:attack_damage_mainhand",
+                                            "type": "minecraft:attack_damage",
+                                            "amount": 4,
+                                            "operation": "add_value",
+                                            "slot": "mainhand"
+                                        }
+                                    ],
+                                    "show_in_tooltip": false
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

@@ -1,1 +1,1 @@
-$attribute @s minecraft:generic.max_health modifier add cgn:heal -$(amount) add_value
+$attribute @s minecraft:max_health modifier add cgn:heal -$(amount) add_value

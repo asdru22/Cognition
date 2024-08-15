@@ -1,55 +1,55 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:leather_chestplate"
-        }
-      ],
-      "functions": [
-        {
-          "function": "minecraft:set_components",
-          "components": {
-            "minecraft:custom_model_data": 880001,
-            "minecraft:item_name": "{\"translate\":\"item.cgn.ebonite_chestplate\"}",
-            "minecraft:lore": [
-              "{\"translate\": \"cgn.tooltip\",\"font\": \"cgn:main\",\"color\": \"white\",\"italic\": false,\"with\": [{\"translate\":\"pack.cgn\",\"font\":\"minecraft:default\",\"color\":\"#F6E79C\",\"italic\":true}]}"
-            ],
-            "minecraft:max_damage": 592,
-            "minecraft:attribute_modifiers": {
-              "modifiers": [
+            "rolls": 1,
+            "entries": [
                 {
-                  "id": "cgn:armor_chest",
-                  "type": "minecraft:generic.armor",
-                  "amount": 8,
-                  "operation": "add_value",
-                  "slot": "chest"
-                },
-                {
-                  "id": "cgn:armor_toughness_chest",
-                  "type": "minecraft:generic.armor_toughness",
-                  "amount": 3,
-                  "operation": "add_value",
-                  "slot": "chest"
-                },
-                {
-                  "id": "cgn:knockback_resistance_chest",
-                  "type": "minecraft:generic.knockback_resistance",
-                  "amount": 0.1,
-                  "operation": "add_value",
-                  "slot": "chest"
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_chestplate"
                 }
-              ]
-            },
-            "minecraft:dyed_color": {
-              "rgb": 4325381,
-              "show_in_tooltip": false
-            }
-          }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_components",
+                    "components": {
+                        "minecraft:custom_model_data": 880001,
+                        "minecraft:item_name": "{\"translate\":\"item.cgn.ebonite_chestplate\"}",
+                        "minecraft:lore": [
+                            "{\"translate\": \"cgn.tooltip\",\"font\": \"cgn:main\",\"color\": \"white\",\"italic\": false,\"with\": [{\"translate\":\"pack.cgn\",\"font\":\"minecraft:default\",\"color\":\"#F6E79C\",\"italic\":true}]}"
+                        ],
+                        "minecraft:max_damage": 592,
+                        "minecraft:attribute_modifiers": {
+                            "modifiers": [
+                                {
+                                    "id": "cgn:armor_chest",
+                                    "type": "minecraft:armor",
+                                    "amount": 8,
+                                    "operation": "add_value",
+                                    "slot": "chest"
+                                },
+                                {
+                                    "id": "cgn:armor_toughness_chest",
+                                    "type": "minecraft:armor_toughness",
+                                    "amount": 3,
+                                    "operation": "add_value",
+                                    "slot": "chest"
+                                },
+                                {
+                                    "id": "cgn:knockback_resistance_chest",
+                                    "type": "minecraft:knockback_resistance",
+                                    "amount": 0.1,
+                                    "operation": "add_value",
+                                    "slot": "chest"
+                                }
+                            ]
+                        },
+                        "minecraft:dyed_color": {
+                            "rgb": 4325381,
+                            "show_in_tooltip": false
+                        }
+                    }
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }
