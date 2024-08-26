@@ -1,0 +1,47 @@
+{
+	"textures": {
+		"0": "animated_java:item/gloomstone_sentinel/gloomstone_sentinel"
+	},
+	"elements": [
+		{
+			"from": [1, 8, 3],
+			"to": [15, 24, 13],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [7, -32, 9]
+			},
+			"faces": {
+				"north": {
+					"uv": [0, 10.25, 0.875, 14.25],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [0.875, 10.25, 1.5, 14.25],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [4.1875, 0, 5.0625, 4],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [0.875, 10.25, 1.5, 14.25],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [5.0625, 0, 5.9375, 2.5],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [5.0625, 2.5, 5.9375, 5],
+					"texture": "#0"
+				}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	}
+}
