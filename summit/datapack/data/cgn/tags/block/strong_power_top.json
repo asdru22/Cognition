@@ -1,9 +1,0 @@
-{
-    "values": [
-        "#minecraft:buttons",
-        "#cgn:pressure_plates",
-        "minecraft:lever",
-        "minecraft:detector_rail",
-        "minecraft:redstone_wire"
-    ]
-}
