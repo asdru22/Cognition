@@ -44,11 +44,10 @@
                                         "usable": true
                                     }
                                 },
-                                "minecraft:food": {
-                                    "nutrition": 0,
-                                    "saturation": 0,
-                                    "can_always_eat": true,
-                                    "eat_seconds": 100000
+                                "minecraft:consumable": {
+                                    "consume_seconds": 10000000,
+                                    "animation": "spear",
+                                    "has_consume_particles": false
                                 }
                             }
                         }

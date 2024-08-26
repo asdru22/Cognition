@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:archaeology",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "cgn:items/cog"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "cgn:items/screw"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "cgn:items/gloomstone_shard"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:glass_bottle"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:amethyst_shard"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:redstone"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ],
+    "random_sequence": "cgn:archaeology/decaying_workshop"
+  }
