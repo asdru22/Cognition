@@ -3,6 +3,7 @@
         "vindicator",
         "item_display",
         "interaction",
-        "marker"
+        "marker",
+        "#minecraft:arrows"
     ]
 }

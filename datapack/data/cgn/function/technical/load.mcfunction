@@ -35,6 +35,8 @@ scoreboard objectives add cgn.throw_lingering_potion used:lingering_potion
 scoreboard objectives add cgn.throw_splash_potion used:splash_potion
 
 scoreboard objectives add cgn.used_crossbow used:crossbow
+scoreboard objectives add cgn.used_bow used:bow
+
 
 scoreboard objectives add cgn.used_shield dummy
 

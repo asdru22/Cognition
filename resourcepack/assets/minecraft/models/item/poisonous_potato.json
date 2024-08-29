@@ -105,6 +105,12 @@
                 "custom_model_data": 880016
             },
             "model": "cgn:item/stygian_relic"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 880017
+            },
+            "model": "cgn:item/malachite"
         }
     ]
 }

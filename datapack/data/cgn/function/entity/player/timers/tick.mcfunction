@@ -20,8 +20,10 @@ execute if score @s cgn.used_fishing_rod matches 1.. run function cgn:entity/pla
 execute if entity @s[scores={cgn.throw_lingering_potion=1..}] run function cgn:item/throwable_potion/init
 execute if entity @s[scores={cgn.throw_splash_potion=1..}] run function cgn:item/throwable_potion/init
 
-# windup crossbow
+# crossbow score
 execute if entity @s[scores={cgn.used_crossbow=1..}] run function cgn:entity/player/scores/used_crossbow
+# bow score
+execute if entity @s[scores={cgn.used_bow=1..}] run function cgn:entity/player/scores/used_bow
 
 # shield funny business
 execute if score @s cgn.used_shield matches 1.. run function cgn:entity/player/scores/used_shield
