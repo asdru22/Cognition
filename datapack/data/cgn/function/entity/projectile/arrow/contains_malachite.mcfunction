@@ -4,6 +4,6 @@ execute as @e[type=item,distance=..2] if items entity @s contents minecraft:pois
 kill @s 
 
 scoreboard players operation $temp cgn.dummy < #10 cgn.dummy
-execute summon area_effect_cloud run function cgn:entity/projectile/arrow/malachite_cloud
 
-playsound entity.generic.explode hostile @a[distance=..16]
+execute if entity @s[nbt={Fire:-1s}] run return run function cgn:entity/projectile/arrow/explode_malachite/main
+function cgn:entity/projectile/arrow/burn_malachite/main

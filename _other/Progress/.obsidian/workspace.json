@@ -4,51 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "84cf0677dc0e0d2f",
+        "id": "bbf63d013474586f",
         "type": "tabs",
         "children": [
           {
-            "id": "ca0ac1cc3479f88e",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "000dcf28205f13b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Stygian Relic.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a486f03be0273e50",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Stygian Totem.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b43f0e6c339a4d12",
+            "id": "fddd3ad11e587084",
             "type": "leaf",
             "state": {
               "type": "graph",
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -114,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Stygian Totem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Stygian Totem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Stygian Totem.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -175,16 +138,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a486f03be0273e50",
+  "active": "fddd3ad11e587084",
   "lastOpenFiles": [
+    "Decaying Workshop.md",
+    "Malachite.md",
+    "Greek Fire.md",
+    "Cog.md",
+    "Stygian Totem.md",
     "Stygian Relic.md",
     "Music Disc (Sunrise).md",
-    "Stygian Totem.md",
     "Midnight Rose Seed.md",
     "Gloomstone Helmet.md",
     "Gloomstone Dagger.md",
     "Gloomstone Sentinel.md",
-    "Decaying Workshop.md",
     "Gloomstone Blade.md",
     "Gloomstone.md",
     "Ebonite Boots.md",
@@ -195,15 +161,12 @@
     "Enchanted Book (Pulse).md",
     "Ebonite Dagger.md",
     "Gloomstone Shard.md",
-    "Cog.md",
     "Slated Skeleton.md",
     "Untitled.canvas",
     "Electromodulator.md",
     "Soulmender.md",
     "Screw.md",
     "Eelctroplasm.md",
-    "Electroplasm Carver.md",
-    "Ebonite Sword.md",
     "Structures",
     "Blocks",
     "Items",

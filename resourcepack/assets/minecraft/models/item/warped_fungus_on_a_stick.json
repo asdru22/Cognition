@@ -57,6 +57,12 @@
                 "custom_model_data": 880008
             },
             "model": "cgn:block/wispthorn"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 880009
+            },
+            "model": "cgn:block/greek_fire"
         }
     ]
 }

@@ -27,3 +27,6 @@ execute if entity @s[scores={cgn.used_bow=1..}] run function cgn:entity/player/s
 
 # shield funny business
 execute if score @s cgn.used_shield matches 1.. run function cgn:entity/player/scores/used_shield
+
+# malachite drop
+execute if entity @s[advancements={cgn:technical/item_used_on_block/scrape_oxidation=true}] run function cgn:item/malachite/advancement

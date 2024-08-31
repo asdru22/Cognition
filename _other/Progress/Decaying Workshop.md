@@ -4,3 +4,4 @@
 [[Screw]]
 [[Gloomstone Shard]]
 [[Enchanted Book (Pulse)]]
+[[Music Disc (Sunrise)]]
