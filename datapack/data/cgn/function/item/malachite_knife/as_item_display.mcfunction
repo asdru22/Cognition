@@ -8,3 +8,8 @@ data modify entity @s item set from storage cgn:storage root.temp.item
 scoreboard players set @s cgn.animation_timer 2400
 
 data modify entity @s item.components."minecraft:custom_data".cgn.owner set from storage cgn:storage root.temp.uuid.out
+
+function cgn:technical/string_uuid/init
+data modify entity @s item.components."minecraft:custom_data".cgn.uuid set from storage cgn:storage root.temp.uuid.out
+
+data modify entity @s item.components."minecraft:custom_data".cgn.array_uuid set from storage cgn:storage root.temp.array_uuid

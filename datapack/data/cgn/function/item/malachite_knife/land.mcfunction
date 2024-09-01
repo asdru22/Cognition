@@ -1,3 +1,2 @@
-tag @s add cgn.malachite_knife.in_ground
-scoreboard players set @s cgn.animation_timer 600
-scoreboard players reset @s cgn.dummy2
+execute if predicate cgn:random_chance/1_2 run loot spawn ~ ~ ~ loot cgn:items/malachite_knife
+kill @s

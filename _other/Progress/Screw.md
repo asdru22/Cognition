@@ -6,3 +6,4 @@
 [[Gloomstone Hoe]]
 [[Gloomstone Sword]]
 [[Gloomstone Dagger]]
+[[Malachite Sword]]

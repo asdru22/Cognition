@@ -11,23 +11,24 @@
             "id": "7fa4888b0975663d",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Screw.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
             "id": "77d67b08ea3b04b2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Gloomstone Sentinel.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -150,16 +151,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7fa4888b0975663d",
+  "active": "77d67b08ea3b04b2",
   "lastOpenFiles": [
-    "Music Disc (Sunrise).md",
     "Gloomstone Sentinel.md",
+    "Screw.md",
+    "Malachite Blade.md",
+    "Music Disc (Sunrise).md",
     "Honey Bubbles.md",
     "Malachite Sword.md",
     "Ebonite Upgrade Smithing Template.md",
     "Greek Fire.md",
     "Malachite.md",
-    "Malachite Blade.md",
     "Decaying Workshop.md",
     "Enchanted Book (Pulse).md",
     "Enchanted Book (Recoil).md",
@@ -177,7 +179,6 @@
     "Ebonite Pickaxe.md",
     "Ebonite Dagger.md",
     "Gloomstone Shard.md",
-    "Slated Skeleton.md",
     "Untitled.canvas",
     "Structures",
     "Blocks",

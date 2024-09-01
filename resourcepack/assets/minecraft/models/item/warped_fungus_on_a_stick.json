@@ -63,6 +63,18 @@
                 "custom_model_data": 880009
             },
             "model": "cgn:block/greek_fire"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 880010
+            },
+            "model": "cgn:entity/honey_bubble"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 880011
+            },
+            "model": "cgn:entity/slime_bubble"
         }
     ]
 }
