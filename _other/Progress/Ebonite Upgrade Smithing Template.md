@@ -1,4 +1,4 @@
-#item #material 
+#starter #item #material 
 [[Ebonite Upgrade Smithing Template]]
 [[Ebonite Helmet]]
 [[Ebonite Chestplate]]

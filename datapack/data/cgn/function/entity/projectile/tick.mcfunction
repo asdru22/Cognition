@@ -10,3 +10,5 @@ execute if entity @s[tag=cgn.projectile.double_edged_sword] run return run funct
 execute if entity @s[tag=cgn.projectile.double_edged_sword_mace] run return run function cgn:item/ebonite_sword/mace/tick
 
 execute if entity @s[type=#arrows] run return run function cgn:entity/projectile/arrow/tick
+
+execute if entity @s[tag=cgn.projectile.malachite_knife] run return run function cgn:item/malachite_knife/tick

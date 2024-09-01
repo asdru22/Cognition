@@ -1,0 +1,1 @@
+execute if entity @s[tag=!cgn.malachite_knife.in_ground] run return run function cgn:item/malachite_knife/main_tick

@@ -1,0 +1,1 @@
+$damage @s 4 player_attack by $(owner)

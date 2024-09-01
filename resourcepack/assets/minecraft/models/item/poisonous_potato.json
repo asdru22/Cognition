@@ -111,6 +111,12 @@
                 "custom_model_data": 880017
             },
             "model": "cgn:item/malachite"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 880018
+            },
+            "model": "cgn:item/malachite_knife"
         }
     ]
 }

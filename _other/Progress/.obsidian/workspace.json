@@ -4,15 +4,27 @@
     "type": "split",
     "children": [
       {
-        "id": "bbf63d013474586f",
+        "id": "456f2ba6b316f579",
         "type": "tabs",
         "children": [
           {
-            "id": "fddd3ad11e587084",
+            "id": "7fa4888b0975663d",
             "type": "leaf",
             "state": {
               "type": "graph",
               "state": {}
+            }
+          },
+          {
+            "id": "77d67b08ea3b04b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Gloomstone Sentinel.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -138,35 +150,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fddd3ad11e587084",
+  "active": "7fa4888b0975663d",
   "lastOpenFiles": [
-    "Decaying Workshop.md",
-    "Malachite.md",
+    "Music Disc (Sunrise).md",
+    "Gloomstone Sentinel.md",
+    "Honey Bubbles.md",
+    "Malachite Sword.md",
+    "Ebonite Upgrade Smithing Template.md",
     "Greek Fire.md",
+    "Malachite.md",
+    "Malachite Blade.md",
+    "Decaying Workshop.md",
+    "Enchanted Book (Pulse).md",
+    "Enchanted Book (Recoil).md",
     "Cog.md",
     "Stygian Totem.md",
     "Stygian Relic.md",
-    "Music Disc (Sunrise).md",
     "Midnight Rose Seed.md",
     "Gloomstone Helmet.md",
     "Gloomstone Dagger.md",
-    "Gloomstone Sentinel.md",
     "Gloomstone Blade.md",
     "Gloomstone.md",
     "Ebonite Boots.md",
     "Ebonite Chestplate.md",
     "Ebonite Shovel.md",
     "Ebonite Pickaxe.md",
-    "Enchanted Book (Recoil).md",
-    "Enchanted Book (Pulse).md",
     "Ebonite Dagger.md",
     "Gloomstone Shard.md",
     "Slated Skeleton.md",
     "Untitled.canvas",
-    "Electromodulator.md",
-    "Soulmender.md",
-    "Screw.md",
-    "Eelctroplasm.md",
     "Structures",
     "Blocks",
     "Items",

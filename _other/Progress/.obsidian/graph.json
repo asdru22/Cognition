@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "tag:#starter  ",
@@ -69,6 +69,13 @@
         "a": 1,
         "rgb": 16728064
       }
+    },
+    {
+      "query": "tag:#entity  ",
+      "color": {
+        "a": 1,
+        "rgb": 1407225
+      }
     }
   ],
   "collapse-display": false,
@@ -82,5 +89,5 @@
   "linkStrength": 1,
   "linkDistance": 500,
   "scale": 0.36288736930120785,
-  "close": true
+  "close": false
 }

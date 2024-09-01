@@ -1,32 +1,40 @@
 {
-  "criteria": {
-    "oxidized": {
-      "trigger": "minecraft:item_used_on_block",
-      "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "equipment": {
-                "mainhand": {
-                  "items": "#minecraft:axes"
+    "criteria": {
+      "oxidized": {
+        "trigger": "minecraft:item_used_on_block",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "mainhand": {
+                    "items": "#minecraft:axes",
+                    "predicates": {
+                      "minecraft:enchantments": [
+                        {
+                          "enchantments": "minecraft:silk_touch"
+                        }
+                      ]
+                    }
+                  }
                 }
               }
             }
-          }
-        ],
-        "location": [
-          {
-            "condition": "minecraft:location_check",
-            "predicate": {
-              "block": {
-                "blocks": "#cgn:oxidized"
+          ],
+          "location": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "#cgn:weathered"
+                }
               }
             }
-          }
-        ]
+          ]
+        }
       }
     }
   }
-}
+  
