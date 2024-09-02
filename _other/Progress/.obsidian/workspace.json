@@ -4,31 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "456f2ba6b316f579",
+        "id": "c91ae13bbf3f4fa1",
         "type": "tabs",
         "children": [
           {
-            "id": "7fa4888b0975663d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Screw.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "77d67b08ea3b04b2",
+            "id": "5de1402e4a16c1fe",
             "type": "leaf",
             "state": {
               "type": "graph",
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -151,16 +138,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "77d67b08ea3b04b2",
+  "active": "5de1402e4a16c1fe",
   "lastOpenFiles": [
-    "Gloomstone Sentinel.md",
+    "Voidcaller Urn.md",
+    "Mindflare.md",
+    "Soulmender.md",
+    "Malachite Sword.md",
+    "Greek Fire.md",
+    "Malachite Shield.md",
+    "Pyroplasm.md",
+    "Surge Potion.md",
     "Screw.md",
+    "Eelctroplasm.md",
+    "Bubbles.md",
+    "Gloomstone Sentinel.md",
     "Malachite Blade.md",
     "Music Disc (Sunrise).md",
-    "Honey Bubbles.md",
-    "Malachite Sword.md",
     "Ebonite Upgrade Smithing Template.md",
-    "Greek Fire.md",
     "Malachite.md",
     "Decaying Workshop.md",
     "Enchanted Book (Pulse).md",
@@ -172,13 +166,6 @@
     "Gloomstone Helmet.md",
     "Gloomstone Dagger.md",
     "Gloomstone Blade.md",
-    "Gloomstone.md",
-    "Ebonite Boots.md",
-    "Ebonite Chestplate.md",
-    "Ebonite Shovel.md",
-    "Ebonite Pickaxe.md",
-    "Ebonite Dagger.md",
-    "Gloomstone Shard.md",
     "Untitled.canvas",
     "Structures",
     "Blocks",

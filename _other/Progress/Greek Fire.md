@@ -1,2 +1,3 @@
 #block
-[[Honey Bubbles]]
+[[Bubbles]]
+[[Pyroplasm]]

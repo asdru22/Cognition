@@ -117,6 +117,12 @@
                 "custom_model_data": 880018
             },
             "model": "cgn:item/malachite_knife"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 880019
+            },
+            "model": "cgn:item/pyroplasm"
         }
     ]
 }

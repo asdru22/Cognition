@@ -57,6 +57,7 @@
     "item.cgn.stygian_relic": "Stygian Relic",
     "item.cgn.malachite": "Malachite",
     "item.cgn.malachite_knife": "Malachite Knife",
+    "item.cgn.pyroplasm": "Pyroplasm",
 
     "block.cgn.stygian_totem": "Stygian Totem",
     "enchantment.cgn.recoil": "Recoil",
@@ -83,6 +84,10 @@
     "death.attack.cgn.electroplasm_wave.player": "%s couldn't withstand the impact",
     "death.attack.cgn.electroplasm_wave.item": "%s couldn't withstand the impact",
     "death.attack.cgn.gloomstone_beam": "%s's molecules were shredded",
+    "death.attack.cgn.malachite_knife": "%s took a knife to the core",
+    "death.attack.cgn.malachite_knife.player": "%s took %s's knife to the core",
+    "death.attack.cgn.malachite_knife.item": "%s took %s's knife to the core",
+
     "advancements.cgn.root.title": "Cognition",
     "advancements.cgn.root.description": "By Asdru",
     "advancements.cgn.electroplasm_wave_damage.title": "Tsunami",

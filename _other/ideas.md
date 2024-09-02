@@ -5,6 +5,7 @@
 - change decaying workshop decorations
 - fix plant offsets
 - better shockweave armor texture
+- fix automatic bow duping arrows
 
 # stuff
 - malachite blade
@@ -12,15 +13,28 @@
     - can be thrown
 - malachite double edged sword
     - very fragile
-    - shatters if it hits a block
+    - shatters if it hits a block or the player punches it
     - reforms into the player's hands
     - expensive crafting recipe
-    - crafted with cogs, malachite blades
-- ender urn
-    - stack-like interaction
-    - can be easily placed/removed
+    - crafted with screws, malachite blades and breeze rod
 - honey bubbles
     - when a honey block is above greek fire, it will produce a honey bubble
     - honey bubbles will travel upwards and if an entity is sitting on top of the honey bubble when it forms it will transport them upwards
     - honey bubbles pop after 4 seconds or when hitting dripstone
     - bubbles will be produced every 10 seconds approx but if you cover the honey block, the bubble will be delayed until the block is removed
+- pyroplasm:
+    - obtained by the reaction caused when throwing a surge potion on greek fire
+    - used to craft pyroplasmic arrows and mindflare  
+- mindflare
+    - 60% chance to get a malachite knife back when hitting a mob
+    - malachite blade
+- malachite shield
+    - after shattering a malachite sword, equip the shield to have the fragments reform on it, turning it into a malachite shield
+- voidcaller urn
+    - automatically stores nearby items
+    - stack-like interaction, has 9 item slots
+    - can be easily placed/removed
+    - crafted with pyroplasm and obsidian
+- thorny flower sword
+    - "blooms" when at low hp, making it deal more damage
+    - crafted with wispthorn
