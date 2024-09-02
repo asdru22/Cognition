@@ -39,4 +39,4 @@
     - "blooms" when at low hp, making it deal more damage
     - crafted with wispthorn
 - guster:
-    - powered by redstone,can move items and bubbles
+    - powered by redstone, can move items and bubbles

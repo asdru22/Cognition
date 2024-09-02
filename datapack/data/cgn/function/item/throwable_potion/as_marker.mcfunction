@@ -1,4 +1,6 @@
 data modify entity @s data.cgn set from storage cgn:storage root.temp.potion
+tag @s add smithed.entity
+tag @s add smithed.strict
 $ride @s mount $(out)
 
 tag @s add cgn.tick

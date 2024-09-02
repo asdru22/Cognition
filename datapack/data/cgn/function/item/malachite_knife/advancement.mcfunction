@@ -11,7 +11,4 @@ data modify storage cgn:macro root.rotation set from entity @s Rotation
 
 data modify storage cgn:storage root.temp.array_uuid set from entity @s UUID
 
-
-
-
 execute anchored eyes positioned ^ ^ ^ summon item_display run function cgn:item/malachite_knife/as_item_display with storage cgn:macro root
