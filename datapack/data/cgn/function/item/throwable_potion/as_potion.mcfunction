@@ -4,4 +4,5 @@ data modify storage cgn:storage root.temp.potion.potion set from entity @s Item.
 
 data remove storage cgn:storage root.temp.uuid
 function cgn:technical/string_uuid/init
+
 execute summon marker run function cgn:item/throwable_potion/as_marker with storage cgn:storage root.temp.uuid

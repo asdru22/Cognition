@@ -67,6 +67,7 @@
         "zombie",
         "zoglin",
         "zombie_villager",
-        "zombified_piglin"
+        "zombified_piglin",
+        "potion"
     ]
 }

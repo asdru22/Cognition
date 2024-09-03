@@ -1,0 +1,47 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_helmet"
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_components",
+                    "components": {
+                        "minecraft:item_name": "{\"translate\":\"item.cgn.mindflare\"}",
+                        "minecraft:lore": [
+                            "{\"translate\": \"cgn.tooltip\",\"font\": \"cgn:main\",\"color\": \"white\",\"italic\": false,\"with\": [{\"translate\":\"pack.cgn\",\"font\":\"minecraft:default\",\"color\":\"#F6E79C\",\"italic\":true}]}"
+                        ],
+                        "minecraft:max_damage": 404,
+                        "minecraft:attribute_modifiers": {
+                            "modifiers": [
+                                {
+                                    "id": "cgn:armor_head",
+                                    "type": "minecraft:armor",
+                                    "amount": 3,
+                                    "operation": "add_value",
+                                    "slot": "head"
+                                },
+                                {
+                                    "id": "cgn:armor_toughness_head",
+                                    "type": "minecraft:armor_toughness",
+                                    "amount": 2,
+                                    "operation": "add_value",
+                                    "slot": "head"
+                                }
+                            ]
+                        },
+                        "minecraft:dyed_color": {
+                            "rgb": 3702788,
+                            "show_in_tooltip": false
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

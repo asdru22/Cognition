@@ -4,14 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "c91ae13bbf3f4fa1",
+        "id": "afdae18eefacdbf5",
         "type": "tabs",
         "children": [
           {
-            "id": "5de1402e4a16c1fe",
+            "id": "b9ed28dd4b68f015",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {}
             }
           }
@@ -138,10 +138,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5de1402e4a16c1fe",
+  "active": "b9ed28dd4b68f015",
   "lastOpenFiles": [
-    "Voidcaller Urn.md",
     "Mindflare.md",
+    "Voidcaller Urn.md",
     "Soulmender.md",
     "Malachite Sword.md",
     "Greek Fire.md",
