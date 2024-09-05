@@ -1,1 +1,0 @@
-execute unless score @s cgn.id = #id cgn.dummy run function cgn:item/ebonite_sword/mace/hit/apply_damage with entity @e[type=item_display,tag=cgn.projectile.double_edged_sword_mace,limit=1,sort=nearest] item.components."minecraft:custom_data".cgn

@@ -1,1 +1,0 @@
-$playsound cgn:entity.$(id).walking hostile @a[distance=..15]

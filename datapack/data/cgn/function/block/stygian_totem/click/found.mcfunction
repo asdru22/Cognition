@@ -1,2 +1,0 @@
-execute if entity @s[tag=!cgn.block.stygian_totem.active] run return run function cgn:block/stygian_totem/activate
-execute if entity @s[tag=cgn.block.stygian_totem.active] run return run function cgn:block/stygian_totem/deactivate

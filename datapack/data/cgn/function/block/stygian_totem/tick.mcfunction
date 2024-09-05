@@ -1,1 +1,0 @@
-execute positioned ~ ~-1 ~ unless block ~ ~ ~ dropper run function cgn:block/stygian_totem/destroy

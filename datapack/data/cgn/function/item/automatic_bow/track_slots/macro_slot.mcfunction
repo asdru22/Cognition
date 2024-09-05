@@ -1,2 +1,0 @@
-$data modify entity @s item set from storage cgn:storage root.temp.inv[{Slot:$(slot)b}]
-$execute if items entity @s container.0 #arrows run data modify storage cgn:storage root.temp.ammo set from storage cgn:storage root.temp.inv[{Slot:$(slot)b}]

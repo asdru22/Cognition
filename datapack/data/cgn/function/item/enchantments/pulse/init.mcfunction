@@ -1,1 +1,0 @@
-execute if predicate cgn:entity_properties/pulse_valid run function cgn:item/enchantments/pulse/main

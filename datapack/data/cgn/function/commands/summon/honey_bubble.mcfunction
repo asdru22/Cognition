@@ -1,1 +1,0 @@
-execute summon item_display run function cgn:entity/bubble/summon {cmd:880010,bubble:"honey"}

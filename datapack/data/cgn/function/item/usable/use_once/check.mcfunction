@@ -1,2 +1,0 @@
-execute if items entity @s weapon.mainhand *[custom_data~{cgn:{usable:true}}] run return run data modify storage cgn:storage root.temp.item set from entity @s SelectedItem
-execute if items entity @s weapon.offhand *[custom_data~{cgn:{usable:true}}] run data modify storage cgn:storage root.temp.item set from entity @s Inventory[{Slot:-106b}]

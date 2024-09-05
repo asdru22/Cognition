@@ -1,2 +1,0 @@
-function cgn:item/double_edged_sword/hit/get_origin with entity @e[type=item_display,tag=cgn.projectile.double_edged_sword,tag=cgn.me,limit=1,sort=nearest] item.components."minecraft:custom_data".cgn
-function cgn:item/double_edged_sword/hit/apply_damage with storage cgn:storage root.temp

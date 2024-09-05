@@ -1,1 +1,0 @@
-execute unless block ~ ~ ~ flower_pot run function cgn:block/wispthorn/potted/destroy

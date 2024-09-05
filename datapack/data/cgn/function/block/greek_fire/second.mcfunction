@@ -1,2 +1,0 @@
-execute if block ~ ~ ~ #cgn:can_bubble run scoreboard players add @s cgn.dummy 1
-execute if score @s cgn.dummy matches 10.. positioned ~ ~1 ~ if block ~ ~ ~ #air run function cgn:block/greek_fire/summon_bubble

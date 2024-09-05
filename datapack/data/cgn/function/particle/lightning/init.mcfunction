@@ -1,1 +1,0 @@
-execute anchored eyes summon item_display positioned ^ ^ ^1 run function cgn:particle/lightning/main

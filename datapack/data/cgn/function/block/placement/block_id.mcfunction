@@ -1,1 +1,0 @@
-execute if data block ~ ~ ~ {Items:[{components:{"minecraft:custom_data":{cgn:{placed_block:1b,block:"stygian_totem"}}}}]} positioned ~ ~0.5 ~ run return run function cgn:block/stygian_totem/place

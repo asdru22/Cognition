@@ -1,1 +1,0 @@
-execute align xyz positioned ~.5 ~.5 ~.5 run function cgn:block/greek_fire/place

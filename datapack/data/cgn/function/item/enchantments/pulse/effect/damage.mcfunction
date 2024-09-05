@@ -1,1 +1,0 @@
-damage @s 10 cgn:player_lightning by @p[tag=cgn.me]
