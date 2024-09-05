@@ -12,11 +12,11 @@
                 {
                     "function": "minecraft:set_components",
                     "components": {
-                        "minecraft:item_name": "{\"translate\":\"item.cgn.mindflare\"}",
+                        "minecraft:item_name": "{\"translate\":\"item.cgn.gloomstone_helmet\"}",
                         "minecraft:lore": [
-                          "{\"translate\": \"cgn.tooltip\",\"font\": \"cgn:main\",\"color\": \"white\",\"italic\": false,\"with\": [{\"translate\":\"pack.cgn\",\"font\":\"minecraft:default\",\"color\":\"#653AA0\"}]}"
+                            "{\"translate\": \"cgn.tooltip\",\"font\": \"cgn:main\",\"color\": \"white\",\"italic\": false,\"with\": [{\"translate\":\"pack.cgn\",\"font\":\"minecraft:default\",\"color\":\"#653AA0\"}]}"
                         ],
-                        "minecraft:max_damage": 404,
+                        "minecraft:max_damage": 363,
                         "minecraft:attribute_modifiers": {
                             "modifiers": [
                                 {
@@ -35,13 +35,18 @@
                                 }
                             ]
                         },
-                        "item_model": "cgn:mindflare",
+                        "item_model": "cgn:gloomstone_helmet",
                         "minecraft:equippable": {
-                        "model": "cgn:mindflare",
+                        "model": "cgn:gloomstone",
                         "slot":"head",
                         "dispensable": true
                         },
-                        "!minecraft:fire_resistant": {}
+                        "!fire_resistant": {},
+                        "custom_data": {
+                            "cgn": {
+                                "ebonite_upgradeable": true
+                            }
+                        }
                     }
                 }
             ]

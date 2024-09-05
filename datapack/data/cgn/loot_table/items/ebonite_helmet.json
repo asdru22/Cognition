@@ -12,11 +12,11 @@
                 {
                     "function": "minecraft:set_components",
                     "components": {
-                        "minecraft:item_name": "{\"translate\":\"item.cgn.mindflare\"}",
+                        "minecraft:item_name": "{\"translate\":\"item.cgn.ebonite_helmet\"}",
                         "minecraft:lore": [
-                          "{\"translate\": \"cgn.tooltip\",\"font\": \"cgn:main\",\"color\": \"white\",\"italic\": false,\"with\": [{\"translate\":\"pack.cgn\",\"font\":\"minecraft:default\",\"color\":\"#653AA0\"}]}"
+                            "{\"translate\": \"cgn.tooltip\",\"font\": \"cgn:main\",\"color\": \"white\",\"italic\": false,\"with\": [{\"translate\":\"pack.cgn\",\"font\":\"minecraft:default\",\"color\":\"#653AA0\"}]}"
                         ],
-                        "minecraft:max_damage": 404,
+                        "minecraft:max_damage": 407,
                         "minecraft:attribute_modifiers": {
                             "modifiers": [
                                 {
@@ -29,19 +29,26 @@
                                 {
                                     "id": "cgn:armor_toughness_head",
                                     "type": "minecraft:armor_toughness",
-                                    "amount": 2,
+                                    "amount": 3,
+                                    "operation": "add_value",
+                                    "slot": "head"
+                                },
+                                {
+                                    "id": "cgn:knockback_resistance_head",
+                                    "type": "minecraft:knockback_resistance",
+                                    "amount": 0.1,
                                     "operation": "add_value",
                                     "slot": "head"
                                 }
                             ]
                         },
-                        "item_model": "cgn:mindflare",
+                        "item_model": "cgn:ebonite_helmet",
                         "minecraft:equippable": {
-                        "model": "cgn:mindflare",
+                        "model": "cgn:ebonite",
                         "slot":"head",
                         "dispensable": true
                         },
-                        "!minecraft:fire_resistant": {}
+                        "fire_resistant": {}
                     }
                 }
             ]

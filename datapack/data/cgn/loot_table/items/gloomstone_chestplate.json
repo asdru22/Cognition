@@ -5,43 +5,48 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:netherite_helmet"
+                    "name": "minecraft:netherite_chestplate"
                 }
             ],
             "functions": [
                 {
                     "function": "minecraft:set_components",
                     "components": {
-                        "minecraft:item_name": "{\"translate\":\"item.cgn.mindflare\"}",
+                        "minecraft:item_name": "{\"translate\":\"item.cgn.gloomstone_chestplate\"}",
                         "minecraft:lore": [
-                          "{\"translate\": \"cgn.tooltip\",\"font\": \"cgn:main\",\"color\": \"white\",\"italic\": false,\"with\": [{\"translate\":\"pack.cgn\",\"font\":\"minecraft:default\",\"color\":\"#653AA0\"}]}"
+                            "{\"translate\": \"cgn.tooltip\",\"font\": \"cgn:main\",\"color\": \"white\",\"italic\": false,\"with\": [{\"translate\":\"pack.cgn\",\"font\":\"minecraft:default\",\"color\":\"#653AA0\"}]}"
                         ],
-                        "minecraft:max_damage": 404,
+                        "minecraft:max_damage": 528,
                         "minecraft:attribute_modifiers": {
                             "modifiers": [
                                 {
-                                    "id": "cgn:armor_head",
+                                    "id": "cgn:armor_chest",
                                     "type": "minecraft:armor",
-                                    "amount": 3,
+                                    "amount": 8,
                                     "operation": "add_value",
-                                    "slot": "head"
+                                    "slot": "chest"
                                 },
                                 {
-                                    "id": "cgn:armor_toughness_head",
+                                    "id": "cgn:armor_toughness_chest",
                                     "type": "minecraft:armor_toughness",
                                     "amount": 2,
                                     "operation": "add_value",
-                                    "slot": "head"
+                                    "slot": "chest"
                                 }
                             ]
                         },
-                        "item_model": "cgn:mindflare",
+                        "item_model": "cgn:gloomstone_chestplate",
                         "minecraft:equippable": {
-                        "model": "cgn:mindflare",
-                        "slot":"head",
+                        "model": "cgn:gloomstone",
+                        "slot":"chest",
                         "dispensable": true
                         },
-                        "!minecraft:fire_resistant": {}
+                        "!fire_resistant": {},
+                        "custom_data": {
+                            "cgn": {
+                                "ebonite_upgradeable": true
+                            }
+                        }
                     }
                 }
             ]

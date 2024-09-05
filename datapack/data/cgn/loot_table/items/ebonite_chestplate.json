@@ -1,0 +1,57 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:netherite_chestplate"
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_components",
+                    "components": {
+                        "minecraft:item_name": "{\"translate\":\"item.cgn.ebonite_chestplate\"}",
+                        "minecraft:lore": [
+                            "{\"translate\": \"cgn.tooltip\",\"font\": \"cgn:main\",\"color\": \"white\",\"italic\": false,\"with\": [{\"translate\":\"pack.cgn\",\"font\":\"minecraft:default\",\"color\":\"#653AA0\"}]}"
+                        ],
+                        "minecraft:max_damage": 592,
+                        "minecraft:attribute_modifiers": {
+                            "modifiers": [
+                                {
+                                    "id": "cgn:armor_chest",
+                                    "type": "minecraft:armor",
+                                    "amount": 8,
+                                    "operation": "add_value",
+                                    "slot": "chest"
+                                },
+                                {
+                                    "id": "cgn:armor_toughness_chest",
+                                    "type": "minecraft:armor_toughness",
+                                    "amount": 3,
+                                    "operation": "add_value",
+                                    "slot": "chest"
+                                },
+                                {
+                                    "id": "cgn:knockback_resistance_chest",
+                                    "type": "minecraft:knockback_resistance",
+                                    "amount": 0.1,
+                                    "operation": "add_value",
+                                    "slot": "chest"
+                                }
+                            ]
+                        },
+                        "item_model": "cgn:ebonite_chestplate",
+                        "minecraft:equippable": {
+                        "model": "cgn:ebonite",
+                        "slot":"chest",
+                        "dispensable": true
+                        },
+                        "fire_resistant": {}
+                    }
+                }
+            ]
+        }
+    ]
+}
