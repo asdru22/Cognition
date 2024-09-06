@@ -14,7 +14,7 @@
                     "components": {
                         "minecraft:item_name": "{\"translate\":\"item.cgn.ebonite_boots\"}",
                         "minecraft:lore": [
-                            "{\"translate\": \"cgn.tooltip\",\"font\": \"cgn:main\",\"color\": \"white\",\"italic\": false,\"with\": [{\"translate\":\"pack.cgn\",\"font\":\"minecraft:default\",\"color\":\"#653AA0\"}]}"
+                            "{\"translate\":\"pack.cgn\",\"font\":\"minecraft:default\",\"color\":\"#653AA0\",\"italic\":false}"
                         ],
                         "minecraft:max_damage": 481,
                         "minecraft:attribute_modifiers": {
@@ -48,7 +48,8 @@
                         "slot":"feet",
                         "dispensable": true
                         },
-                        "fire_resistant": {}
+                        "fire_resistant": {},
+                        "minecraft:tooltip_style":"cgn:default"
                     }
                 }
             ]
