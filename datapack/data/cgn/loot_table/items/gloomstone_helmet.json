@@ -37,7 +37,7 @@
                         },
                         "item_model": "cgn:gloomstone_helmet",
                         "minecraft:equippable": {
-                        "model": "cgn:gloomstone",
+                        "model": "cgn:armor/gloomstone",
                         "slot":"head",
                         "dispensable": true
                         },

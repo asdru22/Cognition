@@ -42,7 +42,7 @@
                                 }
                             ]
                         },
-                        "item_model": "cgn:ebonite_helmet",
+                        "item_model": "cgn:armor/ebonite_helmet",
                         "minecraft:equippable": {
                         "model": "cgn:ebonite",
                         "slot":"head",

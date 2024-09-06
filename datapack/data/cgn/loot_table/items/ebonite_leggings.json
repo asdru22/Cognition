@@ -42,7 +42,7 @@
                                 }
                             ]
                         },
-                        "item_model": "cgn:ebonite_leggings",
+                        "item_model": "cgn:armor/ebonite_leggings",
                         "minecraft:equippable": {
                         "model": "cgn:ebonite",
                         "slot":"legs",

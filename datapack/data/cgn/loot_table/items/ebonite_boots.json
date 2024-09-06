@@ -42,7 +42,7 @@
                                 }
                             ]
                         },
-                        "item_model": "cgn:ebonite_boots",
+                        "item_model": "cgn:armor/ebonite_boots",
                         "minecraft:equippable": {
                         "model": "cgn:ebonite",
                         "slot":"feet",

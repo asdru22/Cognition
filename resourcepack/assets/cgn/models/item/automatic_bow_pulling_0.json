@@ -1,6 +1,0 @@
-{
-    "parent": "cgn:item/automatic_bow",
-    "textures": {
-        "layer0": "cgn:item/automatic_bow_pulling_0"
-    }
-}

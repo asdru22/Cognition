@@ -42,7 +42,7 @@
                                 }
                             ]
                         },
-                        "item_model": "cgn:ebonite_chestplate",
+                        "item_model": "cgn:armor/ebonite_chestplate",
                         "minecraft:equippable": {
                         "model": "cgn:ebonite",
                         "slot":"chest",

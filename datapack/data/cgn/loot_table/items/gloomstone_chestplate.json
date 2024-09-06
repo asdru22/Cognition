@@ -35,7 +35,7 @@
                                 }
                             ]
                         },
-                        "item_model": "cgn:gloomstone_chestplate",
+                        "item_model": "cgn:armor/gloomstone_chestplate",
                         "minecraft:equippable": {
                         "model": "cgn:gloomstone",
                         "slot":"chest",

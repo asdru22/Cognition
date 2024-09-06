@@ -35,7 +35,7 @@
                                 }
                             ]
                         },
-                        "item_model": "cgn:mindflare",
+                        "item_model": "cgn:armor/mindflare",
                         "minecraft:equippable": {
                         "model": "cgn:mindflare",
                         "slot":"head",
