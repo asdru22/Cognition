@@ -1,7 +1,7 @@
 {
 	"gui_light": "front",
 	"textures": {
-		"1": "minecraft:entity/shield/base"
+		"1": "cgn:item/entity/shield_base"
 	},
 	"elements": [
 		{

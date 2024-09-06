@@ -35,7 +35,7 @@
                                 }
                             ]
                         },
-                        "item_model": "cgn:gloomstone_helmet",
+                        "minecraft:item_model": "cgn:gloomstone_helmet",
                         "minecraft:equippable": {
                         "model": "cgn:armor/gloomstone",
                         "slot":"head",

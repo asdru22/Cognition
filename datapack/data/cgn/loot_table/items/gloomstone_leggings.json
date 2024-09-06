@@ -35,7 +35,7 @@
                                 }
                             ]
                         },
-                        "item_model": "cgn:armor/gloomstone_leggings",
+                        "minecraft:item_model": "cgn:armor/gloomstone_leggings",
                         "minecraft:equippable": {
                         "model": "cgn:gloomstone",
                         "slot":"legs",

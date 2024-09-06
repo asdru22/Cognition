@@ -1,0 +1,29 @@
+{
+    "materials":[
+        "quartz",
+        "iron",
+        "netherite",
+        "redstone",
+        "copper",
+        "gold",
+        "emerald",
+        "diamond",
+        "lapis",
+        "amethyst"
+    ],
+    "armor":[
+        "gloomstone_boots",
+        "gloomstone_helmet",
+        "gloomstone_leggings",
+        "gloomstone_chestplate",
+        "ebonite_boots",
+        "ebonite_helmet",
+        "ebonite_leggings",
+        "ebonite_chestplate",
+        "shockweave_boots",
+        "shockweave_helmet",
+        "shockweave_leggings",
+        "shockweave_chestplate",
+        "mindweaver"
+    ]
+}
