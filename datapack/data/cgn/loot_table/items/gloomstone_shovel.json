@@ -14,7 +14,7 @@
           "components": {
             "minecraft:item_name": "{\"translate\":\"item.cgn.gloomstone_shovel\"}",
             "minecraft:lore": [
-              "{\"translate\":\"pack.cgn\",\"font\":\"minecraft:default\",\"color\":\"#653AA0\",\"italic\":false}"
+              "{\"translate\":\"pack.cgn\",\"color\":\"#653AA0\",\"italic\":false}"
             ],
             "minecraft:max_damage": 1561,
             "minecraft:item_model": "cgn:tool/gloomstone_shovel",
@@ -36,6 +36,11 @@
                   "slot": "mainhand"
                 }
               ]
+            },
+            "custom_data": {
+              "cgn": {
+                "ebonite_upgradeable": true
+              }
             }
           }
         }

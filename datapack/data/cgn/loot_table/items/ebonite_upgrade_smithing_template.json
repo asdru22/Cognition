@@ -14,7 +14,7 @@
           "components": {
             "minecraft:item_name": "{\"translate\":\"item.cgn.ebonite_upgrade_smithing_template\"}",
             "minecraft:lore": [
-              "{\"translate\":\"pack.cgn\",\"font\":\"minecraft:default\",\"color\":\"#653AA0\",\"italic\":false}",
+              "{\"translate\":\"pack.cgn\",\"color\":\"#653AA0\",\"italic\":false}",
               "\"\"",
               "{\"translate\":\"item.cgn.ebonite_upgrade_smithing_template.desc\",\"color\":\"gray\",\"italic\":false}",
               "\"\"",

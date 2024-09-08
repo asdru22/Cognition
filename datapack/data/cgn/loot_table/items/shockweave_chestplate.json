@@ -14,7 +14,7 @@
           "components": {
             "minecraft:item_name": "{\"translate\":\"item.cgn.shockweave_chestplate\"}",
             "minecraft:lore": [
-              "{\"translate\":\"pack.cgn\",\"font\":\"minecraft:default\",\"color\":\"#653AA0\",\"italic\":false}",
+              "{\"translate\":\"pack.cgn\",\"color\":\"#653AA0\",\"italic\":false}",
               "\"\"",
               "{\"translate\":\"item.modifiers.chest\",\"color\":\"gray\",\"italic\":false}",
               "{\"translate\":\"attribute.modifier.plus.0\",\"color\":\"blue\",\"italic\":false,\"with\":[\"5\",{\"translate\":\"attribute.name.armor\"}]}",

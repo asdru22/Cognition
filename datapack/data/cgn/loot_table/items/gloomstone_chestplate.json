@@ -14,7 +14,7 @@
           "components": {
             "minecraft:item_name": "{\"translate\":\"item.cgn.gloomstone_chestplate\"}",
             "minecraft:lore": [
-              "{\"translate\":\"pack.cgn\",\"font\":\"minecraft:default\",\"color\":\"#653AA0\",\"italic\":false}"
+              "{\"translate\":\"pack.cgn\",\"color\":\"#653AA0\",\"italic\":false}"
             ],
             "minecraft:max_damage": 528,
             "minecraft:attribute_modifiers": {
