@@ -1,0 +1,1 @@
+schedule function cgn:technical/timers/tick 1t replace

@@ -1,0 +1,9 @@
+{
+    "base_item":"netherite_axe",
+    "type":"tool",
+    "translation":"Ebonite Axe",
+    "components":{
+        "minecraft:fire_resistant": {},
+        "minecraft:max_damage":2031
+    }
+}

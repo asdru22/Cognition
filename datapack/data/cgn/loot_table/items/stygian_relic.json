@@ -1,0 +1,28 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:item_name": "{\"translate\":\"item.cgn.stygian_relic\"}",
+            "minecraft:lore": [
+              "{\"translate\":\"pack.cgn\",\"font\":\"minecraft:default\",\"color\":\"#653AA0\",\"italic\":false}"
+            ],
+            "!minecraft:consumable": {},
+            "item_model": "cgn:material/stygian_relic",
+            "minecraft:tooltip_style": "cgn:default",
+            "minecraft:rarity": "epic"
+          }
+        }
+      ]
+    }
+  ]
+}

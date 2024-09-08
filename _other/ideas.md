@@ -6,6 +6,7 @@
 - fix plant offsets
 - better shockweave armor texture
 - fix automatic bow duping arrows
+- sunrise music disc obtained by killing gloomstone sentinel with charged creeper
 
 # stuff
 - malachite knife

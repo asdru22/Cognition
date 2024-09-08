@@ -1,58 +1,58 @@
 {
-    "pools": [
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:netherite_leggings"
-                }
-            ],
-            "functions": [
-                {
-                    "function": "minecraft:set_components",
-                    "components": {
-                        "minecraft:item_name": "{\"translate\":\"item.cgn.ebonite_leggings\"}",
-                        "minecraft:lore": [
-                            "{\"translate\":\"pack.cgn\",\"font\":\"minecraft:default\",\"color\":\"#653AA0\",\"italic\":false}"
-                        ],
-                        "minecraft:max_damage": 555,
-                        "minecraft:attribute_modifiers": {
-                            "modifiers": [
-                                {
-                                    "id": "cgn:armor_legs",
-                                    "type": "minecraft:armor",
-                                    "amount": 6,
-                                    "operation": "add_value",
-                                    "slot": "head"
-                                },
-                                {
-                                    "id": "cgn:armor_toughness_legs",
-                                    "type": "minecraft:armor_toughness",
-                                    "amount": 3,
-                                    "operation": "add_value",
-                                    "slot": "head"
-                                },
-                                {
-                                    "id": "cgn:knockback_resistance_legs",
-                                    "type": "minecraft:knockback_resistance",
-                                    "amount": 0.1,
-                                    "operation": "add_value",
-                                    "slot": "head"
-                                }
-                            ]
-                        },
-                        "minecraft:item_model": "cgn:armor/ebonite_leggings",
-                        "minecraft:equippable": {
-                        "model": "cgn:ebonite",
-                        "slot":"legs",
-                        "dispensable": true
-                        },
-                        "fire_resistant": {},
-                        "minecraft:tooltip_style":"cgn:default"
-                    }
-                }
-            ]
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_leggings"
         }
-    ]
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:item_name": "{\"translate\":\"item.cgn.ebonite_leggings\"}",
+            "minecraft:lore": [
+              "{\"translate\":\"pack.cgn\",\"font\":\"minecraft:default\",\"color\":\"#653AA0\",\"italic\":false}"
+            ],
+            "minecraft:max_damage": 555,
+            "minecraft:attribute_modifiers": {
+              "modifiers": [
+                {
+                  "id": "cgn:armor_legs",
+                  "type": "minecraft:armor",
+                  "amount": 6,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "id": "cgn:armor_toughness_legs",
+                  "type": "minecraft:armor_toughness",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "id": "cgn:knockback_resistance_legs",
+                  "type": "minecraft:knockback_resistance",
+                  "amount": 0.1,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ]
+            },
+            "minecraft:item_model": "cgn:armor/ebonite_leggings",
+            "minecraft:equippable": {
+              "model": "cgn:ebonite",
+              "slot": "legs",
+              "dispensable": true
+            },
+            "fire_resistant": {},
+            "minecraft:tooltip_style": "cgn:default"
+          }
+        }
+      ]
+    }
+  ]
 }

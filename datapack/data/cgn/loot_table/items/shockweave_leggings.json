@@ -1,49 +1,49 @@
 {
-    "pools": [
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:netherite_leggings"
-                }
-            ],
-            "functions": [
-                {
-                    "function": "minecraft:set_components",
-                    "components": {
-                        "minecraft:item_name": "{\"translate\":\"item.cgn.shockweave_leggings\"}",
-                        "minecraft:lore": [
-                            "{\"translate\":\"pack.cgn\",\"font\":\"minecraft:default\",\"color\":\"#653AA0\",\"italic\":false}",
-                            "\"\"",
-                            "{\"translate\":\"item.modifiers.legs\",\"color\":\"gray\",\"italic\":false}",
-                            "{\"translate\":\"attribute.modifier.plus.0\",\"color\":\"blue\",\"italic\":false,\"with\":[\"4\",{\"translate\":\"attribute.name.armor\"}]}",
-                            "{\"translate\":\"attribute.modifier.plus.0\",\"color\":\"blue\",\"italic\":false,\"with\":[\"1\",{\"translate\":\"attribute.name.max_electroplasm\"}]}"
-                        ],
-                        "minecraft:max_damage": 410,
-                        "minecraft:attribute_modifiers": {
-                            "modifiers": [
-                                {
-                                    "id": "cgn:armor_legs",
-                                    "type": "minecraft:armor",
-                                    "amount": 4,
-                                    "operation": "add_value",
-                                    "slot": "legs"
-                                }
-                            ],
-                            "show_in_tooltip": false
-                        },
-                        "minecraft:item_model": "cgn:armor/shockweave_leggings",
-                        "minecraft:equippable": {
-                        "model": "cgn:shockweave",
-                        "slot":"legs",
-                        "dispensable": true
-                        },
-                        "!fire_resistant": {},
-                        "minecraft:tooltip_style":"cgn:default"
-                    }
-                }
-            ]
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_leggings"
         }
-    ]
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:item_name": "{\"translate\":\"item.cgn.shockweave_leggings\"}",
+            "minecraft:lore": [
+              "{\"translate\":\"pack.cgn\",\"font\":\"minecraft:default\",\"color\":\"#653AA0\",\"italic\":false}",
+              "\"\"",
+              "{\"translate\":\"item.modifiers.legs\",\"color\":\"gray\",\"italic\":false}",
+              "{\"translate\":\"attribute.modifier.plus.0\",\"color\":\"blue\",\"italic\":false,\"with\":[\"4\",{\"translate\":\"attribute.name.armor\"}]}",
+              "{\"translate\":\"attribute.modifier.plus.0\",\"color\":\"blue\",\"italic\":false,\"with\":[\"1\",{\"translate\":\"attribute.name.max_electroplasm\"}]}"
+            ],
+            "minecraft:max_damage": 410,
+            "minecraft:attribute_modifiers": {
+              "modifiers": [
+                {
+                  "id": "cgn:armor_legs",
+                  "type": "minecraft:armor",
+                  "amount": 4,
+                  "operation": "add_value",
+                  "slot": "legs"
+                }
+              ],
+              "show_in_tooltip": false
+            },
+            "minecraft:item_model": "cgn:armor/shockweave_leggings",
+            "minecraft:equippable": {
+              "model": "cgn:shockweave",
+              "slot": "legs",
+              "dispensable": true
+            },
+            "!fire_resistant": {},
+            "minecraft:tooltip_style": "cgn:default"
+          }
+        }
+      ]
+    }
+  ]
 }

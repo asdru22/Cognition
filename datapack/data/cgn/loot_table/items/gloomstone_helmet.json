@@ -1,56 +1,56 @@
 {
-    "pools": [
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:netherite_helmet"
-                }
-            ],
-            "functions": [
-                {
-                    "function": "minecraft:set_components",
-                    "components": {
-                        "minecraft:item_name": "{\"translate\":\"item.cgn.gloomstone_helmet\"}",
-                        "minecraft:lore": [
-                            "{\"translate\":\"pack.cgn\",\"font\":\"minecraft:default\",\"color\":\"#653AA0\",\"italic\":false}"
-                        ],
-                        "minecraft:max_damage": 363,
-                        "minecraft:attribute_modifiers": {
-                            "modifiers": [
-                                {
-                                    "id": "cgn:armor_head",
-                                    "type": "minecraft:armor",
-                                    "amount": 3,
-                                    "operation": "add_value",
-                                    "slot": "head"
-                                },
-                                {
-                                    "id": "cgn:armor_toughness_head",
-                                    "type": "minecraft:armor_toughness",
-                                    "amount": 2,
-                                    "operation": "add_value",
-                                    "slot": "head"
-                                }
-                            ]
-                        },
-                        "minecraft:item_model": "cgn:gloomstone_helmet",
-                        "minecraft:equippable": {
-                        "model": "cgn:armor/gloomstone",
-                        "slot":"head",
-                        "dispensable": true
-                        },
-                        "!fire_resistant": {},
-                        "custom_data": {
-                            "cgn": {
-                                "ebonite_upgradeable": true
-                            }
-                        },
-                        "minecraft:tooltip_style":"cgn:default"
-                    }
-                }
-            ]
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_helmet"
         }
-    ]
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:item_name": "{\"translate\":\"item.cgn.gloomstone_helmet\"}",
+            "minecraft:lore": [
+              "{\"translate\":\"pack.cgn\",\"font\":\"minecraft:default\",\"color\":\"#653AA0\",\"italic\":false}"
+            ],
+            "minecraft:max_damage": 363,
+            "minecraft:attribute_modifiers": {
+              "modifiers": [
+                {
+                  "id": "cgn:armor_head",
+                  "type": "minecraft:armor",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "id": "cgn:armor_toughness_head",
+                  "type": "minecraft:armor_toughness",
+                  "amount": 2,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ]
+            },
+            "minecraft:item_model": "cgn:armor/gloomstone_helmet",
+            "minecraft:equippable": {
+              "model": "cgn:gloomstone",
+              "slot": "head",
+              "dispensable": true
+            },
+            "!fire_resistant": {},
+            "custom_data": {
+              "cgn": {
+                "ebonite_upgradeable": true
+              }
+            },
+            "minecraft:tooltip_style": "cgn:default"
+          }
+        }
+      ]
+    }
+  ]
 }

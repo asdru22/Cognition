@@ -1,49 +1,49 @@
 {
-    "pools": [
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:netherite_helmet"
-                }
-            ],
-            "functions": [
-                {
-                    "function": "minecraft:set_components",
-                    "components": {
-                        "minecraft:item_name": "{\"translate\":\"item.cgn.shockweave_helmet\"}",
-                        "minecraft:lore": [
-                            "{\"translate\":\"pack.cgn\",\"font\":\"minecraft:default\",\"color\":\"#653AA0\",\"italic\":false}",
-                            "\"\"",
-                            "{\"translate\":\"item.modifiers.head\",\"color\":\"gray\",\"italic\":false}",
-                            "{\"translate\":\"attribute.modifier.plus.0\",\"color\":\"blue\",\"italic\":false,\"with\":[\"2\",{\"translate\":\"attribute.name.armor\"}]}",
-                            "{\"translate\":\"attribute.modifier.plus.0\",\"color\":\"blue\",\"italic\":false,\"with\":[\"0.5\",{\"translate\":\"attribute.name.max_electroplasm\"}]}"
-                        ],
-                        "minecraft:max_damage": 310,
-                        "minecraft:attribute_modifiers": {
-                            "modifiers": [
-                                {
-                                    "id": "cgn:armor_head",
-                                    "type": "minecraft:armor",
-                                    "amount": 2,
-                                    "operation": "add_value",
-                                    "slot": "head"
-                                }
-                            ],
-                            "show_in_tooltip": false
-                        },
-                        "minecraft:item_model": "cgn:armor/shockweave_helmet",
-                        "minecraft:equippable": {
-                        "model": "cgn:shockweave",
-                        "slot":"head",
-                        "dispensable": true
-                        },
-                        "!fire_resistant": {},
-                        "minecraft:tooltip_style":"cgn:default"
-                    }
-                }
-            ]
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_helmet"
         }
-    ]
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:item_name": "{\"translate\":\"item.cgn.shockweave_helmet\"}",
+            "minecraft:lore": [
+              "{\"translate\":\"pack.cgn\",\"font\":\"minecraft:default\",\"color\":\"#653AA0\",\"italic\":false}",
+              "\"\"",
+              "{\"translate\":\"item.modifiers.head\",\"color\":\"gray\",\"italic\":false}",
+              "{\"translate\":\"attribute.modifier.plus.0\",\"color\":\"blue\",\"italic\":false,\"with\":[\"2\",{\"translate\":\"attribute.name.armor\"}]}",
+              "{\"translate\":\"attribute.modifier.plus.0\",\"color\":\"blue\",\"italic\":false,\"with\":[\"0.5\",{\"translate\":\"attribute.name.max_electroplasm\"}]}"
+            ],
+            "minecraft:max_damage": 310,
+            "minecraft:attribute_modifiers": {
+              "modifiers": [
+                {
+                  "id": "cgn:armor_head",
+                  "type": "minecraft:armor",
+                  "amount": 2,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ],
+              "show_in_tooltip": false
+            },
+            "minecraft:item_model": "cgn:armor/shockweave_helmet",
+            "minecraft:equippable": {
+              "model": "cgn:shockweave",
+              "slot": "head",
+              "dispensable": true
+            },
+            "!fire_resistant": {},
+            "minecraft:tooltip_style": "cgn:default"
+          }
+        }
+      ]
+    }
+  ]
 }

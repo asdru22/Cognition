@@ -1,56 +1,56 @@
 {
-    "pools": [
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:netherite_chestplate"
-                }
-            ],
-            "functions": [
-                {
-                    "function": "minecraft:set_components",
-                    "components": {
-                        "minecraft:item_name": "{\"translate\":\"item.cgn.gloomstone_chestplate\"}",
-                        "minecraft:lore": [
-                            "{\"translate\":\"pack.cgn\",\"font\":\"minecraft:default\",\"color\":\"#653AA0\",\"italic\":false}"
-                        ],
-                        "minecraft:max_damage": 528,
-                        "minecraft:attribute_modifiers": {
-                            "modifiers": [
-                                {
-                                    "id": "cgn:armor_chest",
-                                    "type": "minecraft:armor",
-                                    "amount": 8,
-                                    "operation": "add_value",
-                                    "slot": "chest"
-                                },
-                                {
-                                    "id": "cgn:armor_toughness_chest",
-                                    "type": "minecraft:armor_toughness",
-                                    "amount": 2,
-                                    "operation": "add_value",
-                                    "slot": "chest"
-                                }
-                            ]
-                        },
-                        "minecraft:item_model": "cgn:armor/gloomstone_chestplate",
-                        "minecraft:equippable": {
-                        "model": "cgn:gloomstone",
-                        "slot":"chest",
-                        "dispensable": true
-                        },
-                        "!fire_resistant": {},
-                        "custom_data": {
-                            "cgn": {
-                                "ebonite_upgradeable": true
-                            }
-                        },
-                        "minecraft:tooltip_style":"cgn:default"
-                    }
-                }
-            ]
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_chestplate"
         }
-    ]
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:item_name": "{\"translate\":\"item.cgn.gloomstone_chestplate\"}",
+            "minecraft:lore": [
+              "{\"translate\":\"pack.cgn\",\"font\":\"minecraft:default\",\"color\":\"#653AA0\",\"italic\":false}"
+            ],
+            "minecraft:max_damage": 528,
+            "minecraft:attribute_modifiers": {
+              "modifiers": [
+                {
+                  "id": "cgn:armor_chest",
+                  "type": "minecraft:armor",
+                  "amount": 8,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "cgn:armor_toughness_chest",
+                  "type": "minecraft:armor_toughness",
+                  "amount": 2,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            "minecraft:item_model": "cgn:armor/gloomstone_chestplate",
+            "minecraft:equippable": {
+              "model": "cgn:gloomstone",
+              "slot": "chest",
+              "dispensable": true
+            },
+            "!fire_resistant": {},
+            "custom_data": {
+              "cgn": {
+                "ebonite_upgradeable": true
+              }
+            },
+            "minecraft:tooltip_style": "cgn:default"
+          }
+        }
+      ]
+    }
+  ]
 }
