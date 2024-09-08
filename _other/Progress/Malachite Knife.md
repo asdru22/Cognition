@@ -4,5 +4,4 @@ tags:
   - material
   - item
 ---
-[[Ebonite Dagger]]
-[[Electroplasm Carver]]
+[[Malachite Double Edged Sword]]

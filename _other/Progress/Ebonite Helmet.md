@@ -1,1 +1,5 @@
-#item #armor
+---
+tags:
+  - armor
+  - item
+---

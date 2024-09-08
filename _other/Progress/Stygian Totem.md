@@ -1,1 +1,5 @@
-#block #cosmetic
+---
+tags:
+  - cosmetic
+  - block
+---

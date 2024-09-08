@@ -1,1 +1,5 @@
-#item #cosmetic
+---
+tags:
+  - cosmetic
+  - item
+---

@@ -1,2 +1,7 @@
-#starter #item #material
+---
+tags:
+  - starter
+  - material
+  - item
+---
 [[Stygian Totem]]

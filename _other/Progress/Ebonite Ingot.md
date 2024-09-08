@@ -1,4 +1,8 @@
-#item #material
+---
+tags:
+  - material
+  - item
+---
 [[Ebonite Helmet]]
 [[Ebonite Chestplate]]
 [[Ebonite Leggings]]

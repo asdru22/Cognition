@@ -1,2 +1,6 @@
-#item #tool
+---
+tags:
+  - tool
+  - item
+---
 [[Ebonite Shovel]]

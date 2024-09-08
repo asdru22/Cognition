@@ -1,4 +1,8 @@
-#item #material
+---
+tags:
+  - material
+  - item
+---
 [[Windup Crossbow]]
 [[Gloomstone Axe]]
 [[Gloomstone Pickaxe]]
@@ -6,4 +10,5 @@
 [[Gloomstone Hoe]]
 [[Gloomstone Sword]]
 [[Gloomstone Dagger]]
-[[Malachite Sword]]
+[[Malachite Double Edged Sword]]
+[[Guster]]

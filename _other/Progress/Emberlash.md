@@ -1,0 +1,12 @@
+---
+tags:
+  - weapon
+  - item
+  - not_implemented
+---
+- uses electroplasm to charge
+- slowly depletes electroplasm when used
+- instead of breaking it needs to be charged with electroplasm again
+- custom enchants:
+  - rebirth: area damage when regarging
+  - last hurrah: when below 10% charge, deals more damage

@@ -1,2 +1,5 @@
-#item
- [[Pyroplasm]]
+---
+tags:
+  - item
+---
+[[Pyroplasm]]

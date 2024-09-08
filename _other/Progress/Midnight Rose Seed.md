@@ -1,4 +1,6 @@
-#starter #item
- [[Midnight Rose]]
- 
- 
+---
+tags:
+  - starter
+  - item
+---
+[[Midnight Rose]]

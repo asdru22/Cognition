@@ -1,4 +1,8 @@
-#item #material
+---
+tags:
+  - material
+  - item
+---
 [[Surge Potion]]
 [[Electroplasm Carver]]
 [[Shockweave Helmet]]

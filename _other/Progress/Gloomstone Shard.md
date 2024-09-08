@@ -1,2 +1,6 @@
-#material #item 
+---
+tags:
+  - material
+  - item
+---
 [[Gloomstone]]

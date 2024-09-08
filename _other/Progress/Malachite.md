@@ -1,3 +1,8 @@
-#item #material #starter
+---
+tags:
+  - material
+  - starter
+  - item
+---
 [[Greek Fire]]
-[[Malachite Blade]]
+[[Malachite Knife]]

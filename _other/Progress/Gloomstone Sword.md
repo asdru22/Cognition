@@ -1,2 +1,6 @@
-#item #weapon
+---
+tags:
+  - weapon
+  - item
+---
 [[Ebonite Sword]]

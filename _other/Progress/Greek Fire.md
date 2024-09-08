@@ -1,3 +1,6 @@
-#block
+---
+tags:
+  - block
+---
 [[Bubbles]]
 [[Pyroplasm]]

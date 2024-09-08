@@ -1,4 +1,8 @@
-#item #material
+---
+tags:
+  - material
+  - item
+---
 [[Automatic Bow]]
 [[Windup Crossbow]]
 [[Gloomstone Helmet]]

@@ -8,6 +8,13 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
+      "query": "tag:#not_implemented  ",
+      "color": {
+        "a": 1,
+        "rgb": 0
+      }
+    },
+    {
       "query": "tag:#starter  ",
       "color": {
         "a": 1,
@@ -46,7 +53,7 @@
       "query": "tag:#cosmetic  ",
       "color": {
         "a": 1,
-        "rgb": 2889010
+        "rgb": 8388863
       }
     },
     {

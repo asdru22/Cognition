@@ -1,3 +1,7 @@
-#item #block
+---
+tags:
+  - block
+  - item
+---
 [[Wispthorn]]
 [[Ebognite]]

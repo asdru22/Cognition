@@ -1,3 +1,8 @@
-#item #material 
+---
+tags:
+  - weapon
+  - material
+  - item
+---
 [[Gloomstone Dagger]]
 [[Gloomstone Sword]]

@@ -1,4 +1,8 @@
-#item #material
+---
+tags:
+  - material
+  - item
+---
 [[Gloomstone Helmet]]
 [[Gloomstone Chestplate]]
 [[Gloomstone Leggings]]

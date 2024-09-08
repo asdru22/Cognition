@@ -1,2 +1,6 @@
-#item #armor
+---
+tags:
+  - armor
+  - item
+---
 [[Ebonite Helmet]]

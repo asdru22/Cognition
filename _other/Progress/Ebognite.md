@@ -1,2 +1,6 @@
-#item #material 
+---
+tags:
+  - material
+  - item
+---
 [[Ebonite Ingot]]

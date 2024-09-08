@@ -1,2 +1,7 @@
-#item #block
-[[Eelctroplasm]]
+---
+tags:
+  - block
+  - item
+---
+[[Electroplasm]]
+[[Bloodwrought Briar]]

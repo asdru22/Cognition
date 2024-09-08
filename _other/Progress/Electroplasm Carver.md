@@ -1,1 +1,5 @@
-#item #weapon
+---
+tags:
+  - weapon
+  - item
+---
