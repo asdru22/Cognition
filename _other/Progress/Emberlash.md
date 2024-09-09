@@ -4,9 +4,10 @@ tags:
   - item
   - not_implemented
 ---
+- not necessarily a sword, could be a sickle type weapon
 - uses electroplasm to charge
 - slowly depletes electroplasm when used
 - instead of breaking it needs to be charged with electroplasm again
 - custom enchants:
-  - rebirth: area damage when regarging
+  - rebirth: area damage when recharging
   - last hurrah: when below 10% charge, deals more damage
