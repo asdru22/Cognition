@@ -2,11 +2,10 @@ tag @s add cgn.smoldering_vortex.triggered
 
 item modify entity @s contents {"function":"minecraft:set_custom_model_data","value":1}
 
-execute if block ~ ~ ~ dropper[facing=north] run return run execute positioned ~ ~ ~-1 run function cgn:block/smoldering_vortex/trigger/summon_implosion
-execute if block ~ ~ ~ dropper[facing=south] run return run execute positioned ~ ~ ~1 run function cgn:block/smoldering_vortex/trigger/summon_implosion
+tag @s add cgn.smoldering_vortex_temp
 
-execute if block ~ ~ ~ dropper[facing=east] run return run execute positioned ~1 ~ ~ run function cgn:block/smoldering_vortex/trigger/summon_implosion
-execute if block ~ ~ ~ dropper[facing=west] run return run execute positioned ~-1 ~ ~ run function cgn:block/smoldering_vortex/trigger/summon_implosion
+execute as @e[type=item,distance=0.6..3,tag=!smithed.entity,tag=!smithed.strict] at @s run function cgn:block/smoldering_vortex/trigger/as_item
 
-execute if block ~ ~ ~ dropper[facing=down] run return run execute positioned ~ ~1 ~ run function cgn:block/smoldering_vortex/trigger/summon_implosion
-execute if block ~ ~ ~ dropper[facing=up] run return run execute positioned ~ ~-1 ~ run function cgn:block/smoldering_vortex/trigger/summon_implosion
+tag @s remove cgn.smoldering_vortex_temp
+
+playsound cgn:block.smoldering_vortex.trigger block @a[distance=..16]
