@@ -19,7 +19,7 @@
             "minecraft:max_damage": 2031,
             "minecraft:item_model": "cgn:weapon/ebonite_dagger",
             "minecraft:tooltip_style": "cgn:default",
-            "minecraft:fire_resistant": {},
+            "minecraft:damage_resistant": {"types": "#minecraft:is_fire"},
             "minecraft:attribute_modifiers": {
               "modifiers": [
                 {

@@ -1,0 +1,1 @@
+execute if data block ~ ~ ~ {Items:[{components:{"minecraft:custom_data":{cgn:{placed_block:1b,block:"smoldering_vortex"}}}}]} align xyz positioned ~.5 ~.5 ~.5 run function cgn:block/smoldering_vortex/place

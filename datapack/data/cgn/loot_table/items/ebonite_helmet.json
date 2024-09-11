@@ -48,7 +48,7 @@
               "slot": "head",
               "dispensable": true
             },
-            "fire_resistant": {},
+            "minecraft:damage_resistant": {"types": "#minecraft:is_fire"},
             "minecraft:tooltip_style": "cgn:default"
           }
         }

@@ -19,7 +19,6 @@
             "minecraft:max_damage": 1561,
             "minecraft:item_model": "cgn:weapon/gloomstone_dagger",
             "minecraft:tooltip_style": "cgn:default",
-            "minecraft:fire_resistant": {},
             "minecraft:attribute_modifiers": {
               "modifiers": [
                 {

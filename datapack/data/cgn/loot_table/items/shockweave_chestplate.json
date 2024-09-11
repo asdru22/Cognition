@@ -39,7 +39,6 @@
               "slot": "chest",
               "dispensable": true
             },
-            "!fire_resistant": {},
             "minecraft:tooltip_style": "cgn:default"
           }
         }

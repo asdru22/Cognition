@@ -1,2 +1,0 @@
-data merge block ~ ~ ~ {Lock:"§1smoldering_vortex\\uF001",CustomName:'{"translate":"block.cgn.smoldering_vortex.name","font":"cgn:technical"}',Items:[]}
-execute positioned ~ ~1 ~ summon item_display run function cgn:block/smoldering_vortex/place

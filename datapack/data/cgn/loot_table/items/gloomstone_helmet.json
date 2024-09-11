@@ -41,7 +41,6 @@
               "slot": "head",
               "dispensable": true
             },
-            "!fire_resistant": {},
             "custom_data": {
               "cgn": {
                 "ebonite_upgradeable": true
