@@ -1,0 +1,1 @@
+summon armor_stand ~ ~ ~ {Marker:1b,Invisible:1b,ArmorItems:[{},{},{},{id:"minecraft:leather_helmet",count:1,components:{"minecraft:enchantments":{levels:{"cgn:technical/implosion":1}}}}],Tags:[smithed.strict,smithed.entity]}

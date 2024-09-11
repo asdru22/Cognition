@@ -1,0 +1,20 @@
+{
+	"parent": "block/cube",
+  "textures": {
+    "particle": "cgn:block/smoldering_vortex_side",
+    "north": "cgn:block/smoldering_vortex_bottom",
+    "south": "cgn:block/smoldering_vortex_top",
+    "east": "cgn:block/smoldering_vortex_side",
+    "west": "cgn:block/smoldering_vortex_side",
+    "up":  "cgn:block/smoldering_vortex_side",
+    "down":  "cgn:block/smoldering_vortex_side"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "cgn:item/block/smoldering_vortex/north_triggered"
+    }
+  ]
+}

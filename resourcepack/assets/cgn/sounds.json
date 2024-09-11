@@ -201,5 +201,12 @@
           "stream":true
         }
       ]
+    },
+    "block.smoldering_vortex.trigger":{
+      "sounds":[
+        "cgn:item/soulmender_heal"
+      ],
+      "subtitle":"subtitle.cgn.block.smoldering_vortex.trigger",
+      "category":"master"
     }
   }

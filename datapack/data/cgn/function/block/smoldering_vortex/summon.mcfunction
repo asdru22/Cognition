@@ -1,0 +1,2 @@
+data merge block ~ ~ ~ {Lock:"§1smoldering_vortex\\uF001",CustomName:'{"translate":"block.cgn.smoldering_vortex"}'}
+execute positioned ~ ~1 ~ summon item_display run function cgn:block/smoldering_vortex/rotate

@@ -3,7 +3,7 @@ tags:
   - material
   - item
 ---
-[[Voidcaller Urn]]
+[[Smoldering Vortex]]
 [[Mindflare]]
 [[Pyroplastic Bolt]]
 [[Emberlash]]
