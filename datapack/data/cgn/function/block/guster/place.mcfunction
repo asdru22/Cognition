@@ -1,0 +1,2 @@
+data merge block ~ ~ ~ {Lock:"§1sguster\\uF001",CustomName:'{"translate":"block.cgn.guster.name","font":"cgn:technical"}',Items:[]}
+execute positioned ~ ~1 ~ summon item_display positioned ~ ~-1 ~ run function cgn:block/guster/item_display_setup

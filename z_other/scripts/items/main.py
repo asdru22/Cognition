@@ -33,6 +33,6 @@ def read_json_files(subfolder):
                 except json.JSONDecodeError:
                     print(f"Error decoding {filename}")
 
-output_path = '_other\scripts\items'
-items_path = '_other\scripts\items\items'
+output_path = 'z_other\scripts\items'
+items_path = 'z_other\scripts\items\items'
 read_json_files(items_path)

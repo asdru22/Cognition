@@ -61,7 +61,7 @@ def generate_trim_json(input_file, output_folder,model_folder):
         
 
 # Define the input JSON file and output folder
-input_file = '_other/scripts/trims/in.json'  # Your input JSON file path
+input_file = 'z_other/scripts/trims/in.json'  # Your input JSON file path
 output_folder = 'resourcepack/assets/cgn/models/item/armor/trims'  # Your desired output folder path
 model_folder = 'resourcepack/assets/cgn/models/item/armor'  # Your desired output folder path
 

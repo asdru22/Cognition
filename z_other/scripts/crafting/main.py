@@ -7,7 +7,7 @@ def count_loot_table(type,id,count):
     return json.dumps({"pools":[{"rolls":1,"entries":[{"type":"minecraft:loot_table","value":f"cgn:{type}s/{id}"}],"functions":[{"function":"minecraft:set_count","count":count}]}]})
 
 
-with open(root+"_other/scripts/crafting/recipes.json") as recipes:
+with open(root+"z_other/scripts/crafting/recipes.json") as recipes:
     out = "#"*50+ "\n##\tAutomagically generated using Asdrucorp Scripts\n"+"#"*50
     recipes = json.loads(recipes.read())
 

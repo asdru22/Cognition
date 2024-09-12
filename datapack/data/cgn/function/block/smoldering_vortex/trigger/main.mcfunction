@@ -8,7 +8,8 @@ execute as @e[type=item,distance=0.6..5,tag=!smithed.entity,tag=!smithed.strict]
 
 tag @s remove cgn.smoldering_vortex_temp
 
-playsound cgn:block.smoldering_vortex.trigger block @a[distance=..16]
 stopsound @a[distance=..16] * minecraft:block.dispenser.dispense
 stopsound @a[distance=..16] * minecraft:block.dispenser.launch
 stopsound @a[distance=..16] * minecraft:block.dispenser.fail
+
+playsound cgn:block.smoldering_vortex.trigger block @a[distance=..16]
