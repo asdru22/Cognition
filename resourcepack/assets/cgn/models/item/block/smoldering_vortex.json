@@ -1,12 +1,12 @@
 {
 	"parent": "block/cube",
   "textures": {
-    "particle": "cgn:block/smoldering_vortex",
-    "north": "cgn:block/smoldering_vortex",
-    "south": "cgn:block/smoldering_vortex",
-    "east": "cgn:block/smoldering_vortex",
-    "west": "cgn:block/smoldering_vortex",
-    "up":  "cgn:block/smoldering_vortex",
+    "particle": "cgn:block/smoldering_vortex_side",
+    "north": "cgn:block/smoldering_vortex_side",
+    "south": "cgn:block/smoldering_vortex_side",
+    "east": "cgn:block/smoldering_vortex_side",
+    "west": "cgn:block/smoldering_vortex_side",
+    "up":  "cgn:block/smoldering_vortex_top",
     "down":  "cgn:block/smoldering_vortex_bottom"
   },
   "overrides": [
