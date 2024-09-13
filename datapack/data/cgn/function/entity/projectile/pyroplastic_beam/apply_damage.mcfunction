@@ -1,0 +1,1 @@
+$damage @s[nbt=!{Owner:$(owner_array)}] 5 cgn:gloomstone_beam by $(owner)

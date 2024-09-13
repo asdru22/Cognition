@@ -1,3 +1,7 @@
+scoreboard players remove @s cgn.animation_timer 1
+kill @s[tag=!cgn.projectile.no_timer,scores={cgn.animation_timer=..0},tag=cgn.projectile.setup] 
+execute if entity @s[tag=cgn.pyroplastic_beam] run return run function cgn:entity/projectile/pyroplastic_beam/tick
+
 execute if entity @s[type=#arrows] run return run function cgn:entity/projectile/arrow/tick
 
 #scoreboard players remove @s cgn.animation_timer 1

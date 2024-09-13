@@ -7,6 +7,8 @@ scoreboard objectives add cgn.used_bow used:bow
 scoreboard objectives add cgn.using_item dummy
 scoreboard objectives add cgn.using_item_new dummy
 
+scoreboard objectives add cgn.animation_timer dummy
+
 function cgn:technical/math/set_constants
 
 schedule function cgn:technical/timers/tick 1t replace

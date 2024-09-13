@@ -208,5 +208,12 @@
       ],
       "subtitle":"subtitle.cgn.block.smoldering_vortex.trigger",
       "category":"master"
+    },
+    "entity.pyroplastic_beam":{
+      "sounds":[
+        "cgn:entity/pyroplastic_beam"
+      ],
+      "subtitle":"subtitle.cgn.entity.pyroplastic_beam",
+      "category":"master"
     }
   }

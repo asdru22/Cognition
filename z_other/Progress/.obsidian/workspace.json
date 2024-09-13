@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Smoldering Vortex.md",
+                "file": "Pyroplastic Bolt.md",
                 "mode": "source",
                 "source": false
               }
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "97ba8496e90903ae",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Smoldering Vortex.md",
+                "file": "Pyroplastic Bolt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Smoldering Vortex.md",
+                "file": "Pyroplastic Bolt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Smoldering Vortex.md"
+                "file": "Pyroplastic Bolt.md"
               }
             }
           }
@@ -150,11 +149,12 @@
   },
   "active": "4ffc4651587d2247",
   "lastOpenFiles": [
+    "Automatic Bow.md",
+    "Smoldering Vortex.md",
     "Pyroplastic Bolt.md",
     "Mindflare.md",
     "Malachite Shield.md",
     "Guster.md",
-    "Smoldering Vortex.md",
     "Enchanted Book (Pulse).md",
     "Malachite Double Edged Sword.md",
     "Pyroplasm.md",
@@ -175,7 +175,6 @@
     "Gloomstone Dagger.md",
     "Gloomstone Chestplate.md",
     "Gloomstone Boots.md",
-    "Automatic Bow.md",
     "Untitled.canvas",
     "Structures",
     "Blocks",
