@@ -1,0 +1,26 @@
+{
+  "base_item": "furnace",
+  "type": "block",
+  "translation": "Stygian Totem",
+  "components": {
+    "minecraft:block_entity_data": {
+      "id": "minecraft:furnace"
+    },
+    "minecraft:container": [
+      {
+        "slot": 0,
+        "item": {
+          "id": "minecraft:stone",
+          "count": 1,
+          "components": {
+            "minecraft:custom_data": "{cgn:{placed_block:1b,block:\"stygian_totem\"}}"
+          }
+        }
+      }
+    ]
+  },
+  "custom_data": {
+    "custom_block": true
+  },
+  "folder":"blocks"
+}

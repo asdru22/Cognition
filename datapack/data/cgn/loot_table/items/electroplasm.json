@@ -12,14 +12,29 @@
         {
           "function": "minecraft:set_components",
           "components": {
-            "minecraft:item_name": "{\"translate\":\"item.cgn.electroplasm\"}",
-            "minecraft:lore": [
-              "{\"translate\":\"pack.cgn\",\"color\":\"#653AA0\",\"italic\":false}"
-            ],
+            "minecraft:tooltip_style": "cgn:default",
+            "minecraft:item_model": "cgn:material/electroplasm",
             "!minecraft:consumable": {},
-            "item_model": "cgn:material/electroplasm",
-            "minecraft:tooltip_style": "cgn:default"
+            "!minecraft:food": {}
           }
+        },
+        {
+          "function": "minecraft:set_name",
+          "target": "item_name",
+          "name": {
+            "translate": "item.cgn.electroplasm"
+          }
+        },
+        {
+          "function": "minecraft:set_lore",
+          "lore": [
+            {
+              "translate": "pack.cgn",
+              "color": "#653AA0",
+              "italic": false
+            }
+          ],
+          "mode": "replace_all"
         }
       ]
     }

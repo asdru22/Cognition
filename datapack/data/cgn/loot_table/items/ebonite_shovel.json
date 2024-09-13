@@ -12,14 +12,12 @@
         {
           "function": "minecraft:set_components",
           "components": {
-            "minecraft:item_name": "{\"translate\":\"item.cgn.ebonite_shovel\"}",
-            "minecraft:lore": [
-              "{\"translate\":\"pack.cgn\",\"color\":\"#653AA0\",\"italic\":false}"
-            ],
-            "minecraft:max_damage": 2031,
-            "minecraft:item_model": "cgn:tool/ebonite_shovel",
             "minecraft:tooltip_style": "cgn:default",
-            "minecraft:damage_resistant": {"types": "#minecraft:is_fire"},
+            "minecraft:item_model": "cgn:tool/ebonite_shovel",
+            "minecraft:max_damage": 2031,
+            "minecraft:damage_resistant": {
+              "types": "#minecraft:is_fire"
+            },
             "minecraft:attribute_modifiers": {
               "modifiers": [
                 {
@@ -39,6 +37,24 @@
               ]
             }
           }
+        },
+        {
+          "function": "minecraft:set_name",
+          "target": "item_name",
+          "name": {
+            "translate": "item.cgn.ebonite_shovel"
+          }
+        },
+        {
+          "function": "minecraft:set_lore",
+          "lore": [
+            {
+              "translate": "pack.cgn",
+              "color": "#653AA0",
+              "italic": false
+            }
+          ],
+          "mode": "replace_all"
         }
       ]
     }

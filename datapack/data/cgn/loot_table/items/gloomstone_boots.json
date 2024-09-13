@@ -12,22 +12,20 @@
         {
           "function": "minecraft:set_components",
           "components": {
-            "minecraft:item_name": "{\"translate\":\"item.cgn.gloomstone_boots\"}",
-            "minecraft:lore": [
-              "{\"translate\":\"pack.cgn\",\"color\":\"#653AA0\",\"italic\":false}"
-            ],
+            "minecraft:tooltip_style": "cgn:default",
+            "minecraft:item_model": "cgn:armor/gloomstone_boots",
             "minecraft:max_damage": 429,
             "minecraft:attribute_modifiers": {
               "modifiers": [
                 {
-                  "id": "cgn:armor_feet",
+                  "id": "cgn:armor.feet",
                   "type": "minecraft:armor",
                   "amount": 3,
                   "operation": "add_value",
                   "slot": "feet"
                 },
                 {
-                  "id": "cgn:armor_toughness_feet",
+                  "id": "cgn:armor_toughness.feet",
                   "type": "minecraft:armor_toughness",
                   "amount": 2,
                   "operation": "add_value",
@@ -35,19 +33,35 @@
                 }
               ]
             },
-            "minecraft:item_model": "cgn:armor/gloomstone_boots",
             "minecraft:equippable": {
               "model": "cgn:gloomstone",
               "slot": "feet",
               "dispensable": true
             },
-            "custom_data": {
+            "minecraft:custom_data": {
               "cgn": {
                 "ebonite_upgradeable": true
               }
-            },
-            "minecraft:tooltip_style": "cgn:default"
+            }
           }
+        },
+        {
+          "function": "minecraft:set_name",
+          "target": "item_name",
+          "name": {
+            "translate": "item.cgn.gloomstone_boots"
+          }
+        },
+        {
+          "function": "minecraft:set_lore",
+          "lore": [
+            {
+              "translate": "pack.cgn",
+              "color": "#653AA0",
+              "italic": false
+            }
+          ],
+          "mode": "replace_all"
         }
       ]
     }

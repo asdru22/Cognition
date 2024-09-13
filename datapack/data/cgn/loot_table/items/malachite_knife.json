@@ -12,22 +12,14 @@
         {
           "function": "minecraft:set_components",
           "components": {
-            "minecraft:item_name": "{\"translate\":\"item.cgn.malachite_knife\"}",
-            "minecraft:lore": [
-              "{\"translate\":\"pack.cgn\",\"color\":\"#653AA0\",\"italic\":false}",
-              "\"\"",
-              "{\"translate\":\"item.whenThrown\",\"italic\":false,\"color\":\"gray\"}",
-              "{\"translate\":\"attribute.modifier.equals.0\",\"italic\":false,\"color\":\"dark_green\",\"with\":[\" 5\",{\"translate\":\"attribute.name.attack_damage\"}]}"
-            ],
-            "!minecraft:food": {},
+            "minecraft:tooltip_style": "cgn:default",
+            "minecraft:item_model": "cgn:weapon/malachite_knife",
             "minecraft:consumable": {
               "animation": "spear",
               "consume_seconds": 0.5,
               "has_consume_particles": false,
               "sound": "item.trident.throw"
             },
-            "item_model": "cgn:weapon/malachite_knife",
-            "minecraft:tooltip_style": "cgn:default",
             "minecraft:attribute_modifiers": {
               "modifiers": [
                 {
@@ -52,8 +44,45 @@
                   "slot": "mainhand"
                 }
               ]
-            }
+            },
+            "!minecraft:consumable": {},
+            "!minecraft:food": {}
           }
+        },
+        {
+          "function": "minecraft:set_name",
+          "target": "item_name",
+          "name": {
+            "translate": "item.cgn.malachite_knife"
+          }
+        },
+        {
+          "function": "minecraft:set_lore",
+          "lore": [
+            {
+              "translate": "pack.cgn",
+              "color": "#653AA0",
+              "italic": false
+            },
+            "",
+            {
+              "translate": "item.whenThrown",
+              "italic": false,
+              "color": "gray"
+            },
+            {
+              "translate": "attribute.modifier.equals.0",
+              "italic": false,
+              "color": "dark_green",
+              "with": [
+                " 5",
+                {
+                  "translate": "attribute.name.attack_damage"
+                }
+              ]
+            }
+          ],
+          "mode": "replace_all"
         }
       ]
     }

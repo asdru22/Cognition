@@ -5,20 +5,16 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond_shovel"
+          "name": "minecraft:diamond_pickaxe"
         }
       ],
       "functions": [
         {
           "function": "minecraft:set_components",
           "components": {
-            "minecraft:item_name": "{\"translate\":\"item.cgn.gloomstone_shovel\"}",
-            "minecraft:lore": [
-              "{\"translate\":\"pack.cgn\",\"color\":\"#653AA0\",\"italic\":false}"
-            ],
-            "minecraft:max_damage": 1561,
-            "minecraft:item_model": "cgn:tool/gloomstone_shovel",
             "minecraft:tooltip_style": "cgn:default",
+            "minecraft:item_model": "cgn:tool/gloomstone_shovel",
+            "minecraft:max_damage": 1561,
             "minecraft:attribute_modifiers": {
               "modifiers": [
                 {
@@ -37,12 +33,30 @@
                 }
               ]
             },
-            "custom_data": {
+            "minecraft:custom_data": {
               "cgn": {
                 "ebonite_upgradeable": true
               }
             }
           }
+        },
+        {
+          "function": "minecraft:set_name",
+          "target": "item_name",
+          "name": {
+            "translate": "item.cgn.gloomstone_shovel"
+          }
+        },
+        {
+          "function": "minecraft:set_lore",
+          "lore": [
+            {
+              "translate": "pack.cgn",
+              "color": "#653AA0",
+              "italic": false
+            }
+          ],
+          "mode": "replace_all"
         }
       ]
     }

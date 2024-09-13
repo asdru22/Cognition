@@ -10,6 +10,15 @@
       ],
       "functions": [
         {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:tooltip_style": "cgn:default",
+            "minecraft:item_model": "cgn:material/cog",
+            "!minecraft:consumable": {},
+            "!minecraft:food": {}
+          }
+        },
+        {
           "function": "minecraft:set_name",
           "target": "item_name",
           "name": {
@@ -26,14 +35,6 @@
             }
           ],
           "mode": "replace_all"
-        },
-        {
-          "function": "minecraft:set_components",
-          "components": {
-            "!minecraft:consumable": {},
-            "item_model": "cgn:material/cog",
-            "minecraft:tooltip_style": "cgn:default"
-          }
         }
       ]
     }

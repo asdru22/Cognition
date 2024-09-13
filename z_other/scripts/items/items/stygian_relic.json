@@ -2,7 +2,7 @@
   "base_item": "poisonous_potato",
   "type": "material",
   "translation": "Stygian Relic",
-  "components":{
+  "components": {
     "minecraft:rarity": "epic"
   }
 }

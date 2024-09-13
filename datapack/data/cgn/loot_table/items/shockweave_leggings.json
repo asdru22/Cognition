@@ -5,26 +5,20 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:netherite_leggings"
+          "name": "minecraft:netherite_leggigns"
         }
       ],
       "functions": [
         {
           "function": "minecraft:set_components",
           "components": {
-            "minecraft:item_name": "{\"translate\":\"item.cgn.shockweave_leggings\"}",
-            "minecraft:lore": [
-              "{\"translate\":\"pack.cgn\",\"color\":\"#653AA0\",\"italic\":false}",
-              "\"\"",
-              "{\"translate\":\"item.modifiers.legs\",\"color\":\"gray\",\"italic\":false}",
-              "{\"translate\":\"attribute.modifier.plus.0\",\"color\":\"blue\",\"italic\":false,\"with\":[\"4\",{\"translate\":\"attribute.name.armor\"}]}",
-              "{\"translate\":\"attribute.modifier.plus.0\",\"color\":\"blue\",\"italic\":false,\"with\":[\"1\",{\"translate\":\"attribute.name.max_electroplasm\"}]}"
-            ],
-            "minecraft:max_damage": 410,
+            "minecraft:tooltip_style": "cgn:default",
+            "minecraft:item_model": "cgn:armor/shockweave_leggings",
+            "minecraft:max_damage": 363,
             "minecraft:attribute_modifiers": {
               "modifiers": [
                 {
-                  "id": "cgn:armor_legs",
+                  "id": "cgn:armor.legs",
                   "type": "minecraft:armor",
                   "amount": 4,
                   "operation": "add_value",
@@ -33,14 +27,58 @@
               ],
               "show_in_tooltip": false
             },
-            "minecraft:item_model": "cgn:armor/shockweave_leggings",
             "minecraft:equippable": {
               "model": "cgn:shockweave",
               "slot": "legs",
               "dispensable": true
-            },
-            "minecraft:tooltip_style": "cgn:default"
+            }
           }
+        },
+        {
+          "function": "minecraft:set_name",
+          "target": "item_name",
+          "name": {
+            "translate": "item.cgn.shockweave_leggings"
+          }
+        },
+        {
+          "function": "minecraft:set_lore",
+          "lore": [
+            {
+              "translate": "pack.cgn",
+              "color": "#653AA0",
+              "italic": false
+            },
+            "",
+            {
+              "translate": "item.modifiers.legs",
+              "color": "gray",
+              "italic": false
+            },
+            {
+              "translate": "attribute.modifier.plus.0",
+              "color": "blue",
+              "italic": false,
+              "with": [
+                4,
+                {
+                  "translate": "attribute.name.armor"
+                }
+              ]
+            },
+            {
+              "translate": "attribute.modifier.plus.0",
+              "color": "blue",
+              "italic": false,
+              "with": [
+                1,
+                {
+                  "translate": "attribute.name.max_electroplasm"
+                }
+              ]
+            }
+          ],
+          "mode": "replace_all"
         }
       ]
     }

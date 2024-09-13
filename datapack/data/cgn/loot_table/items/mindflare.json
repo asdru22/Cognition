@@ -12,22 +12,20 @@
         {
           "function": "minecraft:set_components",
           "components": {
-            "minecraft:item_name": "{\"translate\":\"item.cgn.mindflare\"}",
-            "minecraft:lore": [
-              "{\"translate\":\"pack.cgn\",\"color\":\"#653AA0\",\"italic\":false}"
-            ],
+            "minecraft:tooltip_style": "cgn:default",
+            "minecraft:item_model": "cgn:armor/mindflare",
             "minecraft:max_damage": 404,
             "minecraft:attribute_modifiers": {
               "modifiers": [
                 {
-                  "id": "cgn:armor_head",
+                  "id": "cgn:armor.head",
                   "type": "minecraft:armor",
                   "amount": 3,
                   "operation": "add_value",
                   "slot": "head"
                 },
                 {
-                  "id": "cgn:armor_toughness_head",
+                  "id": "cgn:armor_toughness.head",
                   "type": "minecraft:armor_toughness",
                   "amount": 2,
                   "operation": "add_value",
@@ -35,14 +33,30 @@
                 }
               ]
             },
-            "minecraft:item_model": "cgn:armor/mindflare",
             "minecraft:equippable": {
               "model": "cgn:mindflare",
               "slot": "head",
               "dispensable": true
-            },
-            "minecraft:tooltip_style": "cgn:default"
+            }
           }
+        },
+        {
+          "function": "minecraft:set_name",
+          "target": "item_name",
+          "name": {
+            "translate": "item.cgn.mindflare"
+          }
+        },
+        {
+          "function": "minecraft:set_lore",
+          "lore": [
+            {
+              "translate": "pack.cgn",
+              "color": "#653AA0",
+              "italic": false
+            }
+          ],
+          "mode": "replace_all"
         }
       ]
     }

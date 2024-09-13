@@ -12,19 +12,13 @@
         {
           "function": "minecraft:set_components",
           "components": {
-            "minecraft:item_name": "{\"translate\":\"item.cgn.shockweave_boots\"}",
-            "minecraft:lore": [
-              "{\"translate\":\"pack.cgn\",\"color\":\"#653AA0\",\"italic\":false}",
-              "\"\"",
-              "{\"translate\":\"item.modifiers.feet\",\"color\":\"gray\",\"italic\":false}",
-              "{\"translate\":\"attribute.modifier.plus.0\",\"color\":\"blue\",\"italic\":false,\"with\":[\"1\",{\"translate\":\"attribute.name.armor\"}]}",
-              "{\"translate\":\"attribute.modifier.plus.0\",\"color\":\"blue\",\"italic\":false,\"with\":[\"0.5\",{\"translate\":\"attribute.name.max_electroplasm\"}]}"
-            ],
+            "minecraft:tooltip_style": "cgn:default",
+            "minecraft:item_model": "cgn:armor/shockweave_boots",
             "minecraft:max_damage": 270,
             "minecraft:attribute_modifiers": {
               "modifiers": [
                 {
-                  "id": "cgn:armor_feet",
+                  "id": "cgn:armor.feet",
                   "type": "minecraft:armor",
                   "amount": 1,
                   "operation": "add_value",
@@ -33,14 +27,58 @@
               ],
               "show_in_tooltip": false
             },
-            "minecraft:item_model": "cgn:armor/shockweave_boots",
             "minecraft:equippable": {
               "model": "cgn:shockweave",
               "slot": "feet",
               "dispensable": true
-            },
-            "minecraft:tooltip_style": "cgn:default"
+            }
           }
+        },
+        {
+          "function": "minecraft:set_name",
+          "target": "item_name",
+          "name": {
+            "translate": "item.cgn.shockweave_boots"
+          }
+        },
+        {
+          "function": "minecraft:set_lore",
+          "lore": [
+            {
+              "translate": "pack.cgn",
+              "color": "#653AA0",
+              "italic": false
+            },
+            "",
+            {
+              "translate": "item.modifiers.feet",
+              "color": "gray",
+              "italic": false
+            },
+            {
+              "translate": "attribute.modifier.plus.0",
+              "color": "blue",
+              "italic": false,
+              "with": [
+                1,
+                {
+                  "translate": "attribute.name.armor"
+                }
+              ]
+            },
+            {
+              "translate": "attribute.modifier.plus.0",
+              "color": "blue",
+              "italic": false,
+              "with": [
+                0.5,
+                {
+                  "translate": "attribute.name.max_electroplasm"
+                }
+              ]
+            }
+          ],
+          "mode": "replace_all"
         }
       ]
     }

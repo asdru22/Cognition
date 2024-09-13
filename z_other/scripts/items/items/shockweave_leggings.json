@@ -22,9 +22,33 @@
       "dispensable": true
     }
   },
-  "lore":[
-    {"translate":"item.modifiers.legs","color":"gray","italic":false},
-              {"translate":"attribute.modifier.plus.0","color":"blue","italic":false,"with":[4,{"translate":"attribute.name.armor"}]},
-              {"translate":"attribute.modifier.plus.0","color":"blue","italic":false,"with":[1,{"translate":"attribute.name.max_electroplasm"}]}
+  "lore": [
+    {
+      "translate": "item.modifiers.legs",
+      "color": "gray",
+      "italic": false
+    },
+    {
+      "translate": "attribute.modifier.plus.0",
+      "color": "blue",
+      "italic": false,
+      "with": [
+        4,
+        {
+          "translate": "attribute.name.armor"
+        }
+      ]
+    },
+    {
+      "translate": "attribute.modifier.plus.0",
+      "color": "blue",
+      "italic": false,
+      "with": [
+        1,
+        {
+          "translate": "attribute.name.max_electroplasm"
+        }
+      ]
+    }
   ]
 }

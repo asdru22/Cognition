@@ -36,7 +36,10 @@ def make_loot_table(id,data):
     loot_table["pools"][0]["functions"].append(get_name(id))
     loot_table["pools"][0]["functions"].append(get_lore(data))
 
-    with open(os.path.join(output_path,f"{id}.json"),"w") as f:
+    category = 'items'
+    if("folder" in data): category = data["folder"]
+
+    with open(os.path.join(output_path,category,f"{id}.json"),"w") as f:
         f.write(json.dumps(loot_table,indent=2))
 
 def read_json_files(subfolder):
@@ -53,6 +56,6 @@ def read_json_files(subfolder):
                 except json.JSONDecodeError:
                     print(f"Error decoding {filename}")
 
-output_path = 'datapack/data/cgn/loot_table/items/'
+output_path = 'datapack/data/cgn/loot_table/'
 items_path = 'z_other/scripts/items/items'
 read_json_files(items_path)

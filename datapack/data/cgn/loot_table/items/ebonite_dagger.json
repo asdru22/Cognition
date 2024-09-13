@@ -10,30 +10,14 @@
       ],
       "functions": [
         {
-          "function": "minecraft:set_name",
-          "target": "item_name",
-          "name": {
-            "translate": "item.cgn.ebonite_dagger"
-          }
-        },
-        {
-          "function": "minecraft:set_lore",
-          "lore": [
-            {
-              "translate": "pack.cgn",
-              "color": "#653AA0",
-              "italic": false
-            }
-          ],
-          "mode": "replace_all"
-        },
-        {
           "function": "minecraft:set_components",
           "components": {
-            "minecraft:max_damage": 2031,
-            "minecraft:item_model": "cgn:weapon/ebonite_dagger",
             "minecraft:tooltip_style": "cgn:default",
-            "minecraft:damage_resistant": {"types": "#minecraft:is_fire"},
+            "minecraft:item_model": "cgn:weapon/ebonite_dagger",
+            "minecraft:max_damage": 2031,
+            "minecraft:damage_resistant": {
+              "types": "#minecraft:is_fire"
+            },
             "minecraft:attribute_modifiers": {
               "modifiers": [
                 {
@@ -60,6 +44,24 @@
               ]
             }
           }
+        },
+        {
+          "function": "minecraft:set_name",
+          "target": "item_name",
+          "name": {
+            "translate": "item.cgn.ebonite_dagger"
+          }
+        },
+        {
+          "function": "minecraft:set_lore",
+          "lore": [
+            {
+              "translate": "pack.cgn",
+              "color": "#653AA0",
+              "italic": false
+            }
+          ],
+          "mode": "replace_all"
         }
       ]
     }

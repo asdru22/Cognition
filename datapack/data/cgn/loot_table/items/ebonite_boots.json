@@ -10,6 +10,47 @@
       ],
       "functions": [
         {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:tooltip_style": "cgn:default",
+            "minecraft:item_model": "cgn:armor/ebonite_boots",
+            "minecraft:max_damage": 481,
+            "minecraft:attribute_modifiers": {
+              "modifiers": [
+                {
+                  "id": "cgn:armor.feet",
+                  "type": "minecraft:armor",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "feet"
+                },
+                {
+                  "id": "cgn:armor_toughness.feet",
+                  "type": "minecraft:armor_toughness",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "feet"
+                },
+                {
+                  "id": "cgn:knockback_resistance.feet",
+                  "type": "minecraft:knockback_resistance",
+                  "amount": 0.1,
+                  "operation": "add_value",
+                  "slot": "feet"
+                }
+              ]
+            },
+            "minecraft:equippable": {
+              "model": "cgn:ebonite",
+              "slot": "feet",
+              "dispensable": true
+            },
+            "minecraft:damage_resistant": {
+              "types": "#minecraft:is_fire"
+            }
+          }
+        },
+        {
           "function": "minecraft:set_name",
           "target": "item_name",
           "name": {
@@ -26,45 +67,6 @@
             }
           ],
           "mode": "replace_all"
-        },
-        {
-          "function": "minecraft:set_components",
-          "components": {
-            "minecraft:max_damage": 481,
-            "minecraft:attribute_modifiers": {
-              "modifiers": [
-                {
-                  "id": "cgn:armor_feet",
-                  "type": "minecraft:armor",
-                  "amount": 3,
-                  "operation": "add_value",
-                  "slot": "feet"
-                },
-                {
-                  "id": "cgn:armor_toughness_feet",
-                  "type": "minecraft:armor_toughness",
-                  "amount": 3,
-                  "operation": "add_value",
-                  "slot": "feet"
-                },
-                {
-                  "id": "cgn:knockback_resistance_feet",
-                  "type": "minecraft:knockback_resistance",
-                  "amount": 0.1,
-                  "operation": "add_value",
-                  "slot": "feet"
-                }
-              ]
-            },
-            "minecraft:item_model": "cgn:armor/ebonite_boots",
-            "minecraft:equippable": {
-              "model": "cgn:ebonite",
-              "slot": "feet",
-              "dispensable": true
-            },
-            "minecraft:damage_resistant": {"types": "#minecraft:is_fire"},
-            "minecraft:tooltip_style": "cgn:default"
-          }
         }
       ]
     }

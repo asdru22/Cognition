@@ -30,5 +30,8 @@
     "minecraft:damage_resistant": {
       "types": "#minecraft:is_fire"
     }
+  },
+  "custom_data": {
+    "ebonite_upgradeable": true
   }
 }
