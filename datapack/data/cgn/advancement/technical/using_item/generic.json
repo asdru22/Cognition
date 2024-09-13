@@ -1,0 +1,36 @@
+{
+  "criteria": {
+    "custom": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{cgn:{usable:true}}"
+          }
+        }
+      }
+    },
+    "vanilla": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:crossbow",
+            "minecraft:bow"
+          ]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "custom"
+    ],
+    [
+      "vanilla"
+    ]
+  ],
+  "rewards": {
+    "function": "cgn:item/vanilla/usable/init"
+  }
+}

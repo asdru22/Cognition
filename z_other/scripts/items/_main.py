@@ -57,5 +57,5 @@ def read_json_files(subfolder):
                     print(f"Error decoding {filename}")
 
 output_path = 'datapack/data/cgn/loot_table/'
-items_path = 'z_other/scripts/items/items'
+items_path = 'z_other/scripts/items'
 read_json_files(items_path)

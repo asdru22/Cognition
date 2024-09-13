@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#entity",
+                "query": "tag:not_implemented",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,11 +65,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "97ba8496e90903ae",
@@ -148,6 +150,11 @@
   },
   "active": "4ffc4651587d2247",
   "lastOpenFiles": [
+    "Pyroplastic Bolt.md",
+    "Mindflare.md",
+    "Malachite Shield.md",
+    "Guster.md",
+    "Smoldering Vortex.md",
     "Enchanted Book (Pulse).md",
     "Malachite Double Edged Sword.md",
     "Pyroplasm.md",
@@ -155,7 +162,6 @@
     "Cog.md",
     "Screw.md",
     "Bubbles.md",
-    "Guster.md",
     "Wispthorn.md",
     "Stygian Totem.md",
     "Stygian Relic.md",
@@ -163,7 +169,6 @@
     "Midnight Rose Seed.md",
     "Shockweave Chestplate.md",
     "Shockweave Helmet.md",
-    "Malachite Shield.md",
     "Midnight Rose.md",
     "Gloomstone Leggings.md",
     "Gloomstone Helmet.md",
@@ -171,9 +176,6 @@
     "Gloomstone Chestplate.md",
     "Gloomstone Boots.md",
     "Automatic Bow.md",
-    "Pyroplastic Bolt.md",
-    "Decaying Workshop.md",
-    "Mindflare.md",
     "Untitled.canvas",
     "Structures",
     "Blocks",

@@ -1,0 +1,6 @@
+{
+  "base_item": "arrow",
+  "type": "weapon",
+  "translation": "Pyroplastic Bolt",
+  "custom_data":{"projectile":true}
+}
