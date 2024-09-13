@@ -1,1 +1,1 @@
-$damage @s[nbt=!{Owner:$(owner_array)}] 5 cgn:gloomstone_beam by $(owner)
+$damage @s[nbt=!{UUID:$(owner_array)}] 5 cgn:pyroplastic_beam by $(owner)

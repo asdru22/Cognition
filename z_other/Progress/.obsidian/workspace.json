@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -147,7 +146,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4ffc4651587d2247",
+  "active": "e88cb082390620f3",
   "lastOpenFiles": [
     "Automatic Bow.md",
     "Smoldering Vortex.md",

@@ -52,6 +52,7 @@
     "death.attack.cgn.malachite_knife": "%s took a knife to the core",
     "death.attack.cgn.malachite_knife.player": "%s took %s's knife to the core",
     "death.attack.cgn.malachite_knife.item": "%s took %s's knife to the core",
+    "death.attack.cgn.pyroplastic_beam": "%s was disintegrated by a pyroplastic beam",
 
     "advancements.cgn.root.title": "Cognition",
     "advancements.cgn.root.description": "By Asdru",
