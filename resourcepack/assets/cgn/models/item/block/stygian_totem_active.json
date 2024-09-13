@@ -1,10 +1,9 @@
 {
-	"credit": "Made with Blockbench",
 	"parent": "minecraft:block/cube_all",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "cgn:block/stygian_totem_activated",
-		"particle": "cgn:block/stygian_totem_activated",
+		"0": "cgn:block/stygian_totem_active",
+		"particle": "cgn:block/stygian_totem_active",
 		"tendrils": "cgn:block/stygian_totem_tendrils"
 	},
 	"elements": [
