@@ -1,7 +1,7 @@
 {
-  "base_item": "netherite_axe",
-  "type": "tool",
-  "translation": "Ebonite Axe",
+  "base_item": "netherite_sword",
+  "type": "weapon",
+  "translation": "Double Edged Ebonite Sword",
   "components": {
     "minecraft:max_damage": 2031,
     "minecraft:damage_resistant": {
@@ -19,7 +19,14 @@
         {
           "id": "minecraft:base_attack_speed",
           "type": "minecraft:attack_speed",
-          "amount": -3,
+          "amount": -2.5,
+          "operation": "add_value",
+          "slot": "mainhand"
+        },
+        {
+          "id": "cgn:entity_interaction_range",
+          "type": "minecraft:entity_interaction_range",
+          "amount": 0.5,
           "operation": "add_value",
           "slot": "mainhand"
         }

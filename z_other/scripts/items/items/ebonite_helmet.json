@@ -1,37 +1,37 @@
 {
-  "base_item": "netherite_boots",
+  "base_item": "netherite_helmet",
   "type": "armor",
-  "translation": "Ebonite Boots",
+  "translation": "Ebonite Helmet",
   "components": {
-    "minecraft:max_damage": 481,
+    "minecraft:max_damage": 407,
     "minecraft:attribute_modifiers": {
       "modifiers": [
         {
-          "id": "cgn:armor.feet",
+          "id": "cgn:armor.head",
           "type": "minecraft:armor",
           "amount": 3,
           "operation": "add_value",
-          "slot": "feet"
+          "slot": "head"
         },
         {
-          "id": "cgn:armor_toughness.feet",
+          "id": "cgn:armor_toughness.head",
           "type": "minecraft:armor_toughness",
           "amount": 3,
           "operation": "add_value",
-          "slot": "feet"
+          "slot": "head"
         },
         {
-          "id": "cgn:knockback_resistance.feet",
+          "id": "cgn:knockback_resistance.head",
           "type": "minecraft:knockback_resistance",
           "amount": 0.1,
           "operation": "add_value",
-          "slot": "feet"
+          "slot": "head"
         }
       ]
     },
     "minecraft:equippable": {
       "model": "cgn:ebonite",
-      "slot": "feet",
+      "slot": "head",
       "dispensable": true
     },
     "minecraft:damage_resistant": {

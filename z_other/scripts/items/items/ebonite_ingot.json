@@ -1,0 +1,10 @@
+{
+  "base_item": "poisonous_potato",
+  "type": "material",
+  "translation": "Ebonite Ingot",
+  "components": {
+    "minecraft:damage_resistant": {
+      "types": "#minecraft:is_fire"
+    }
+  }
+}

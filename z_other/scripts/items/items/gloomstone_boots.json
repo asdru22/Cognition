@@ -1,9 +1,9 @@
 {
   "base_item": "netherite_boots",
   "type": "armor",
-  "translation": "Ebonite Boots",
+  "translation": "Gloomstone Boots",
   "components": {
-    "minecraft:max_damage": 481,
+    "minecraft:max_damage": 429,
     "minecraft:attribute_modifiers": {
       "modifiers": [
         {
@@ -16,26 +16,19 @@
         {
           "id": "cgn:armor_toughness.feet",
           "type": "minecraft:armor_toughness",
-          "amount": 3,
-          "operation": "add_value",
-          "slot": "feet"
-        },
-        {
-          "id": "cgn:knockback_resistance.feet",
-          "type": "minecraft:knockback_resistance",
-          "amount": 0.1,
+          "amount": 2,
           "operation": "add_value",
           "slot": "feet"
         }
       ]
     },
     "minecraft:equippable": {
-      "model": "cgn:ebonite",
+      "model": "cgn:gloomstone",
       "slot": "feet",
       "dispensable": true
-    },
-    "minecraft:damage_resistant": {
-      "types": "#minecraft:is_fire"
     }
+  },
+  "custom_data": {
+    "ebonite_upgradeable": true
   }
 }

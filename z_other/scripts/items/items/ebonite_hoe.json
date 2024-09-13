@@ -1,7 +1,7 @@
 {
-  "base_item": "netherite_axe",
+  "base_item": "netherite_hoe",
   "type": "tool",
-  "translation": "Ebonite Axe",
+  "translation": "Ebonite Hoe",
   "components": {
     "minecraft:max_damage": 2031,
     "minecraft:damage_resistant": {
@@ -12,14 +12,14 @@
         {
           "id": "minecraft:base_attack_damage",
           "type": "minecraft:attack_damage",
-          "amount": 9,
+          "amount": 0,
           "operation": "add_value",
           "slot": "mainhand"
         },
         {
           "id": "minecraft:base_attack_speed",
           "type": "minecraft:attack_speed",
-          "amount": -3,
+          "amount": 0,
           "operation": "add_value",
           "slot": "mainhand"
         }

@@ -22,5 +22,5 @@ def format_json_files(folder_path):
                 print(f"Formatted {filename}")
 
 # Example usage
-folder_path = 'datapack/data/cgn/loot_table/items'
+folder_path = 'z_other/scripts/items/items'
 format_json_files(folder_path)

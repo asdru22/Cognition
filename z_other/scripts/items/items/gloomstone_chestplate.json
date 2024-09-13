@@ -1,9 +1,9 @@
 {
   "base_item": "netherite_chestplate",
   "type": "armor",
-  "translation": "Ebonite Chestplate",
+  "translation": "Gloomstone Chestplate",
   "components": {
-    "minecraft:max_damage": 592,
+    "minecraft:max_damage": 528,
     "minecraft:attribute_modifiers": {
       "modifiers": [
         {
@@ -16,26 +16,19 @@
         {
           "id": "cgn:armor_toughness.chest",
           "type": "minecraft:armor_toughness",
-          "amount": 3,
-          "operation": "add_value",
-          "slot": "chest"
-        },
-        {
-          "id": "cgn:knockback_resistance.chest",
-          "type": "minecraft:knockback_resistance",
-          "amount": 0.1,
+          "amount": 2,
           "operation": "add_value",
           "slot": "chest"
         }
       ]
     },
     "minecraft:equippable": {
-      "model": "cgn:ebonite",
+      "model": "cgn:gloomstone",
       "slot": "chest",
       "dispensable": true
-    },
-    "minecraft:damage_resistant": {
-      "types": "#minecraft:is_fire"
     }
+  },
+  "custom_data": {
+    "ebonite_upgradeable": true
   }
 }

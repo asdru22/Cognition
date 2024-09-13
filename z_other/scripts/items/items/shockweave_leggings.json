@@ -1,0 +1,30 @@
+{
+  "base_item": "netherite_leggigns",
+  "type": "armor",
+  "translation": "Shockweave Leggings",
+  "components": {
+    "minecraft:max_damage": 363,
+    "minecraft:attribute_modifiers": {
+      "modifiers": [
+        {
+          "id": "cgn:armor.legs",
+          "type": "minecraft:armor",
+          "amount": 4,
+          "operation": "add_value",
+          "slot": "legs"
+        }
+      ],
+      "show_in_tooltip": false
+    },
+    "minecraft:equippable": {
+      "model": "cgn:shockweave",
+      "slot": "legs",
+      "dispensable": true
+    }
+  },
+  "lore":[
+    {"translate":"item.modifiers.legs","color":"gray","italic":false},
+              {"translate":"attribute.modifier.plus.0","color":"blue","italic":false,"with":[4,{"translate":"attribute.name.armor"}]},
+              {"translate":"attribute.modifier.plus.0","color":"blue","italic":false,"with":[1,{"translate":"attribute.name.max_electroplasm"}]}
+  ]
+}
