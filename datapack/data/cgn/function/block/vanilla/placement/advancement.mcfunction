@@ -5,4 +5,4 @@ execute store result score @s cgn.dummy run attribute @s minecraft:block_interac
 scoreboard players add @s cgn.dummy 2
 execute anchored eyes run function cgn:block/vanilla/placement/raycast
 execute as @e[type=minecraft:item_display,tag=cgn.newly_placed_update_light] at @s run function cgn:block/vanilla/update_light/on_place
-advancement revoke @s only cgn:technical/placed_block/vanilla/custom
+advancement revoke @s only cgn:technical/placed_block/custom
