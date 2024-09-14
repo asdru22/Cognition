@@ -3,6 +3,7 @@ scoreboard objectives add cgn.dummy2 dummy
 
 scoreboard objectives add cgn.used_crossbow used:crossbow
 scoreboard objectives add cgn.used_bow used:bow
+scoreboard objectives add cgn.used_warped_fungus_on_a_stick used:warped_fungus_on_a_stick
 
 scoreboard objectives add cgn.using_item dummy
 scoreboard objectives add cgn.using_item_new dummy

@@ -1,0 +1,1 @@
+execute if entity @s[tag=cgn.riding_strider] run function cgn:item/vanilla/warped_fungus_on_a_stick/second
