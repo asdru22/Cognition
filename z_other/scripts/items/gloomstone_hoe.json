@@ -25,5 +25,21 @@
   },
   "custom_data": {
     "ebonite_upgradeable": true
-  }
+  }, "recipe": [
+    [
+        "cgn:gloomstone",
+        "cgn:gloomstone",
+        "cgn:screw"
+    ],
+    [
+        "",
+        "stick",
+        ""
+    ],
+    [
+        "",
+        "stick",
+        ""
+    ]
+]
 }

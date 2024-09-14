@@ -32,5 +32,23 @@
       "italic": false,
       "color": "blue"
     }
+  ],
+  "count": 2,
+  "recipe": [
+      [
+          "cgn:gloomstone",
+          "cgn:ebonite_upgrade_smithing_template",
+          "cgn:gloomstone"
+      ],
+      [
+          "cgn:gloomstone",
+          "deepslate",
+          "cgn:gloomstone"
+      ],
+      [
+          "cgn:gloomstone",
+          "cgn:gloomstone",
+          "cgn:gloomstone"
+      ]
   ]
 }

@@ -1,7 +1,7 @@
 {
   "base_item": "diamond_sword",
   "type": "weapon",
-  "translation": "Ebonite Dagger",
+  "translation": "Gloomstone Dagger",
   "components": {
     "minecraft:max_damage": 1561,
     "minecraft:attribute_modifiers": {
@@ -32,5 +32,22 @@
   },
   "custom_data": {
     "ebonite_upgradeable": true
-  }
+  },
+  "recipe": [
+      [
+          "cgn:gloomstone_blade",
+          "",
+          ""
+      ],
+      [
+          "stick",
+          "",
+          ""
+      ],
+      [
+          "cgn:screw",
+          "",
+          ""
+      ]
+  ]
 }

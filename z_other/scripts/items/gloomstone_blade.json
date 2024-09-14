@@ -1,22 +1,22 @@
 {
   "base_item": "poisonous_potato",
   "type": "material",
-  "translation": "Screw",
-  "count": 3,
+  "translation": "Gloomstone Blade",
   "recipe": [
       [
           "",
-          "copper_ingot",
-          ""
+          "",
+          "cgn:gloomstone"
       ],
       [
           "",
-          "copper_ingot",
-          "copper_ingot"
+          "cgn:gloomstone",
+          ""
       ],
       [
-          "copper_ingot",
+          "cgn:cog",
           "",
           ""
-      ]]
+      ]
+  ]
 }
