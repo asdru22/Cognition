@@ -6,4 +6,4 @@ execute if block ~ ~ ~1 minecraft:hopper[facing=north] run data modify block ~ ~
 execute if block ~ ~ ~-1 minecraft:hopper[facing=south] run data modify block ~ ~ ~-1 TransferCooldown set value 0
 execute if block ~ ~1 ~ minecraft:hopper[facing=down] run data modify block ~ ~1 ~ TransferCooldown set value 0
 execute if block ~ ~-1 ~ minecraft:hopper run data modify block ~ ~-1 ~ TransferCooldown set value 0
-execute as @e[type=minecraft:item_display,tag=cgn.prevents_hoppers,tag=cgn.block,distance=..5] at @s positioned ~ ~-1 ~ run function cgn:block/hopper_updating/fill
+execute as @e[type=minecraft:item_display,tag=cgn.prevents_hoppers,tag=cgn.block,distance=..5] at @s positioned ~ ~-1 ~ run function cgn:block/vanilla/hopper_updating/fill

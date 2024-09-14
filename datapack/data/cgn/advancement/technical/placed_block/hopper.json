@@ -20,7 +20,7 @@
     }
   },
   "rewards": {
-    "function": "cgn:block/hopper_updating/advancement"
+    "function": "cgn:block/vanilla/hopper_updating/advancement"
   },
   "requirements": [
     [

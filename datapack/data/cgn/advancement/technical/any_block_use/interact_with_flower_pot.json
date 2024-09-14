@@ -34,7 +34,7 @@
       }
     },
     "rewards": {
-      "function": "cgn:block/flower_pot/init"
+      "function": "cgn:block/vanilla/flower_pot/init"
     }
   }
   

@@ -1,26 +1,26 @@
 scoreboard players set #temp cgn.dummy 0
 
 #self powered
-function cgn:block/redstone_power/is_powered
+function cgn:block/vanilla/redstone_power/is_powered
 execute if score #out cgn.dummy matches 1 run scoreboard players set #temp cgn.dummy 1
 
 #other powered
-execute if score #temp cgn.dummy matches 0 positioned ~ ~1 ~ unless block ~ ~ ~ #cgn:transparent run function cgn:block/redstone_power/is_powered
+execute if score #temp cgn.dummy matches 0 positioned ~ ~1 ~ unless block ~ ~ ~ #cgn:transparent run function cgn:block/vanilla/redstone_power/is_powered
 execute if score #temp cgn.dummy matches 0 if score #out cgn.dummy matches 1 run scoreboard players set #temp cgn.dummy 1
 
-execute if score #temp cgn.dummy matches 0 positioned ~ ~-1 ~ unless block ~ ~ ~ #cgn:transparent run function cgn:block/redstone_power/is_powered
+execute if score #temp cgn.dummy matches 0 positioned ~ ~-1 ~ unless block ~ ~ ~ #cgn:transparent run function cgn:block/vanilla/redstone_power/is_powered
 execute if score #temp cgn.dummy matches 0 if score #out cgn.dummy matches 1 run scoreboard players set #temp cgn.dummy 1
 
-execute if score #temp cgn.dummy matches 0 positioned ~1 ~ ~ unless block ~ ~ ~ #cgn:transparent run function cgn:block/redstone_power/is_powered
+execute if score #temp cgn.dummy matches 0 positioned ~1 ~ ~ unless block ~ ~ ~ #cgn:transparent run function cgn:block/vanilla/redstone_power/is_powered
 execute if score #temp cgn.dummy matches 0 if score #out cgn.dummy matches 1 run scoreboard players set #temp cgn.dummy 1
 
-execute if score #temp cgn.dummy matches 0 positioned ~-1 ~ ~ unless block ~ ~ ~ #cgn:transparent run function cgn:block/redstone_power/is_powered
+execute if score #temp cgn.dummy matches 0 positioned ~-1 ~ ~ unless block ~ ~ ~ #cgn:transparent run function cgn:block/vanilla/redstone_power/is_powered
 execute if score #temp cgn.dummy matches 0 if score #out cgn.dummy matches 1 run scoreboard players set #temp cgn.dummy 1
 
-execute if score #temp cgn.dummy matches 0 positioned ~ ~ ~1 unless block ~ ~ ~ #cgn:transparent run function cgn:block/redstone_power/is_powered
+execute if score #temp cgn.dummy matches 0 positioned ~ ~ ~1 unless block ~ ~ ~ #cgn:transparent run function cgn:block/vanilla/redstone_power/is_powered
 execute if score #temp cgn.dummy matches 0 if score #out cgn.dummy matches 1 run scoreboard players set #temp cgn.dummy 1
 
-execute if score #temp cgn.dummy matches 0 positioned ~ ~ ~-1 unless block ~ ~ ~ #cgn:transparent run function cgn:block/redstone_power/is_powered
+execute if score #temp cgn.dummy matches 0 positioned ~ ~ ~-1 unless block ~ ~ ~ #cgn:transparent run function cgn:block/vanilla/redstone_power/is_powered
 execute if score #temp cgn.dummy matches 0 if score #out cgn.dummy matches 1 run scoreboard players set #temp cgn.dummy 1
 
 ### Self Active

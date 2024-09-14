@@ -1,7 +1,7 @@
 {
   "base_item": "poisonous_potato",
   "type": "material",
-  "translation": "Ebonite Upgrade Smithing Template",
+  "translation": "Ebonite Upgrade",
   "components": {
     "rarity": "uncommon"
   },
