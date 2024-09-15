@@ -14,6 +14,9 @@
           "components": {
             "minecraft:tooltip_style": "cgn:default",
             "minecraft:item_model": "cgn:material/pyroplasm",
+            "minecraft:damage_resistant": {
+              "types": "#cgn:pyroplasm_explosion"
+            },
             "!minecraft:consumable": {},
             "!minecraft:food": {}
           }

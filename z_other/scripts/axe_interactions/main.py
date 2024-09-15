@@ -15,7 +15,7 @@ blockstates = json.load(blockstates)
 
 function_path = os.path.join(datapack,functions)
 function = open(os.path.join(function_path,"axe.mcfunction"),'w')
-function_text =  "execute unless block ~ ~ ~ #cgn:axe_interacts_with/main run return fail\nfunction cgn:technical/macros/damage_slot/main {slot:\"contents\",amount:1}\n\n"
+function_text =  "execute unless block ~ ~ ~ #cgn:axe_interacts_with/main run return run function cgn:item/vanilla/dispensable/axe_logic/check_dispensers\nfunction cgn:technical/macros/damage_slot/main {slot:\"contents\",amount:1}\nfunction cgn:item/vanilla/dispensable/axe_logic/check_dispensers\n\n"
 
 
 def make_blockstates(block,new_block,block_states):

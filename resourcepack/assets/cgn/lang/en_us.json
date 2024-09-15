@@ -34,6 +34,7 @@
   "death.attack.cgn.player_lightning": "%s was struck by lightning",
   "death.attack.cgn.player_lightning.item": "%s was struck by %s's lightning using %s",
   "death.attack.cgn.player_lightning.player": "%s was struck by %s's lightning",
+  "death.attack.cgn.pyroplasm_explosion": "%s didn't take the necessary precautions",
   "death.attack.cgn.pyroplastic_beam": "%s was disintegrated by a pyroplastic beam",
   "enchantment.cgn.pulse": "Pulse",
   "enchantment.cgn.recoil": "Recoil",

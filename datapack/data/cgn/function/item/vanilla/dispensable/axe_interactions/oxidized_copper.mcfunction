@@ -1,6 +1,6 @@
 particle minecraft:scrape ~ ~ ~ 0.5 0.5 0.5 0 5
 playsound minecraft:item.axe.scrape block @a[distance=..16]
-loot spawn ~ ~ ~ loot cgn:items/malachite
+function cgn:item/vanilla/dispensable/axe_logic/drop_malachite
 execute if block ~ ~ ~ oxidized_chiseled_copper run return run setblock ~ ~ ~ weathered_chiseled_copper
 execute if block ~ ~ ~ oxidized_copper run return run setblock ~ ~ ~ weathered_copper
 execute if block ~ ~ ~ oxidized_copper_bulb run return run function cgn:item/vanilla/dispensable/axe_interactions/oxidized_copper_bulb_states

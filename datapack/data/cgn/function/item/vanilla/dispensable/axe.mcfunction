@@ -1,5 +1,6 @@
-execute unless block ~ ~ ~ #cgn:axe_interacts_with/main run return fail
+execute unless block ~ ~ ~ #cgn:axe_interacts_with/main run return run function cgn:item/vanilla/dispensable/axe_logic/check_dispensers
 function cgn:technical/macros/damage_slot/main {slot:"contents",amount:1}
+function cgn:item/vanilla/dispensable/axe_logic/check_dispensers
 
 execute if block ~ ~ ~ #cgn:axe_interacts_with/oxidized_copper run return run function cgn:item/vanilla/dispensable/axe_interactions/oxidized_copper
 execute if block ~ ~ ~ #cgn:axe_interacts_with/weathered_copper run return run function cgn:item/vanilla/dispensable/axe_interactions/weathered_copper

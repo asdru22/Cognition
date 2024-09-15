@@ -1,5 +1,10 @@
 {
   "base_item": "poisonous_potato",
   "type": "material",
-  "translation": "Pyroplasm"
+  "translation": "Pyroplasm",
+  "components":{
+    "minecraft:damage_resistant": {
+      "types": "#cgn:pyroplasm_explosion"
+    }
+  }
 }
