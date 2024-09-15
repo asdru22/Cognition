@@ -2,6 +2,10 @@
   "base_item": "poisonous_potato",
   "type": "material",
   "translation": "Gloomstone Blade",
+  "components":{
+    "!minecraft:food":{},
+    "!minecraft:consumable":{}
+  },
   "recipe": [
       [
           "",

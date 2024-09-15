@@ -5,6 +5,8 @@
   "components":{
     "minecraft:damage_resistant": {
       "types": "#cgn:pyroplasm_explosion"
-    }
+    },
+    "!minecraft:food":{},
+    "!minecraft:consumable":{}
   }
 }

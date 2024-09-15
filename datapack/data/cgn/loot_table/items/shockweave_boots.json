@@ -60,7 +60,7 @@
               "color": "blue",
               "italic": false,
               "with": [
-                1,
+                "1",
                 {
                   "translate": "attribute.name.armor"
                 }
@@ -71,7 +71,7 @@
               "color": "blue",
               "italic": false,
               "with": [
-                0.5,
+                "0.5",
                 {
                   "translate": "attribute.name.max_electroplasm"
                 }

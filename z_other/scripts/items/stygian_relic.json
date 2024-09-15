@@ -3,6 +3,8 @@
   "type": "material",
   "translation": "Stygian Relic",
   "components": {
-    "minecraft:rarity": "epic"
+    "minecraft:rarity": "epic",
+    "!minecraft:food":{},
+    "!minecraft:consumable":{}
   }
 }

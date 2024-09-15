@@ -1,5 +1,9 @@
 {
   "base_item": "poisonous_potato",
   "type": "material",
-  "translation": "Gloomstone Shard"
+  "translation": "Gloomstone Shard",
+  "components":{
+    "!minecraft:food":{},
+    "!minecraft:consumable":{}
+  }
 }

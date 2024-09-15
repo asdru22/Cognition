@@ -2,6 +2,10 @@
   "base_item": "poisonous_potato",
   "type": "material",
   "translation": "Screw",
+  "components":{
+    "!minecraft:food":{},
+    "!minecraft:consumable":{}
+  },
   "count": 3,
   "recipe": [
       [

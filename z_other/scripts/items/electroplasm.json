@@ -1,5 +1,9 @@
 {
   "base_item": "poisonous_potato",
   "type": "material",
-  "translation": "Electroplasm"
+  "translation": "Electroplasm",
+  "components":{
+    "!minecraft:food":{},
+    "!minecraft:consumable":{}
+  }
 }

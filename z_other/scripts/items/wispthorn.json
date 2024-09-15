@@ -4,5 +4,9 @@
   "translation": "Wispthorn",
   "custom_data":{
     "pottable":true
+  },
+  "components":{
+    "!minecraft:food":{},
+    "!minecraft:consumable":{}
   }
 }

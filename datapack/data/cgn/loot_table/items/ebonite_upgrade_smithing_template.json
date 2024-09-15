@@ -15,8 +15,8 @@
             "minecraft:tooltip_style": "cgn:default",
             "minecraft:item_model": "cgn:material/ebonite_upgrade_smithing_template",
             "rarity": "uncommon",
-            "!minecraft:consumable": {},
-            "!minecraft:food": {}
+            "!minecraft:food": {},
+            "!minecraft:consumable": {}
           }
         },
         {

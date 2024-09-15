@@ -71,11 +71,7 @@ def make_loot_table(id,data,lang,shaped_recipes):
     
     if("custom_data" in data):
         loot_table["pools"][0]["functions"][0]["components"]["minecraft:custom_data"]= {namespace:data["custom_data"]}
-    
-    if(data["base_item"]=='poisonous_potato'):
-      loot_table["pools"][0]["functions"][0]["components"]["!minecraft:consumable"] = {}
-      loot_table["pools"][0]["functions"][0]["components"]["!minecraft:food"] = {}
-
+        
     loot_table["pools"][0]["functions"].append(get_name(id))
     loot_table["pools"][0]["functions"].append(get_lore(data))
 
@@ -83,7 +79,8 @@ def make_loot_table(id,data,lang,shaped_recipes):
     if("folder" in data): category = data["folder"]
 
     with open(os.path.join(output_path,category,f"{id}.json"),"w") as f:
-        f.write(json.dumps(loot_table,indent=2))
+
+      f.write(json.dumps(loot_table,indent=2))
 
     lang[f"item.cgn.{id}"] = data["translation"]
 

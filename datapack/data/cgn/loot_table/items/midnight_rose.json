@@ -14,13 +14,13 @@
           "components": {
             "minecraft:tooltip_style": "cgn:default",
             "minecraft:item_model": "cgn:block/midnight_rose",
+            "!minecraft:food": {},
+            "!minecraft:consumable": {},
             "minecraft:custom_data": {
               "cgn": {
                 "pottable": true
               }
-            },
-            "!minecraft:consumable": {},
-            "!minecraft:food": {}
+            }
           }
         },
         {

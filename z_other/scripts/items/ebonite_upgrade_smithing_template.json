@@ -3,7 +3,9 @@
   "type": "material",
   "translation": "Ebonite Upgrade",
   "components": {
-    "rarity": "uncommon"
+    "rarity": "uncommon",
+    "!minecraft:food":{},
+    "!minecraft:consumable":{}
   },
   "lore": [
     {

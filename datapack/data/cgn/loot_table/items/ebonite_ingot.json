@@ -16,9 +16,7 @@
             "minecraft:item_model": "cgn:material/ebonite_ingot",
             "minecraft:damage_resistant": {
               "types": "#minecraft:is_fire"
-            },
-            "!minecraft:consumable": {},
-            "!minecraft:food": {}
+            }
           }
         },
         {

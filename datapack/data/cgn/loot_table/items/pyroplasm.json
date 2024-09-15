@@ -17,8 +17,8 @@
             "minecraft:damage_resistant": {
               "types": "#cgn:pyroplasm_explosion"
             },
-            "!minecraft:consumable": {},
-            "!minecraft:food": {}
+            "!minecraft:food": {},
+            "!minecraft:consumable": {}
           }
         },
         {

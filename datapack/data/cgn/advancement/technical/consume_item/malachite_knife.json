@@ -6,17 +6,17 @@
         "conditions": {
           "item": {
             "items": [
-              "minecraft:potion"
+              "minecraft:poisonous_potato"
             ],
-            "predicates": {
-              "minecraft:custom_data": "{cgn:{potion:{id:\"cgn:surge\"}}}"
+            "components": {
+              "minecraft:item_name": "{\"translate\":\"item.cgn.malachite_knife\"}"
             }
           }
         }
       }
     },
     "rewards": {
-      "function": "cgn:item/surge_potion/drink"
+      "function": "cgn:item/malachite_knife/advancement"
     }
   }
   

@@ -20,8 +20,8 @@
               "song": "cgn:sunrise",
               "show_in_tooltip": true
             },
-            "!minecraft:consumable": {},
-            "!minecraft:food": {}
+            "!minecraft:food": {},
+            "!minecraft:consumable": {}
           }
         },
         {

@@ -1,4 +1,5 @@
 {
+  "parent":"cgn:technical/root",
     "criteria": {
       "interact_with_flower_pot": {
         "trigger": "minecraft:any_block_use",

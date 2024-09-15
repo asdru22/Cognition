@@ -14,8 +14,8 @@
           "components": {
             "minecraft:tooltip_style": "cgn:default",
             "minecraft:item_model": "cgn:material/electroplasm",
-            "!minecraft:consumable": {},
-            "!minecraft:food": {}
+            "!minecraft:food": {},
+            "!minecraft:consumable": {}
           }
         },
         {

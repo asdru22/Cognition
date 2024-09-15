@@ -44,9 +44,7 @@
                   "slot": "mainhand"
                 }
               ]
-            },
-            "!minecraft:consumable": {},
-            "!minecraft:food": {}
+            }
           }
         },
         {

@@ -7,6 +7,8 @@
     "minecraft:jukebox_playable": {
       "song": "cgn:sunrise",
       "show_in_tooltip": true
-    }
+    },
+    "!minecraft:food":{},
+    "!minecraft:consumable":{}
   }
 }

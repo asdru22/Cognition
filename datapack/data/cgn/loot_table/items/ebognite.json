@@ -15,10 +15,10 @@
             "minecraft:tooltip_style": "cgn:default",
             "minecraft:item_model": "cgn:material/ebognite",
             "minecraft:damage_resistant": {
-              "types": "#minecraft:is_fire"
-            },
-            "!minecraft:consumable": {},
-            "!minecraft:food": {}
+              "types": "#minecraft:is_fire",
+              "!minecraft:food": {},
+              "!minecraft:consumable": {}
+            }
           }
         },
         {
