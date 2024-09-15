@@ -140,6 +140,129 @@
     ]
   },
   "oak_log":{
-    "to":"stripped_oak_log"
+    "to":"stripped_oak_log",
+    "functions":[
+      "playsound minecraft:item.axe.strip block @a[distance=...16]"
+    ]
+  },
+  "birch_log":{
+    "to":"stripped_birch_log",
+    "functions":[
+      "playsound minecraft:item.axe.strip block @a[distance=...16]"
+    ]
+  },
+  "dark_oak_log":{
+    "to":"stripped_dark_oak_log",
+    "functions":[
+      "playsound minecraft:item.axe.strip block @a[distance=...16]"
+    ]
+  },
+  "spruce_log":{
+    "to":"stripped_spruce_log",
+    "functions":[
+      "playsound minecraft:item.axe.strip block @a[distance=...16]"
+    ]
+  },
+  "jungle_log":{
+    "to":"stripped_jungle_log",
+    "functions":[
+      "playsound minecraft:item.axe.strip block @a[distance=...16]"
+    ]
+  },
+  "acacia_log":{
+    "to":"stripped_acacia_log",
+    "functions":[
+      "playsound minecraft:item.axe.strip block @a[distance=...16]"
+    ]
+  },
+  "mangrove_log":{
+    "to":"stripped_mangrove_log",
+    "functions":[
+      "playsound minecraft:item.axe.strip block @a[distance=...16]"
+    ]
+  },
+  "cherry_log":{
+    "to":"stripped_cherry_log",
+    "functions":[
+      "playsound minecraft:item.axe.strip block @a[distance=...16]"
+    ]
+  },
+  "oak_wood":{
+    "to":"stripped_oak_wood",
+    "functions":[
+      "playsound minecraft:item.axe.strip block @a[distance=...16]"
+    ]
+  },
+  "birch_wood":{
+    "to":"stripped_birch_wood",
+    "functions":[
+      "playsound minecraft:item.axe.strip block @a[distance=...16]"
+    ]
+  },
+  "dark_oak_wood":{
+    "to":"stripped_dark_oak_wood",
+    "functions":[
+      "playsound minecraft:item.axe.strip block @a[distance=...16]"
+    ]
+  },
+  "spruce_wood":{
+    "to":"stripped_spruce_wood",
+    "functions":[
+      "playsound minecraft:item.axe.strip block @a[distance=...16]"
+    ]
+  },
+  "jungle_wood":{
+    "to":"stripped_jungle_wood",
+    "functions":[
+      "playsound minecraft:item.axe.strip block @a[distance=...16]"
+    ]
+  },
+  "acacia_wood":{
+    "to":"stripped_acacia_wood",
+    "functions":[
+      "playsound minecraft:item.axe.strip block @a[distance=...16]"
+    ]
+  },
+  "mangrove_wood":{
+    "to":"stripped_mangrove_wood",
+    "functions":[
+      "playsound minecraft:item.axe.strip block @a[distance=...16]"
+    ]
+  },
+  "cherry_wood":{
+    "to":"stripped_cherry_wood",
+    "functions":[
+      "playsound minecraft:item.axe.strip block @a[distance=...16]"
+    ]
+  },
+  "warped_stem":{
+    "to":"stripped_warped_stem",
+    "functions":[
+      "playsound minecraft:item.axe.strip block @a[distance=...16]"
+    ]
+  },
+  "warped_hyphae":{
+    "to":"stripped_warped_hyphae",
+    "functions":[
+      "playsound minecraft:item.axe.strip block @a[distance=...16]"
+    ]
+  },
+  "crimson_stem":{
+    "to":"stripped_crimson_stem",
+    "functions":[
+      "playsound minecraft:item.axe.strip block @a[distance=...16]"
+    ]
+  },
+  "crimson_hyphae":{
+    "to":"stripped_crimson_hyphae",
+    "functions":[
+      "playsound minecraft:item.axe.strip block @a[distance=...16]"
+    ]
+  },
+  "bamboo_block":{
+    "to":"stripped_bamboo_block",
+    "functions":[
+      "playsound minecraft:item.axe.strip block @a[distance=...16]"
+    ]
   }
 }

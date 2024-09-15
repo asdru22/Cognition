@@ -1,0 +1,42 @@
+{
+  "trapdoor":{
+    "facing": ["north", "south", "east", "west"],
+    "open": ["true", "false"],
+    "half": ["top", "bottom"],
+    "waterlogged": ["true", "false"]
+  },
+  "door":{
+    "facing": ["north", "south", "east", "west"],
+    "open": ["true", "false"],
+    "hinge": ["right", "left"],
+    "half": ["lower", "upper"]
+  },
+  "slab":{
+    "type":["bottom","top","double"]
+  },
+  "bulb":{
+    "lit": ["true", "false"],
+    "powered": ["true", "false"]
+  },
+  "stairs":{
+    "facing": ["north", "south", "east", "west"],
+    "half": ["top", "bottom"],
+    "waterlogged": ["true", "false"],
+    "shape":["inner_left","inner_right","outer_left","outer_right","straight"]
+  },
+  "log":{
+    "axis":["x","y","z"]
+  },
+  "wood":{
+    "axis":["x","y","z"]
+  },
+  "stem":{
+    "axis":["x","y","z"]
+  },
+  "hyphae":{
+    "axis":["x","y","z"]
+  },
+  "bamboo":{
+    "axis":["x","y","z"]
+  }
+}
