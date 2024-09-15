@@ -1,0 +1,3 @@
+tag @s add cgn.processed
+execute if entity @s[type=item] run return run execute if items entity @s contents #cgn:dispensable unless function cgn:item/vanilla/dispensable/has_owner if entity @s[nbt={Age:1s}] at @s if function cgn:item/vanilla/dispensable/near_dispenser run function cgn:item/vanilla/dispensable/main
+execute if entity @s[type=arrow] run return run function cgn:entity/projectile/arrow/setup

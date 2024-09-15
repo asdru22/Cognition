@@ -64,7 +64,11 @@
     "advancements.cgn.make_ebonite.description": "Create Ebonite by landing on Ebognite with Charged Armor",
     "advancements.cgn.make_pyroplasm.title": "Breaking Blocks",
     "advancements.cgn.make_pyroplasm.description": "Create Pyroplasm through an explosive reaction",
-    
+    "advancements.cgn.make_greek_fire.title": "Re-inventing Fire",
+    "advancements.cgn.make_greek_fire.description": "Create Greek Fire",
+    "advancements.cgn.move_bubble_with_guster.title": "Blown Away",
+    "advancements.cgn.move_bubble_with_guster.description": "Be inside a bubble moved by a Guster",
+
     "actionbar.cgn.electroplasm.full": "\ua004\ua001",
     "actionbar.cgn.electroplasm.half": "\ua004\ua002",
     "actionbar.cgn.electroplasm.empty": "\ua004\ua003",

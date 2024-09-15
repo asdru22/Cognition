@@ -11,3 +11,5 @@ tags:
 [[Gloomstone Boots]]
 [[Gloomstone Blade]]
 [[Electromodulator]]
+[[Stygian Totem]]
+[[Smoldering Vortex]]

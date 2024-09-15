@@ -1,5 +1,3 @@
-execute on origin if entity @s[tag=!cgn.used_ranged_weapon] run return fail
-
 tag @s add cgn.tick
 tag @s add cgn.projectile.no_timer
 tag @s add cgn.projectile

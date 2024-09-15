@@ -6,4 +6,4 @@ kill @s
 scoreboard players operation $temp cgn.dummy < #10 cgn.dummy
 
 execute if entity @s[nbt={Fire:-1s}] run return run function cgn:entity/projectile/arrow/explode_malachite/main
-function cgn:entity/projectile/arrow/burn_malachite/main
+execute positioned ~ ~-0.2 ~ run function cgn:entity/projectile/arrow/burn_malachite/main
