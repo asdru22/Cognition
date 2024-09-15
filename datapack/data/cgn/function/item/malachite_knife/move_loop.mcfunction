@@ -1,4 +1,4 @@
-execute unless block ~ ~ ~ #cgn:raycast_ignore run return run function cgn:item/malachite_knife/land
+execute unless block ~ ~ ~ #cgn:raycast_ignore run return run function cgn:item/malachite_knife/land with storage cgn:temp root.malachite_knife
 tp @s ^ ^ ^0.2
 scoreboard players remove @s cgn.dummy2 1
 

@@ -14,6 +14,7 @@
           "components": {
             "minecraft:tooltip_style": "cgn:default",
             "minecraft:item_model": "cgn:weapon/malachite_knife",
+            "!minecraft:food": {},
             "minecraft:consumable": {
               "animation": "spear",
               "consume_seconds": 0.5,
