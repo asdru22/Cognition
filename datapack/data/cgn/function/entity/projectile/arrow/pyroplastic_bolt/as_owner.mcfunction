@@ -1,7 +1,7 @@
 
 data modify storage cgn:macro root.owner_array set from entity @s UUID
 function cgn:technical/string_uuid/init
-data modify storage cgn:macro root.owner set from storage cgn:storage root.temp.uuid.out
+data modify storage cgn:macro root.owner set from storage cgn:storage root.temp.string_uuid
 
 scoreboard players operation $temp cgn.dummy = @s cgn.using_item
 
