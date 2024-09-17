@@ -2,7 +2,8 @@ $data merge entity @s {Rotation:$(rotation),teleport_duration:2,transformation:{
 tag @s add cgn.tick
 tag @s add cgn.projectile
 tag @s add cgn.malachite_knife
-
+tag @s add cgn.projectile.no_timer
+tag @s add cgn.projectile.setup
 data modify entity @s item set from storage cgn:storage root.temp.item
 
 scoreboard players set @s cgn.animation_timer 2400

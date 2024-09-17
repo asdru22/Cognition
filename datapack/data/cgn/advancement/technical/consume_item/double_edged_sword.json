@@ -14,6 +14,6 @@
     }
   },
   "rewards": {
-    "function": "cgn:item/double_edged_sword/advancement"
+    "function": "cgn:item/double_edged_sword/throw/advancement"
   }
 }
