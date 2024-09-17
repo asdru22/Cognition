@@ -1,0 +1,3 @@
+$execute store success score $temp cgn.dummy run damage @s[nbt=!{UUID:$(owner)}] $(throwing_damage) player_attack by @p[nbt={UUID:$(owner)}]
+$execute if score $temp cgn.dummy matches 1 as @n[type=item_display,tag=cgn.double_edged_sword,nbt={UUID:$(uuid)}] at @s run function cgn:item/double_edged_sword/item_display_on_hit
+$execute if score $temp cgn.dummy matches 0 as @n[type=item_display,tag=cgn.double_edged_sword,nbt={UUID:$(uuid)}] at @s if score @s cgn.dummy matches 3.. run function cgn:item/double_edged_sword/drop/main

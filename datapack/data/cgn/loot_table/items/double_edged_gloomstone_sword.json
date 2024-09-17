@@ -13,8 +13,8 @@
           "function": "minecraft:set_components",
           "components": {
             "minecraft:tooltip_style": "cgn:default",
-            "minecraft:item_model": "cgn:weapon/double_edged_ebonite_sword",
-            "minecraft:max_damage": 2031,
+            "minecraft:item_model": "cgn:weapon/double_edged_gloomstone_sword",
+            "minecraft:max_damage": 1561,
             "minecraft:consumable": {
               "animation": "spear",
               "consume_seconds": 0.75,
@@ -26,7 +26,7 @@
                 {
                   "id": "minecraft:base_attack_damage",
                   "type": "minecraft:attack_damage",
-                  "amount": 9,
+                  "amount": 8,
                   "operation": "add_value",
                   "slot": "mainhand"
                 },
@@ -49,7 +49,7 @@
             "minecraft:custom_data": {
               "cgn": {
                 "double_edged_sword": true,
-                "throwing_damage": 6
+                "throwing_damage": 5
               }
             }
           }
@@ -58,7 +58,7 @@
           "function": "minecraft:set_name",
           "target": "item_name",
           "name": {
-            "translate": "item.cgn.double_edged_ebonite_sword"
+            "translate": "item.cgn.double_edged_gloomstone_sword"
           }
         },
         {
@@ -80,7 +80,7 @@
               "italic": false,
               "color": "dark_green",
               "with": [
-                " 6",
+                " 5",
                 {
                   "translate": "attribute.name.attack_damage"
                 }

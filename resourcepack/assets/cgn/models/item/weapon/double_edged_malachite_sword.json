@@ -1,7 +1,7 @@
 {
 	"parent": "minecraft:item/handheld",
 	"textures": {
-		"layer0": "cgn:item/weapon/dual_bladed_gloomstone_sword"
+		"layer0": "cgn:item/weapon/double_edged_malachite_sword"
 	},
 	"display": {
 		"thirdperson_righthand": {

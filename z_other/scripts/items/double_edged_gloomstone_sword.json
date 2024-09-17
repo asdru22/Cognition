@@ -3,7 +3,7 @@
   "type": "weapon",
   "translation": "Double Edged Gloomstone Sword",
   "components": {
-    "minecraft:max_damage": 2031,
+    "minecraft:max_damage": 1561,
     "minecraft:consumable": {
       "animation": "spear",
       "consume_seconds": 0.75,
@@ -15,7 +15,7 @@
         {
           "id": "minecraft:base_attack_damage",
           "type": "minecraft:attack_damage",
-          "amount": 9,
+          "amount": 8,
           "operation": "add_value",
           "slot": "mainhand"
         },
@@ -47,7 +47,7 @@
       "italic": false,
       "color": "dark_green",
       "with": [
-        " 6",
+        " 5",
         {
           "translate": "attribute.name.attack_damage"
         }
@@ -56,6 +56,6 @@
   ],
   "custom_data":{
     "double_edged_sword":true,
-    "throwing_damage": 6
+    "throwing_damage": 5
   }
 }

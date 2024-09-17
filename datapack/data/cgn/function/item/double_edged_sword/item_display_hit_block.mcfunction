@@ -1,0 +1,1 @@
+execute if entity @s[tag=!cgn.double_edged_sword.returning] run function cgn:item/double_edged_sword/bounce/init
