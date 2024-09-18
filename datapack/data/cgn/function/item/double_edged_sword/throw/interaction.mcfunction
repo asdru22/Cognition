@@ -1,0 +1,2 @@
+$ride @s mount @n[type=item_display,tag=cgn.double_edged_sword,nbt={UUID:$(uuid)}] 
+data merge entity @s {width:1.25f,height:0.33f,Tags:["cgn.interaction","cgn.ebonite_sword_interaction"]}

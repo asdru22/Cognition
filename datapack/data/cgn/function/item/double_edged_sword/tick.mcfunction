@@ -10,6 +10,8 @@ execute if score #temp cgn.dummy matches 0 run playsound cgn:item.double_edged_s
 
 data modify storage cgn:temp root.double_edged_sword set from entity @s item.components."minecraft:custom_data".cgn 
 
+execute if score @s[tag=!cgn.double_edged_sword.returning] cgn.animation_timer matches ..170 run function cgn:item/double_edged_sword/bounce/init
+
 scoreboard players set @s cgn.dummy2 20
 function cgn:item/double_edged_sword/move_loop
 
