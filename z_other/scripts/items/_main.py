@@ -123,3 +123,4 @@ lang_path = 'resourcepack/assets/cgn/lang'
 items_path = 'z_other/scripts/items'
 
 read_json_files(items_path)
+print("Done")

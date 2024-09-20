@@ -21,6 +21,7 @@
   "block.cgn.smoldering_vortex.name": " ",
   "block.cgn.stygian_totem.name": " ",
   "cgn.attribute": " %s %s",
+  "cgn.item.double_edged_malachite_sword.missing_blades": "No Blades",
   "death.attack.cgn.double_edged_sword": "%s was sliced",
   "death.attack.cgn.double_edged_sword.item": "%s was sliced by %s using %s",
   "death.attack.cgn.double_edged_sword.player": "%s was sliced by %s",
