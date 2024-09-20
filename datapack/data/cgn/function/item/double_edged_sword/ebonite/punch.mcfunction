@@ -1,5 +1,4 @@
 tag @s remove cgn.double_edged_sword.returning
-tag @s add cgn.double_edged_sword.punched
 data modify entity @s Rotation set from storage cgn:storage root.temp.rotation
 
 playsound cgn:item.double_edged_sword.punch master @a[distance=..16] ~ ~ ~ 0.66 1

@@ -11,6 +11,8 @@ execute if entity @s[tag=cgn.malachite_knife] run return run function cgn:item/m
 
 execute if entity @s[tag=cgn.double_edged_sword] run return run function cgn:item/double_edged_sword/tick
 
+execute if entity @s[tag=cgn.malachite_fragment] run return run function cgn:entity/projectile/malachite_fragment/tick
+
 
 #execute if entity @s[tag=cgn.projectile.gloomstone_beam] run return run function cgn:entity/projectile/#gloomstone_beam/tick
 #execute if entity @s[tag=cgn.projectile.electroplasm_wave] run return run function cgn:entity/projectile/#electroplasm_wave/tick

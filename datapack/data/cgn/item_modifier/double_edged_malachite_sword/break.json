@@ -5,7 +5,11 @@
     "minecraft:attribute_modifiers": {
       "modifiers": []
     },
-    "!minecraft:consumable": {}
+    "minecraft:consumable":{
+        "animation":"block",
+        "consume_seconds":1000000,
+        "has_consume_particles":false
+      }
   }
 },
 {

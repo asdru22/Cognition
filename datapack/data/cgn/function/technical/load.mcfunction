@@ -10,6 +10,8 @@ scoreboard objectives add cgn.using_item_new dummy
 
 scoreboard objectives add cgn.animation_timer dummy
 
+scoreboard objectives add cgn.malachite_fragments_collected dummy
+
 function cgn:technical/math/set_constants
 
 schedule function cgn:technical/timers/tick 1t replace
