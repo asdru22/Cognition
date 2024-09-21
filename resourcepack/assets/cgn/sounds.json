@@ -215,5 +215,25 @@
       ],
       "subtitle":"subtitle.cgn.entity.pyroplastic_beam",
       "category":"master"
+    },
+    "item.double_edged_sword.shatter":{
+      "sounds":[
+        "cgn:item/double_edged_sword/shatter1",
+        "cgn:item/double_edged_sword/shatter2",
+        "cgn:item/double_edged_sword/shatter3"
+
+      ],
+      "subtitle":"subtitle.cgn.item.double_edged_sword.shatter",
+      "category":"master"
+    },
+    "item.double_edged_sword.shard_hit":{
+      "sounds":[
+        "cgn:item/double_edged_sword/shard_hit1",
+        "cgn:item/double_edged_sword/shard_hit2",
+        "cgn:item/double_edged_sword/shard_hit3"
+
+      ],
+      "subtitle":"subtitle.cgn.item.double_edged_sword.shard_hit",
+      "category":"master"
     }
-  }
+}

@@ -29,6 +29,9 @@
     "subtitle.cgn.item.double_edged_sword.bounce": "Doubled Edged Sword bounces",
     "subtitle.cgn.item.double_edged_sword.swoosh": "Doubled Edged Sword swooshes",
     "subtitle.cgn.item.double_edged_sword.punch": "Doubled Edged Sword clinks",
+    "subtitle.cgn.item.double_edged_sword.shatter": "Malachite Blades Shatter",
+    "subtitle.cgn.item.double_edged_sword.shard_hit": "Malachite Blades Reform",
+
     "subtitle.cgn.item.chargeable_armor.land": "Charged Armor discharges",
     "subtitle.cgn.item.chargeable_armor.jump": "Air brushes",
     "subtitle.cgn.entity.electroplasm_wave.cast": "Electroplasm Wave forms",
