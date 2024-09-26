@@ -43,6 +43,13 @@
           "charged":1
         },
         "model":"cgn:item/weapon/windup_crossbow_firework"
+      },
+      {
+        "predicate":{
+          "custom_model_data":3,
+          "charged":1
+        },
+        "model":"cgn:item/weapon/windup_crossbow_pyroplastic_bolt"
       }
     ]
 }

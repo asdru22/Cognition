@@ -1,0 +1,41 @@
+{
+  "base_item": "crossbow",
+  "type": "weapon",
+  "translation": "Windup Crossbow",
+  "components": {
+    "minecraft:max_damage": 545,
+    "max_stack_size": 1,
+    "minecraft:custom_data": {
+      "cgn": {
+        "usable": true
+      }
+    }
+  },
+  "lore": [
+    {
+      "translate": "item.cgn.windup_crossbow.projectiles",
+      "italic": false,
+      "color": "gray",
+      "with": [
+        "0"
+      ]
+    }
+  ],
+  "recipe": [
+    [
+      "",
+      "string",
+      "cgn:cog"
+    ],
+    [
+      "string",
+      "crossbow",
+      "iron_nugget"
+    ],
+    [
+      "cgn:cog",
+      "iron_nugget",
+      "cgn:screw"
+    ]
+  ]
+}

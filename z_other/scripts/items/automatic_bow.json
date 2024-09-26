@@ -45,12 +45,12 @@
     [
       "",
       "bow",
-      "chain"
+      "cgn:screw"
     ],
     [
       "cgn:cog",
-      "chain",
-      "iron_ingot"
+      "leather",
+      ""
     ]
   ]
 }

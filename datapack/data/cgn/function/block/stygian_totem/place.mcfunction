@@ -1,4 +1,4 @@
-data merge block ~ ~ ~ {Lock:"§1stygian_totem\\uF001",CustomName:'{"translate":"block.cgn.stygian_totem.name","font":"cgn:technical"}',Items:[]}
+data merge block ~ ~ ~ {lock:{"components":{custom_data:{cgn:"lock"}}},CustomName:'{"translate":"block.cgn.stygian_totem.name","font":"cgn:technical"}',Items:[]}
 
 execute if block ~ ~ ~ furnace[facing = west] run return run function cgn:block/stygian_totem/macro {rotation:0}
 execute if block ~ ~ ~ furnace[facing = south] run return run function cgn:block/stygian_totem/macro {rotation:270}
