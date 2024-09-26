@@ -1,7 +1,7 @@
 {
   "base_item": "diamond_sword",
   "type": "weapon",
-  "translation": "Double Edged Gloomstone Sword",
+  "translation": "Double Edged Ebonite Sword",
   "components": {
     "minecraft:max_damage": 2031,
     "minecraft:consumable": {

@@ -5,13 +5,11 @@
         "armor_stand",
         "axolotl",
         "bat",
-        "boat",
         "bogged",
         "blaze",
         "breeze",
         "cat",
         "cave_spider",
-        "chest_boat",
         "chest_minecart",
         "chicken",
         "cod",
@@ -68,6 +66,15 @@
         "zoglin",
         "zombie_villager",
         "zombified_piglin",
-        "potion"
+        "potion",
+        "#boat",
+        "cherry_chest_boat",
+        "oak_chest_boat",
+        "birch_chest_boat",
+        "acacia_chest_boat",
+        "jungle_chest_boat",
+        "spruce_chest_boat",
+        "dark_oak_chest_boat",
+        "mangrove_chest_boat"
     ]
 }

@@ -1,7 +1,7 @@
 {
-  "base_item": "diamond_pickaxe",
+  "base_item": "diamond_shovel",
   "type": "tool",
-  "translation": "Gloomstone Pickaxe",
+  "translation": "Gloomstone Shovel",
   "components": {
     "minecraft:max_damage": 1561,
     "minecraft:attribute_modifiers": {

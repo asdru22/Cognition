@@ -1,7 +1,7 @@
 {
   "base_item": "netherite_helmet",
   "type": "armor",
-  "translation": "Gloomstone Helmet",
+  "translation": "Mindflare",
   "components": {
     "minecraft:max_damage": 404,
     "minecraft:attribute_modifiers": {

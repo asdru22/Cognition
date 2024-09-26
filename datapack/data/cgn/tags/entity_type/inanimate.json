@@ -3,8 +3,6 @@
         "minecraft:area_effect_cloud",
         "minecraft:armor_stand",
         "minecraft:arrow",
-        "minecraft:boat",
-        "minecraft:chest_boat",
         "minecraft:chest_minecart",
         "minecraft:command_block_minecart",
         "minecraft:dragon_fireball",
@@ -42,6 +40,15 @@
         "minecraft:block_display",
         "minecraft:item_display",
         "minecraft:text_display",
-        "minecraft:interaction"
+        "minecraft:interaction",
+        "#boat",
+        "cherry_chest_boat",
+        "oak_chest_boat",
+        "birch_chest_boat",
+        "acacia_chest_boat",
+        "jungle_chest_boat",
+        "spruce_chest_boat",
+        "dark_oak_chest_boat",
+        "mangrove_chest_boat"
     ]
 }
