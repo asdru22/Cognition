@@ -4,8 +4,8 @@
   "translation": "Ebonite Upgrade",
   "components": {
     "rarity": "uncommon",
-    "!minecraft:food":{},
-    "!minecraft:consumable":{}
+    "!minecraft:food": {},
+    "!minecraft:consumable": {}
   },
   "lore": [
     {
@@ -37,20 +37,20 @@
   ],
   "count": 2,
   "recipe": [
-      [
-          "cgn:gloomstone",
-          "cgn:ebonite_upgrade_smithing_template",
-          "cgn:gloomstone"
-      ],
-      [
-          "cgn:gloomstone",
-          "deepslate",
-          "cgn:gloomstone"
-      ],
-      [
-          "cgn:gloomstone",
-          "cgn:gloomstone",
-          "cgn:gloomstone"
-      ]
+    [
+      "cgn:gloomstone",
+      "cgn:ebonite_upgrade_smithing_template",
+      "cgn:gloomstone"
+    ],
+    [
+      "cgn:gloomstone",
+      "deepslate",
+      "cgn:gloomstone"
+    ],
+    [
+      "cgn:gloomstone",
+      "cgn:gloomstone",
+      "cgn:gloomstone"
+    ]
   ]
 }

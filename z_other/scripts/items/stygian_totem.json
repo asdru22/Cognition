@@ -22,22 +22,22 @@
   "custom_data": {
     "custom_block": true
   },
-  "folder":"blocks",
+  "folder": "blocks",
   "recipe": [
-      [
-          "sculk",
-          "sculk",
-          "sculk"
-      ],
-      [
-          "cgn:cog",
-          "cgn:stygian_relic",
-          "cgn:cog"
-      ],
-      [
-          "deepslate",
-          "deepslate",
-          "deepslate"
-      ]
+    [
+      "sculk",
+      "sculk",
+      "sculk"
+    ],
+    [
+      "cgn:cog",
+      "cgn:stygian_relic",
+      "cgn:cog"
+    ],
+    [
+      "deepslate",
+      "deepslate",
+      "deepslate"
+    ]
   ]
 }

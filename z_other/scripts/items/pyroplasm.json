@@ -2,11 +2,11 @@
   "base_item": "poisonous_potato",
   "type": "material",
   "translation": "Pyroplasm",
-  "components":{
+  "components": {
     "minecraft:damage_resistant": {
       "types": "#cgn:pyroplasm_explosion"
     },
-    "!minecraft:food":{},
-    "!minecraft:consumable":{}
+    "!minecraft:food": {},
+    "!minecraft:consumable": {}
   }
 }

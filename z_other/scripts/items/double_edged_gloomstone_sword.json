@@ -54,8 +54,8 @@
       ]
     }
   ],
-  "custom_data":{
-    "double_edged_sword":true,
+  "custom_data": {
+    "double_edged_sword": true,
     "throwing_damage": 5
   }
 }

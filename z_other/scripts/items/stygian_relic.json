@@ -4,7 +4,7 @@
   "translation": "Stygian Relic",
   "components": {
     "minecraft:rarity": "epic",
-    "!minecraft:food":{},
-    "!minecraft:consumable":{}
+    "!minecraft:food": {},
+    "!minecraft:consumable": {}
   }
 }

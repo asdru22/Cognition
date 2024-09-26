@@ -2,11 +2,11 @@
   "base_item": "poisonous_potato",
   "type": "block",
   "translation": "Midnight Rose",
-  "custom_data":{
-    "pottable":true
+  "custom_data": {
+    "pottable": true
   },
-  "components":{
-    "!minecraft:food":{},
-    "!minecraft:consumable":{}
+  "components": {
+    "!minecraft:food": {},
+    "!minecraft:consumable": {}
   }
 }

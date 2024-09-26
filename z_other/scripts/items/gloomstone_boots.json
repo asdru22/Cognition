@@ -32,20 +32,20 @@
     "ebonite_upgradeable": true
   },
   "recipe": [
-      [
-          "cgn:gloomstone",
-          "",
-          "cgn:gloomstone"
-      ],
-      [
-          "cgn:gloomstone",
-          "",
-          "cgn:gloomstone"
-      ],
-      [
-          "cgn:cog",
-          "",
-          "cgn:cog"
-      ]
+    [
+      "cgn:gloomstone",
+      "",
+      "cgn:gloomstone"
+    ],
+    [
+      "cgn:gloomstone",
+      "",
+      "cgn:gloomstone"
+    ],
+    [
+      "cgn:cog",
+      "",
+      "cgn:cog"
+    ]
   ]
 }

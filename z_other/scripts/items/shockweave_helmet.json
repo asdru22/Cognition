@@ -52,16 +52,16 @@
     }
   ],
   "recipe": [
-      [
-          "leather",
-          "leather",
-          "leather"
-      ],
-      [
-          "leather",
-          "cgn:electroplasm",
-          "leather"
-      ],
-      []
+    [
+      "leather",
+      "leather",
+      "leather"
+    ],
+    [
+      "leather",
+      "cgn:electroplasm",
+      "leather"
+    ],
+    []
   ]
 }
