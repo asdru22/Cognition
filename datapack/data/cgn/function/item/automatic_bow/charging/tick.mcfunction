@@ -5,6 +5,8 @@ execute if score $count cgn.dummy matches 0 if score $creative cgn.dummy matches
 execute if score $count cgn.dummy matches 0 run scoreboard players reset @s cgn.using_item
 execute if score $count cgn.dummy matches 0 run return fail
 
+execute unless items entity @s weapon.* poisonous_potato[item_name='{"translate":"item.cgn.automatic_bow"}'] run return fail
+
 data modify storage cgn:storage root.temp.item set from entity @s Inventory[{Slot:-106b,id:"minecraft:crossbow",components:{"minecraft:item_name":'{"translate":"item.cgn.automatic_bow"}'}}]
 data modify storage cgn:storage root.temp.item set from entity @s SelectedItem{id:"minecraft:crossbow",components:{"minecraft:item_name":'{"translate":"item.cgn.automatic_bow"}'}}
 

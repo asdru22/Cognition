@@ -24,7 +24,7 @@ execute if data storage cgn:storage root.temp.ammo{id:"minecraft:tipped_arrow"} 
 execute if score $creative cgn.dummy matches 0 run data modify storage cgn:storage root.temp.ammo.pickup set value 1b
 execute if score $creative cgn.dummy matches 1 run data modify storage cgn:storage root.temp.ammo.pickup set value 2b
 
-execute if score $creative cgn.dummy matches 0 run function cgn:item/warped_fungus_on_a_stick/damage
+execute if score $creative cgn.dummy matches 0 run function cgn:item/automatic_bow/damage/main
 
 execute unless data storage cgn:storage root.temp.ammo.components."minecraft:potion_contents" run return run execute anchored eyes run function cgn:item/automatic_bow/summon_arrow with storage cgn:storage root.temp.ammo
 

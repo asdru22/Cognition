@@ -93,6 +93,7 @@ def read_json_files(subfolder):
   lang  = json.load(template_lang_file)
   shaped_recipes = []
   shaped_recipes.append("#"*50+ "\n##\tAutomagically generated using Asdrucorp Scripts\n"+"#"*50)
+  shaped_recipes.append("data modify storage smithed.crafter:input flags set value [\"consume_tools\"]")
 
   # Get a list of all files in the subfolder
   for filename in os.listdir(subfolder):
