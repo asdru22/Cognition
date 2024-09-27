@@ -6,4 +6,4 @@ scoreboard players operation $temp cgn.dummy = @s cgn.sneak_time
 scoreboard players operation $temp cgn.dummy %= #10 cgn.dummy
 execute if score $temp cgn.dummy matches 5 run function cgn:item/chargeable_armor/sneaking/lightning
 
-execute if score @s[tag=!cgn.chargeable_armor.charged] cgn.sneak_time matches 100.. run function cgn:item/chargeable_armor/sneaking/charged
+execute if entity @s[tag=!cgn.chargeable_armor.charged,scores={cgn.sneak_time=100}] run function cgn:item/chargeable_armor/sneaking/charged

@@ -5,7 +5,7 @@
       "equipment": {
         "head": {
           "items": [
-            "minecraft:leather_helmet"
+            "minecraft:netherite_helmet"
           ],
           "predicates": {
             "minecraft:custom_data": "{cgn:{charged:1b}}"
@@ -13,7 +13,7 @@
         },
         "chest": {
           "items": [
-            "minecraft:leather_chestplate"
+            "minecraft:netherite_chestplate"
           ],
           "predicates": {
             "minecraft:custom_data": "{cgn:{charged:1b}}"
@@ -21,7 +21,7 @@
         },
         "legs": {
           "items": [
-            "minecraft:leather_leggings"
+            "minecraft:netherite_leggings"
           ],
           "predicates": {
             "minecraft:custom_data": "{cgn:{charged:1b}}"
@@ -29,7 +29,7 @@
         },
         "feet": {
           "items": [
-            "minecraft:leather_boots"
+            "minecraft:netherite_boots"
           ],
           "predicates": {
             "minecraft:custom_data": "{cgn:{charged:1b}}"

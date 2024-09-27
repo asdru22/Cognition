@@ -8,7 +8,7 @@
           "equipment": {
             "legs": {
               "items": [
-                "minecraft:leather_leggings"
+                "minecraft:netherite_leggings"
               ],
               "components":{
                 "item_name":"{\"translate\":\"item.cgn.gloomstone_leggings\"}"
@@ -24,7 +24,7 @@
           "equipment": {
             "legs": {
               "items": [
-                "minecraft:leather_leggings"
+                "minecraft:netherite_leggings"
               ],
               "components":{
                 "item_name":"{\"translate\":\"item.cgn.ebonite_leggings\"}"

@@ -12,7 +12,7 @@
         "condition": "minecraft:inverted",
         "term": {
           "condition": "minecraft:reference",
-          "name": "cgn:entity_properties/sneaking"
+          "name": "cgn:entity_properties/player_input/sneak_button"
         }
       }
     ]

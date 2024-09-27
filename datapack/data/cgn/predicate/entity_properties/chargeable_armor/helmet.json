@@ -8,7 +8,7 @@
           "equipment": {
             "head": {
               "items": [
-                "minecraft:leather_helmet"
+                "minecraft:netherite_helmet"
               ],
               "components":{
                 "item_name":"{\"translate\":\"item.cgn.gloomstone_helmet\"}"
@@ -24,7 +24,7 @@
           "equipment": {
             "head": {
               "items": [
-                "minecraft:leather_helmet"
+                "minecraft:netherite_helmet"
               ],
               "components":{
                 "item_name":"{\"translate\":\"item.cgn.ebonite_helmet\"}"

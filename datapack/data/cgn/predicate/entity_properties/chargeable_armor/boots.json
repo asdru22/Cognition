@@ -8,7 +8,7 @@
           "equipment": {
             "feet": {
               "items": [
-                "minecraft:leather_boots"
+                "minecraft:netherite_boots"
               ],
               "components":{
                 "item_name":"{\"translate\":\"item.cgn.gloomstone_boots\"}"
@@ -24,7 +24,7 @@
           "equipment": {
             "feet": {
               "items": [
-                "minecraft:leather_boots"
+                "minecraft:netherite_boots"
               ],
               "components":{
                 "item_name":"{\"translate\":\"item.cgn.ebonite_boots\"}"

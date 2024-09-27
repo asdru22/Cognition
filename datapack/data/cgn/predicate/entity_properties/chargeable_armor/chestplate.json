@@ -8,7 +8,7 @@
           "equipment": {
             "chest": {
               "items": [
-                "minecraft:leather_chestplate"
+                "minecraft:netherite_chestplate"
               ],
               "components":{
                 "item_name":"{\"translate\":\"item.cgn.gloomstone_chestplate\"}"
@@ -24,7 +24,7 @@
           "equipment": {
             "chest": {
               "items": [
-                "minecraft:leather_chestplate"
+                "minecraft:netherite_chestplate"
               ],
               "components":{
                 "item_name":"{\"translate\":\"item.cgn.ebonite_chestplate\"}"
