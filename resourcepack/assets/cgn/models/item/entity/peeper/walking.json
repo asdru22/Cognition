@@ -8,34 +8,6 @@
 	},
 	"elements": [
 		{
-			"name": "Body",
-			"from": [6, 8, 6],
-			"to": [10, 16, 10],
-			"rotation": {"angle": 0, "axis": "y", "origin": [7, 8, 7]},
-			"faces": {
-				"north": {"uv": [9, 6, 10, 8], "texture": "#0"},
-				"east": {"uv": [8, 6, 9, 8], "texture": "#0"},
-				"south": {"uv": [11, 6, 12, 8], "texture": "#0"},
-				"west": {"uv": [10, 6, 11, 8], "texture": "#0"},
-				"up": {"uv": [10, 6, 9, 5], "texture": "#0"},
-				"down": {"uv": [11, 5, 10, 6], "texture": "#0"}
-			}
-		},
-		{
-			"name": "Body",
-			"from": [4, 16, 4],
-			"to": [12, 24, 12],
-			"rotation": {"angle": 0, "axis": "y", "origin": [5, 16, 5]},
-			"faces": {
-				"north": {"uv": [2, 7, 4, 9], "texture": "#0"},
-				"east": {"uv": [0, 7, 2, 9], "texture": "#0"},
-				"south": {"uv": [6, 7, 8, 9], "texture": "#0"},
-				"west": {"uv": [4, 7, 6, 9], "texture": "#0"},
-				"up": {"uv": [4, 7, 2, 5], "texture": "#0"},
-				"down": {"uv": [6, 5, 4, 7], "texture": "#0"}
-			}
-		},
-		{
 			"name": "Leg",
 			"from": [9, 0, 3],
 			"to": [13, 8, 7],
@@ -202,6 +174,20 @@
 				"up": {"uv": [2, 10, 4, 8], "texture": "#1"},
 				"down": {"uv": [4, 10, 6, 8], "texture": "#1"}
 			}
+		},
+		{
+			"name": "Body",
+			"from": [5, 8, 5],
+			"to": [11, 24, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 8, 7]},
+			"faces": {
+				"north": {"uv": [0, 0, 1.5, 4], "texture": "#0"},
+				"east": {"uv": [1.5, 0, 3, 4], "texture": "#0"},
+				"south": {"uv": [3, 0, 4.5, 4], "texture": "#0"},
+				"west": {"uv": [0, 4, 1.5, 8], "texture": "#0"},
+				"up": {"uv": [3, 5.5, 1.5, 4], "texture": "#0"},
+				"down": {"uv": [4.5, 4, 3, 5.5], "texture": "#0"}
+			}
 		}
 	],
 	"display": {
@@ -217,20 +203,6 @@
 			"color": 0,
 			"children": [
 				{
-					"name": "Body",
-					"origin": [8, 8, 8],
-					"color": 0,
-					"children": [
-						0,
-						{
-							"name": "BodyMiddle",
-							"origin": [8, 16, 8],
-							"color": 0,
-							"children": [1]
-						}
-					]
-				},
-				{
 					"name": "Legs",
 					"origin": [8, 0, 8],
 					"color": 0,
@@ -239,29 +211,30 @@
 							"name": "LegFrontRight",
 							"origin": [10, 8, 6],
 							"color": 0,
-							"children": [2, 3, 4]
+							"children": [0, 1, 2]
 						},
 						{
 							"name": "LegBackRight",
 							"origin": [10, 8, 6],
 							"color": 0,
-							"children": [5, 6, 7]
+							"children": [3, 4, 5]
 						},
 						{
 							"name": "LegFrontLeft",
 							"origin": [10, 8, 6],
 							"color": 0,
-							"children": [8, 9, 10]
+							"children": [6, 7, 8]
 						},
 						{
 							"name": "LegBackRight",
 							"origin": [10, 8, 6],
 							"color": 0,
-							"children": [11, 12, 13]
+							"children": [9, 10, 11]
 						}
 					]
 				}
 			]
-		}
+		},
+		12
 	]
 }

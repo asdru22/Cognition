@@ -3,6 +3,5 @@
 	"textures": {
 		"0": "cgn:item/entity/peeper/body_hurt",
     "1": "cgn:item/entity/peeper/legs_hurt"
-
 	}
 }

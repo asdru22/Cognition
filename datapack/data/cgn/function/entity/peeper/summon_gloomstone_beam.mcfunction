@@ -1,2 +1,1 @@
-say asdsadas
 particle explosion
