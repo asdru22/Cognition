@@ -12,6 +12,9 @@ scoreboard objectives add cgn.animation_timer dummy
 
 scoreboard objectives add cgn.malachite_fragments_collected dummy
 
+scoreboard objectives add cgn.sneak_time custom:sneak_time
+scoreboard objectives add cgn.air_time dummy
+
 function cgn:technical/math/set_constants
 
 schedule function cgn:technical/timers/tick 1t replace

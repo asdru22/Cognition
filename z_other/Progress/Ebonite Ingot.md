@@ -13,3 +13,5 @@ tags:
 [[Ebonite Shovel]]
 [[Ebonite Dagger]]
 [[Ebonite Sword]]
+
+An ebonite ingot is formed by landing a charged armor jump near it.

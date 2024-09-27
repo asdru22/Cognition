@@ -6,3 +6,8 @@ execute if entity @s[predicate=cgn:entity_properties/used_ranged_weapon] run fun
 
 # click wofas
 execute if entity @s[scores={cgn.used_warped_fungus_on_a_stick=1..}] run function cgn:item/vanilla/warped_fungus_on_a_stick/use
+
+# chargeable armor
+execute if entity @s[scores={cgn.sneak_time=1..}] run function cgn:entity/player/scores/sneak_time
+execute if entity @s[scores={cgn.air_time=1..}] run function cgn:item/chargeable_armor/in_air/tick
+execute if entity @s[tag=cgn.chargeable_armor.charged,predicate=cgn:entity_properties/player_input/jump_button] run function cgn:item/chargeable_armor/charged_jump

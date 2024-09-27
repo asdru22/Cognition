@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "4b24a3a86e6acf31",
+        "id": "d79bd60dc1347603",
         "type": "tabs",
         "children": [
           {
-            "id": "4ffc4651587d2247",
+            "id": "68ed7231d2b119a5",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Wispthorn.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Wispthorn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Wispthorn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Wispthorn.md"
+              }
             }
           }
         ]
@@ -138,34 +146,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4ffc4651587d2247",
+  "active": "68ed7231d2b119a5",
   "lastOpenFiles": [
-    "Mindflare.md",
-    "Malachite Double Edged Sword.md",
-    "Cog.md",
-    "Screw.md",
-    "Pyroplastic Bolt.md",
-    "Automatic Bow.md",
-    "Smoldering Vortex.md",
-    "Malachite Shield.md",
-    "Guster.md",
-    "Enchanted Book (Pulse).md",
-    "Pyroplasm.md",
-    "Emberlash.md",
-    "Bubbles.md",
-    "Wispthorn.md",
+    "Windup Crossbow.md",
+    "Surge Potion.md",
     "Stygian Totem.md",
     "Stygian Relic.md",
-    "Bloodwrought Briar.md",
+    "Soulmender.md",
+    "Shockweave Boots.md",
+    "Screw.md",
+    "Pyroplastic Bolt.md",
+    "Pyroplasm.md",
+    "Music Disc (Sunrise).md",
+    "Mindflare.md",
     "Midnight Rose Seed.md",
-    "Shockweave Chestplate.md",
-    "Shockweave Helmet.md",
     "Midnight Rose.md",
-    "Gloomstone Leggings.md",
-    "Gloomstone Helmet.md",
-    "Gloomstone Dagger.md",
-    "Gloomstone Chestplate.md",
-    "Gloomstone Boots.md",
+    "Malachite Shield.md",
+    "Malachite Knife.md",
+    "Malachite Double Edged Sword.md",
+    "Malachite.md",
+    "Guster.md",
+    "Electroplasm.md",
+    "Greek Fire.md",
+    "Enchanted Book (Recoil).md",
+    "Enchanted Book (Pulse).md",
+    "Emberlash.md",
+    "Electroplasm Carver.md",
+    "Electromodulator.md",
+    "Ebonite Upgrade Smithing Template.md",
     "Untitled.canvas",
     "Structures",
     "Blocks",

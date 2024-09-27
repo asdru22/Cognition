@@ -5,3 +5,5 @@ tags:
   - item
 ---
 [[Stygian Totem]]
+
+Dropped by warden
