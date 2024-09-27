@@ -4,6 +4,7 @@
         "item_display",
         "interaction",
         "marker",
-        "#minecraft:arrows"
+        "#minecraft:arrows",
+        "wandering_trader"
     ]
 }

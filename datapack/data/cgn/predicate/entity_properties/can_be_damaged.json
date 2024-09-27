@@ -5,17 +5,7 @@
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "nbt": "{HurtTime:0s}"
-      }
-    },
-    {
-      "condition": "minecraft:inverted",
-      "term": {
-        "condition": "minecraft:entity_properties",
-        "entity": "this",
-        "predicate": {
-          "nbt": "{Tags:[\"smithed.strict\"]}"
-        }
+        "nbt": "{Tags:[\"cgn.hostile_target\"]}"
       }
     },
     {
@@ -43,9 +33,39 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
+              "nbt": "{Tags:[\"smithed.strict\"]}"
+            }
+          }
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"cgn.hostile\"]}"
+            }
+          }
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
               "nbt": "{Health:0f}"
             }
           }
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type": "#cgn:inanimate"
+          }
+        }
         }
       ]
     }
