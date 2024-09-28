@@ -1,0 +1,29 @@
+{
+  "base_item": "warped_fungus_on_a_stick",
+  "type": "tool",
+  "translation": "Electromodulator",
+  "components": {
+    "minecraft:max_damage": 51
+  },
+  "custom_data":{
+    "prevent_striders":true,
+    "ignore_durability":true
+  },
+  "recipe": [
+    [
+      "",
+      "copper_ingot",
+      ""
+    ],
+    [
+      "copper_ingot",
+      "",
+      "copper_ingot"
+    ],
+    [
+      "",
+      "copper_ingot",
+      ""
+    ]
+  ]
+}
