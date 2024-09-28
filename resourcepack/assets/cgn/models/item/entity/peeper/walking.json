@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "cgn:item/entity/peeper/body",
 		"1": "cgn:item/entity/peeper/legs",
+		"2": "cgn:item/entity/peeper/body",
 		"particle": "cgn:item/entity/peeper/legs"
 	},
 	"elements": [
@@ -181,12 +181,12 @@
 			"to": [11, 24, 11],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7, 8, 7]},
 			"faces": {
-				"north": {"uv": [0, 0, 1.5, 4], "texture": "#0"},
-				"east": {"uv": [1.5, 0, 3, 4], "texture": "#0"},
-				"south": {"uv": [3, 0, 4.5, 4], "texture": "#0"},
-				"west": {"uv": [0, 4, 1.5, 8], "texture": "#0"},
-				"up": {"uv": [3, 5.5, 1.5, 4], "texture": "#0"},
-				"down": {"uv": [4.5, 4, 3, 5.5], "texture": "#0"}
+				"north": {"uv": [0, 0, 3, 8], "texture": "#2"},
+				"east": {"uv": [3, 0, 6, 8], "texture": "#2"},
+				"south": {"uv": [6, 0, 9, 8], "texture": "#2"},
+				"west": {"uv": [0, 8, 3, 16], "texture": "#2"},
+				"up": {"uv": [6, 11, 3, 8], "texture": "#2"},
+				"down": {"uv": [9, 8, 6, 11], "texture": "#2"}
 			}
 		}
 	],
