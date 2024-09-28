@@ -25,6 +25,11 @@ scoreboard objectives add cgn.electroplasm_carver.charges dummy
 scoreboard objectives add cgn.electroplasm_carver.timer dummy
 scoreboard objectives add cgn.used_fishing_rod used:fishing_rod
 
+scoreboard objectives add cgn.air air
+scoreboard objectives add cgn.electroplasm.current dummy
+scoreboard objectives add cgn.electroplasm.max dummy
+
+
 function cgn:technical/math/set_constants
 
 schedule function cgn:technical/timers/tick 1t replace

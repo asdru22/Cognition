@@ -1,6 +1,6 @@
 #version 150
 
-#moj_import <minecraft:fog.glsl>
+#moj_import <fog.glsl>
 
 in vec3 Position;
 in vec4 Color;
@@ -16,17 +16,13 @@ uniform int FogShape;
 out float vertexDistance;
 out vec4 vertexColor;
 out vec2 texCoord0;
-out vec3 position;
 
 void main() {
+    // vanilla behavior
     gl_Position = ProjMat * ModelViewMat * vec4(Position, 1.0);
-
-    position = Position;
-
     vertexDistance = fog_distance(Position, FogShape);
     vertexColor = Color * texelFetch(Sampler2, UV2 / 16, 0);
     texCoord0 = UV0;
-
     // NoShadow behavior (https://github.com/PuckiSilver/NoShadow)
     ivec3 iColor = ivec3(Color.xyz * 255 + vec3(0.5));
     if (iColor == ivec3(78, 92, 36) && (
