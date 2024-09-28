@@ -9,3 +9,4 @@ loot give @s loot cgn:items/screw
 loot give @s loot cgn:items/ebonite_upgrade_smithing_template
 loot give @s loot cgn:items/stygian_relic
 loot give @s loot cgn:items/gloomstone_blade
+loot give @s loot cgn:items/electroplasm

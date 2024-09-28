@@ -20,7 +20,7 @@
                 {
                   "id": "minecraft:base_attack_damage",
                   "type": "minecraft:attack_damage",
-                  "amount": 5,
+                  "amount": 3,
                   "operation": "add_value",
                   "slot": "mainhand"
                 },

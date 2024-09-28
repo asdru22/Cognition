@@ -12,13 +12,13 @@
   "recipe": [
     [
       "",
-      "copper_ingot",
+      "lightning_rod",
       ""
     ],
     [
-      "copper_ingot",
-      "",
-      "copper_ingot"
+      "cgn:cog",
+      "cgn:electroplasm",
+      "cgn:cog"
     ],
     [
       "",
