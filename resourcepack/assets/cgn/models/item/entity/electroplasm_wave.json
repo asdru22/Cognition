@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "cgn:entity/electroplasm_wave",
-		"particle": "cgn:entity/electroplasm_wave"
+		"0": "cgn:item/entity/electroplasm_wave",
+		"particle": "cgn:item/entity/electroplasm_wave"
 	},
 	"elements": [
 		{

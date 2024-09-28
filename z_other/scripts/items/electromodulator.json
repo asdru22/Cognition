@@ -5,9 +5,9 @@
   "components": {
     "minecraft:max_damage": 51
   },
-  "custom_data":{
-    "prevent_striders":true,
-    "ignore_durability":true
+  "custom_data": {
+    "prevent_striders": true,
+    "ignore_durability": true
   },
   "recipe": [
     [

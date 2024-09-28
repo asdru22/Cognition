@@ -14,3 +14,9 @@ execute if entity @s[tag=cgn.chargeable_armor.charged,predicate=cgn:entity_prope
 
 # malachite drop
 execute if entity @s[advancements={cgn:technical/item_used_on_block/scrape_oxidation=true}] run function cgn:item/malachite/advancement
+
+# electroplasm carver
+execute if entity @s[predicate=cgn:entity_properties/electroplasm_carver/main] run function cgn:item/electroplasm_carver/tick
+execute if entity @s[tag=cgn.electroplasm_carver,predicate=!cgn:entity_properties/electroplasm_carver/main] run function cgn:item/electroplasm_carver/full_reset
+execute if entity @s[predicate=cgn:entity_properties/electroplasm_carver/fix] run function cgn:item/electroplasm_carver/fix/main
+execute if score @s cgn.used_fishing_rod matches 1.. run function cgn:entity/player/scores/used_fishing_rod
