@@ -1,4 +1,10 @@
-scoreboard players operation #max cgn.dummy = @s cgn.electroplasm.max
+scoreboard players set #max cgn.dummy 51
+execute store result score #temp cgn.dummy run attribute @s minecraft:luck get 1000000000
+scoreboard players operation #max cgn.dummy += #temp cgn.dummy
+execute if predicate cgn:entity_properties/shockweave_armor/all run scoreboard players add #max cgn.dummy 15
+
+scoreboard players operation @s cgn.electroplasm.max = #max cgn.dummy
+
 scoreboard players operation #max cgn.dummy /= #10 cgn.dummy
 
 scoreboard players operation #current cgn.dummy = @s cgn.electroplasm.current

@@ -12,6 +12,13 @@
           "amount": 5,
           "operation": "add_value",
           "slot": "chest"
+        },
+        {
+          "id": "cgn:electroplasm.chest",
+          "type": "minecraft:luck",
+          "amount": 0.000000015,
+          "operation": "add_value",
+          "slot": "chest"
         }
       ],
       "show_in_tooltip": false
@@ -53,19 +60,19 @@
   ],
   "recipe": [
     [
-      "leather",
+      "",
       "cgn:electroplasm",
-      "leather"
+      ""
     ],
     [
-      "leather",
-      "leather",
-      "leather"
+      "cgn:electroplasm",
+      "golden_chestplate",
+      "cgn:electroplasm"
     ],
     [
-      "leather",
-      "leather",
-      "leather"
+      "",
+      "cgn:electroplasm",
+      ""
     ]
   ]
 }

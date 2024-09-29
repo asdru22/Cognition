@@ -12,6 +12,13 @@
           "amount": 1,
           "operation": "add_value",
           "slot": "feet"
+        },
+        {
+          "id": "cgn:electroplasm.feet",
+          "type": "minecraft:luck",
+          "amount": 0.000000005,
+          "operation": "add_value",
+          "slot": "feet"
         }
       ],
       "show_in_tooltip": false
@@ -53,19 +60,19 @@
   ],
   "recipe": [
     [
-      "leather",
       "",
-      "leather"
-    ],
-    [
-      "leather",
-      "",
-      "leather"
+      "cgn:electroplasm",
+      ""
     ],
     [
       "cgn:electroplasm",
-      "",
+      "golden_boots",
       "cgn:electroplasm"
+    ],
+    [
+      "",
+      "cgn:electroplasm",
+      ""
     ]
   ]
 }

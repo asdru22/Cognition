@@ -12,6 +12,13 @@
           "amount": 1,
           "operation": "add_value",
           "slot": "head"
+        },
+        {
+          "id": "cgn:electroplasm.head",
+          "type": "minecraft:luck",
+          "amount": 0.000000005,
+          "operation": "add_value",
+          "slot": "head"
         }
       ],
       "show_in_tooltip": false
@@ -53,15 +60,19 @@
   ],
   "recipe": [
     [
-      "leather",
-      "leather",
-      "leather"
+      "",
+      "cgn:electroplasm",
+      ""
     ],
     [
-      "leather",
       "cgn:electroplasm",
-      "leather"
+      "golden_helmet",
+      "cgn:electroplasm"
     ],
-    []
+    [
+      "",
+      "cgn:electroplasm",
+      ""
+    ]
   ]
 }

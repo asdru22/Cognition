@@ -23,6 +23,13 @@
                   "amount": 5,
                   "operation": "add_value",
                   "slot": "chest"
+                },
+                {
+                  "id": "cgn:electroplasm.chest",
+                  "type": "minecraft:luck",
+                  "amount": 1.5e-08,
+                  "operation": "add_value",
+                  "slot": "chest"
                 }
               ],
               "show_in_tooltip": false

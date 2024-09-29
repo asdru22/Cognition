@@ -23,6 +23,13 @@
                   "amount": 1,
                   "operation": "add_value",
                   "slot": "feet"
+                },
+                {
+                  "id": "cgn:electroplasm.feet",
+                  "type": "minecraft:luck",
+                  "amount": 5e-09,
+                  "operation": "add_value",
+                  "slot": "feet"
                 }
               ],
               "show_in_tooltip": false

@@ -23,6 +23,13 @@
                   "amount": 1,
                   "operation": "add_value",
                   "slot": "head"
+                },
+                {
+                  "id": "cgn:electroplasm.head",
+                  "type": "minecraft:luck",
+                  "amount": 5e-09,
+                  "operation": "add_value",
+                  "slot": "head"
                 }
               ],
               "show_in_tooltip": false
