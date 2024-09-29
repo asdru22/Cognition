@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wispthorn.md",
+                "file": "Soulmender.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wispthorn.md",
+                "file": "Soulmender.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wispthorn.md",
+                "file": "Soulmender.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wispthorn.md"
+                "file": "Soulmender.md"
               }
             }
           }
@@ -148,11 +148,13 @@
   },
   "active": "68ed7231d2b119a5",
   "lastOpenFiles": [
+    "Stygian Relic.md",
+    "Wispthorn.md",
     "Windup Crossbow.md",
     "Surge Potion.md",
     "Stygian Totem.md",
-    "Stygian Relic.md",
     "Soulmender.md",
+    "Smoldering Vortex.md",
     "Shockweave Boots.md",
     "Screw.md",
     "Pyroplastic Bolt.md",
@@ -166,14 +168,12 @@
     "Malachite Double Edged Sword.md",
     "Malachite.md",
     "Guster.md",
-    "Electroplasm.md",
     "Greek Fire.md",
-    "Enchanted Book (Recoil).md",
-    "Enchanted Book (Pulse).md",
-    "Emberlash.md",
-    "Electroplasm Carver.md",
-    "Electromodulator.md",
-    "Ebonite Upgrade Smithing Template.md",
+    "Gloomstone Sword.md",
+    "Gloomstone Sentinel.md",
+    "Gloomstone Shovel.md",
+    "Gloomstone Axe.md",
+    "Gloomstone.md",
     "Untitled.canvas",
     "Structures",
     "Blocks",

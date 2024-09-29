@@ -5,4 +5,5 @@ tags:
   - item
 ---
 [[Malachite Double Edged Sword]]
-Stackable and throwable
+
+Can be thrown

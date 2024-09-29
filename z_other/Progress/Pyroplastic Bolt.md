@@ -3,5 +3,4 @@ tags:
   - weapon
   - item
 ---
-- crafted with 8 arrows+1 pyroplasm to get 8 pyroplastic bolt
-- shoot pyroplasm beams
+Shoots pyroplasm beams

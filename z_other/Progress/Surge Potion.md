@@ -4,4 +4,4 @@ tags:
 ---
 [[Pyroplasm]]
 
-Obtained by brewing electroplasm
+Obtained by brewing electroplasm, increases your electroplasm
