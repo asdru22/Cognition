@@ -7,3 +7,6 @@ execute if score @s cgn.electroplasm_carver.charges matches 6.. run function cgn
 
 execute positioned ~ ~1 ~ run particle minecraft:sweep_attack ^ ^ ^0.7
 playsound minecraft:entity.player.attack.sweep player @s
+
+data modify storage cgn:storage root.temp.item set from entity @s Inventory[{Slot:-106b}]
+execute if entity @s[gamemode=!creative] run function cgn:technical/macros/damage_slot/main {slot:"weapon.offhand",amount:1}
