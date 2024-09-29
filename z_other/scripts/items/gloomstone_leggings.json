@@ -26,9 +26,6 @@
       "model": "cgn:gloomstone",
       "slot": "legs",
       "dispensable": true
-    },
-    "minecraft:damage_resistant": {
-      "types": "#minecraft:is_fire"
     }
   },
   "custom_data": {

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Soulmender.md",
+                "file": "Stygian Relic.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:not_implemented",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Soulmender.md",
+                "file": "Stygian Relic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Soulmender.md",
+                "file": "Stygian Relic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Soulmender.md"
+                "file": "Stygian Relic.md"
               }
             }
           }
@@ -148,32 +148,32 @@
   },
   "active": "68ed7231d2b119a5",
   "lastOpenFiles": [
+    "Screw.md",
+    "Pyroplastic Bolt.md",
+    "Pyroplasm.md",
+    "Midnight Rose.md",
+    "Malachite Knife.md",
+    "Malachite.md",
+    "Gloomstone Hoe.md",
+    "Gloomstone Shard.md",
+    "Gloomstone Blade.md",
+    "Gloomstone.md",
+    "Emberlash.md",
+    "Electroplasm.md",
+    "Ebonite Upgrade Smithing Template.md",
+    "Ebognite.md",
+    "Ebonite Axe.md",
+    "Ebonite Ingot.md",
+    "Cog.md",
+    "Soulmender.md",
     "Stygian Relic.md",
     "Wispthorn.md",
     "Windup Crossbow.md",
     "Surge Potion.md",
     "Stygian Totem.md",
-    "Soulmender.md",
     "Smoldering Vortex.md",
     "Shockweave Boots.md",
-    "Screw.md",
-    "Pyroplastic Bolt.md",
-    "Pyroplasm.md",
     "Music Disc (Sunrise).md",
-    "Mindflare.md",
-    "Midnight Rose Seed.md",
-    "Midnight Rose.md",
-    "Malachite Shield.md",
-    "Malachite Knife.md",
-    "Malachite Double Edged Sword.md",
-    "Malachite.md",
-    "Guster.md",
-    "Greek Fire.md",
-    "Gloomstone Sword.md",
-    "Gloomstone Sentinel.md",
-    "Gloomstone Shovel.md",
-    "Gloomstone Axe.md",
-    "Gloomstone.md",
     "Untitled.canvas",
     "Structures",
     "Blocks",
