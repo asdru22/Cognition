@@ -6,7 +6,7 @@
     "minecraft:max_damage": 2031,
     "minecraft:consumable": {
       "animation": "spear",
-      "consume_seconds": 0.75,
+      "consume_seconds": 1.0,
       "has_consume_particles": false,
       "sound": "item.trident.throw"
     },
@@ -47,7 +47,7 @@
       "italic": false,
       "color": "dark_green",
       "with": [
-        " 6",
+        " 7",
         {
           "translate": "attribute.name.attack_damage"
         }
@@ -56,6 +56,6 @@
   ],
   "custom_data": {
     "double_edged_sword": true,
-    "throwing_damage": 6
+    "throwing_damage": 7
   }
 }

@@ -6,7 +6,7 @@
     "minecraft:max_damage": 1572,
     "minecraft:consumable": {
       "animation": "spear",
-      "consume_seconds": 0.75,
+      "consume_seconds": 0.6,
       "has_consume_particles": false,
       "sound": "item.trident.throw"
     },

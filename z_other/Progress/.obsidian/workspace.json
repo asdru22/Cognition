@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wispthorn.md",
+                "file": "Windup Crossbow.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wispthorn.md",
+                "file": "Windup Crossbow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wispthorn.md",
+                "file": "Windup Crossbow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wispthorn.md"
+                "file": "Windup Crossbow.md"
               }
             }
           }
@@ -148,6 +148,8 @@
   },
   "active": "68ed7231d2b119a5",
   "lastOpenFiles": [
+    "Electroplasm Carver.md",
+    "Wispthorn.md",
     "Midnight Rose.md",
     "Stygian Relic.md",
     "Screw.md",
@@ -167,13 +169,11 @@
     "Ebonite Ingot.md",
     "Cog.md",
     "Soulmender.md",
-    "Wispthorn.md",
     "Windup Crossbow.md",
     "Surge Potion.md",
     "Stygian Totem.md",
     "Smoldering Vortex.md",
     "Shockweave Boots.md",
-    "Music Disc (Sunrise).md",
     "Untitled.canvas",
     "Structures",
     "Blocks",
