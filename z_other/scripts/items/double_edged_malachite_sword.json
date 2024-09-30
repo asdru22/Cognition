@@ -57,5 +57,22 @@
   "custom_data": {
     "double_edged_sword": true,
     "throwing_damage": 6
-  }
+  },
+  "recipe": [
+    [
+      "",
+      "cgn:malachite_knife",
+      ""
+    ],
+    [
+      "cgn:screw",
+      "breeze_rod",
+      "cgn:screw"
+    ],
+    [
+      "",
+      "cgn:malachite_knife",
+      ""
+    ]
+  ]
 }

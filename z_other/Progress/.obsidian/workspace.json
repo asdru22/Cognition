@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Stygian Relic.md",
+                "file": "Wispthorn.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Stygian Relic.md",
+                "file": "Wispthorn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Stygian Relic.md",
+                "file": "Wispthorn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Stygian Relic.md"
+                "file": "Wispthorn.md"
               }
             }
           }
@@ -148,10 +148,11 @@
   },
   "active": "68ed7231d2b119a5",
   "lastOpenFiles": [
+    "Midnight Rose.md",
+    "Stygian Relic.md",
     "Screw.md",
     "Pyroplastic Bolt.md",
     "Pyroplasm.md",
-    "Midnight Rose.md",
     "Malachite Knife.md",
     "Malachite.md",
     "Gloomstone Hoe.md",
@@ -166,7 +167,6 @@
     "Ebonite Ingot.md",
     "Cog.md",
     "Soulmender.md",
-    "Stygian Relic.md",
     "Wispthorn.md",
     "Windup Crossbow.md",
     "Surge Potion.md",

@@ -57,5 +57,22 @@
   "custom_data": {
     "double_edged_sword": true,
     "throwing_damage": 5
-  }
+  },
+  "recipe": [
+    [
+      "",
+      "cgn:gloomstone_blade",
+      ""
+    ],
+    [
+      "cgn:screw",
+      "stick",
+      "cgn:screw"
+    ],
+    [
+      "",
+      "cgn:gloomstone_blade",
+      ""
+    ]
+  ]
 }
