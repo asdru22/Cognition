@@ -3,7 +3,7 @@
   "type": "armor",
   "translation": "Shockweave Leggings",
   "components": {
-    "minecraft:max_damage": 363,
+    "minecraft:max_damage": 402,
     "minecraft:attribute_modifiers": {
       "modifiers": [
         {

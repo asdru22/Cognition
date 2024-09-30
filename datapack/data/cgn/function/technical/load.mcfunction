@@ -29,6 +29,7 @@ scoreboard objectives add cgn.air air
 scoreboard objectives add cgn.electroplasm.current dummy
 scoreboard objectives add cgn.electroplasm.max dummy
 
+scoreboard objectives add cgn.mindflare.piercing dummy
 
 function cgn:technical/math/set_constants
 

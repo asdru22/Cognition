@@ -14,7 +14,7 @@
           "components": {
             "minecraft:tooltip_style": "cgn:default",
             "minecraft:item_model": "cgn:armor/shockweave_leggings",
-            "minecraft:max_damage": 363,
+            "minecraft:max_damage": 402,
             "minecraft:attribute_modifiers": {
               "modifiers": [
                 {

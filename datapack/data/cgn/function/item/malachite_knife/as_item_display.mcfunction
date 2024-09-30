@@ -11,3 +11,6 @@ scoreboard players set @s cgn.animation_timer 2400
 data modify entity @s item.components."minecraft:custom_data".cgn.owner set from storage cgn:storage root.temp.uuid
 
 data modify entity @s item.components."minecraft:custom_data".cgn.uuid set from entity @s UUID
+
+execute if score $mindflare cgn.dummy matches 1.. run tag @s add cgn.malachite_knife.mindflare
+execute if score $mindflare cgn.dummy matches 1.. run scoreboard players set @s cgn.mindflare.piercing 3

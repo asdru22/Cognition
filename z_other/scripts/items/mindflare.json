@@ -9,14 +9,7 @@
         {
           "id": "cgn:armor.head",
           "type": "minecraft:armor",
-          "amount": 3,
-          "operation": "add_value",
-          "slot": "head"
-        },
-        {
-          "id": "cgn:armor_toughness.head",
-          "type": "minecraft:armor_toughness",
-          "amount": 2,
+          "amount": 1,
           "operation": "add_value",
           "slot": "head"
         }
@@ -27,5 +20,18 @@
       "slot": "head",
       "dispensable": true
     }
-  }
+  },
+  "recipe": [
+    [
+      "",
+      "phantom_membrane",
+      ""
+    ],
+    [
+      "cgn:pyroplasm",
+      "diamond_helmet",
+      "cgn:pyroplasm"
+    ],
+    []
+  ]
 }

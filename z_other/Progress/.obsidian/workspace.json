@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Soulmender.md",
+                "file": "Mindflare.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Soulmender.md",
+                "file": "Mindflare.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Soulmender.md",
+                "file": "Mindflare.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Soulmender.md"
+                "file": "Mindflare.md"
               }
             }
           }
@@ -148,6 +148,8 @@
   },
   "active": "68ed7231d2b119a5",
   "lastOpenFiles": [
+    "Mindflare.md",
+    "Soulmender.md",
     "Windup Crossbow.md",
     "Electroplasm Carver.md",
     "Wispthorn.md",
@@ -169,11 +171,9 @@
     "Ebonite Axe.md",
     "Ebonite Ingot.md",
     "Cog.md",
-    "Soulmender.md",
     "Surge Potion.md",
     "Stygian Totem.md",
     "Smoldering Vortex.md",
-    "Shockweave Boots.md",
     "Untitled.canvas",
     "Structures",
     "Blocks",
