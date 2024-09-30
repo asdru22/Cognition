@@ -22,5 +22,22 @@
   "custom_data": {
     "custom_block": true
   },
-  "folder": "blocks"
+  "folder": "blocks",
+  "recipe": [
+    [
+      "amethyst_shard",
+      "",
+      "amethyst_shard"
+    ],
+    [
+      "cgn:pyroplasm",
+      "respawn_anchor",
+      "cgn:pyroplasm"
+    ],
+    [
+      "amethyst_block",
+      "amethyst_block",
+      "amethyst_block"
+    ]
+  ]
 }
