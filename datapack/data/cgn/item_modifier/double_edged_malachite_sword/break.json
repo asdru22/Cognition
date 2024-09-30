@@ -22,7 +22,7 @@
     },
     "",
     {
-      "translate": "cgn.item.double_edged_malachite_sword.missing_blades",
+      "translate": "item.cgn.double_edged_malachite_sword.missing_blades",
       "italic": false,
       "color": "gray"
     }

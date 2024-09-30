@@ -4,7 +4,6 @@ kill @s[tag=!cgn.projectile.no_timer,scores={cgn.animation_timer=..0},tag=cgn.pr
 execute if entity @s[tag=cgn.pyroplastic_beam] run return run function cgn:entity/projectile/pyroplastic_beam/tick
 
 execute if entity @s[type=#arrows] run return run function cgn:entity/projectile/arrow/tick
-
 execute if entity @s[tag=cgn.thrown_potion,predicate=!cgn:entity_properties/has_vehicle] run return run function cgn:entity/projectile/thrown_potion
 
 execute if entity @s[tag=cgn.malachite_knife] run return run function cgn:item/malachite_knife/tick

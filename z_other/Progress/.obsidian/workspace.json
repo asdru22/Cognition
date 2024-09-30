@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windup Crossbow.md",
+                "file": "Soulmender.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windup Crossbow.md",
+                "file": "Soulmender.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windup Crossbow.md",
+                "file": "Soulmender.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windup Crossbow.md"
+                "file": "Soulmender.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "68ed7231d2b119a5",
   "lastOpenFiles": [
+    "Windup Crossbow.md",
     "Electroplasm Carver.md",
     "Wispthorn.md",
     "Midnight Rose.md",
@@ -169,7 +170,6 @@
     "Ebonite Ingot.md",
     "Cog.md",
     "Soulmender.md",
-    "Windup Crossbow.md",
     "Surge Potion.md",
     "Stygian Totem.md",
     "Smoldering Vortex.md",

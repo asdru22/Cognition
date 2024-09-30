@@ -1,9 +1,12 @@
 {
-  "base_item": "poisonous_potato",
+  "base_item": "glistering_melon_slice",
   "type": "material",
   "translation": "Electroplasm",
   "components": {
     "!minecraft:food": {},
     "!minecraft:consumable": {}
+  },
+  "custom_data":{
+    "brewing_ingredient":true
   }
 }

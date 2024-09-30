@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:poisonous_potato"
+          "name": "minecraft:glistering_melon_slice"
         }
       ],
       "functions": [
@@ -15,7 +15,12 @@
             "minecraft:tooltip_style": "cgn:default",
             "minecraft:item_model": "cgn:material/electroplasm",
             "!minecraft:food": {},
-            "!minecraft:consumable": {}
+            "!minecraft:consumable": {},
+            "minecraft:custom_data": {
+              "cgn": {
+                "brewing_ingredient": true
+              }
+            }
           }
         },
         {
