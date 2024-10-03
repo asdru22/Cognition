@@ -4,4 +4,4 @@ data modify entity @s data.cgn.uuid set from entity @s UUID
 
 scoreboard players set @s cgn.animation_timer 100
 
-tp @s ~ ~ ~ ~ ~ 
+rotate @s ~ ~

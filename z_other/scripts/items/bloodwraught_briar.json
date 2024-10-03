@@ -13,5 +13,22 @@
   },
   "custom_data":{
     "blooming":false
-  }
+  },
+  "recipe": [
+    [
+      "",
+      "vine",
+      "cgn:ebonite_ingot"
+    ],
+    [
+      "vine",
+      "cgn:wispthorn",
+      "vine"
+    ],
+    [
+      "cgn:wispthorn",
+      "vine",
+      ""
+    ]
+  ]
 }
