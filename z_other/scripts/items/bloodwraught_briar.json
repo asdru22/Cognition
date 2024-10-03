@@ -1,0 +1,17 @@
+{
+  "base_item": "poisonous_potato",
+  "type": "weapon",
+  "translation": "Bloodwraught Briar",
+  "components": {
+    "minecraft:max_damage": 1745,
+    "minecraft:max_stack_size":1,
+    "!minecraft:food": {},
+    "!minecraft:consumable": {},
+    "minecraft:damage_resistant": {
+      "types": "#minecraft:is_fire"
+    }
+  },
+  "custom_data":{
+    "blooming":false
+  }
+}

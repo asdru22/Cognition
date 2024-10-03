@@ -1,4 +1,5 @@
 {
+  "parent": "cgn:technical/root",
     "criteria": {
       "requirement": {
         "trigger": "minecraft:player_killed_entity",

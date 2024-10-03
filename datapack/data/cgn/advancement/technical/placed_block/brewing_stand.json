@@ -1,4 +1,5 @@
 {
+  "parent": "cgn:technical/root",
     "criteria": {
       "place_brewing_stand": {
         "trigger": "minecraft:placed_block",

@@ -1,4 +1,5 @@
 {
+  "parent": "cgn:technical/root",
   "criteria": {
     "lightning_strike": {
       "trigger": "minecraft:lightning_strike"
