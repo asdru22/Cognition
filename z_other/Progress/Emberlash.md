@@ -8,6 +8,6 @@ tags:
 - uses electroplasm to charge
 - slowly depletes electroplasm when used
 - instead of breaking it needs to be charged with electroplasm again
-- custom enchants:
+- custom enchants for when they get added:
   - rebirth: area damage when recharging
   - last hurrah: when below 10% charge, deals more damage
