@@ -1,25 +1,25 @@
-```
- ____      _                       _   ___  
-|  _ \ ___| | ___  __ _ ___  ___  / | / _ \ 
-| |_) / _ \ |/ _ \/ _` / __|/ _ \ | || | | |
-|  _ <  __/ |  __/ (_| \__ \  __/ | || |_| |
-|_| \_\___|_|\___|\__,_|___/\___| |_(_)___/ 
+# [!] READ CAREFULLY [!]
+### THIS IS A DATAPACK, NOT A MOD. THIS MEANS THAT IT'S NOT COMPATIBLE WITH SOME MODS AND DOESN'T WORK ON SERVERS THAT USE PLUGINS LIKE PAPERMC. I CANNOT DO ANYTHING ABOUT THIS. THE RESOURCEPACK IS REQUIRED IN ORDER TO USE THE DATAPACK. THE RESOURCEPACK USES SHADERS THAT CAN POTENTIALLY BREAK WITH MODS THAT CHANGE SHADERS LIKE IRIS.
 
-```
-TODO
-- Fix subtitles and sound
-- Make enchanted books obtainable/change how to obtain them, and implement them
-- Change how to get music disc
-- Add Gloomstone Sentry and Peeper
-- add malachite shield
-- add bloodwraught briar
-- add emberlash
-```
- _   _           _       _         _   _ 
-| | | |_ __   __| | __ _| |_ ___  / | / |
-| | | | '_ \ / _` |/ _` | __/ _ \ | | | |
-| |_| | |_) | (_| | (_| | ||  __/ | |_| |
- \___/| .__/ \__,_|\__,_|\__\___| |_(_)_|
-      |_|                                
-```
-- Rewrite axe dropper code and make it work with shovels and hoes
+[Wiki](https://github.com/asdru22/Cognition/wiki)
+
+### All crafting recipes in this wiki are done at the [Heavy Workbench](https://github.com/asdru22/Cognition/wiki/Heavy%20Workbench)
+
+### [Discord Server](https://discord.gg/cRTVrgVS7F)
+
+### [!] PLAY IN LATEST SNAPSHOT [!]
+
+---
+### Special Thanks
+- TheNuclearNexus: Smithed libraries
+- CreeperMagnet: Custom brewing code
+- FatalVortex: Windup Crossbow, Automatic Bow, Soulmender and Midnight Rose Seed textures
+- Lead: Malachite Knife, Shockweave Armor texture and icon
+- 1000hrCelebration: Lightning effect
+- Cin: Electroplasm Wave texture
+- Kyrius: Rotating cog in the tooltip
+- Monkeyhue: Gloomstone Sentry model, texture and animations
+- PuckiSilver: NoShadow Shader
+- ShockMicro: CorePerspectiveModels Shader
+- CommandWitchery: Animated Text Shader
+- BigPapi & Mulv: Player Motion Library
