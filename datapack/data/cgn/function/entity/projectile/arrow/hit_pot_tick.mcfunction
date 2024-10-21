@@ -1,2 +1,0 @@
-execute as @e[type=item,distance=..2] store result score $temp cgn.dummy if items entity @s contents minecraft:poisonous_potato[minecraft:item_name='{"translate":"item.cgn.malachite"}']
-execute if score $temp cgn.dummy matches 1.. run function cgn:entity/projectile/arrow/contains_malachite

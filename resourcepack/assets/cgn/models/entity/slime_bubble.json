@@ -1,8 +1,0 @@
-{
-    "parent": "cgn:entity/bubble",
-    "textures": {
-      "0": "cgn:entity/slime_bubble",
-      "particle": "cgn:entity/slime_bubble"
-    }
-  }
-  

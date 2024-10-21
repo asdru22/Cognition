@@ -2,7 +2,6 @@
 tags:
   - weapon
   - item
-  - not_implemented
 ---
 - not necessarily a sword, could be a sickle type weapon
 - uses electroplasm to charge

@@ -1,1 +1,0 @@
-execute positioned -30000066 0 -30000066 run function cgn:technical/string_uuid/player_name_item_display

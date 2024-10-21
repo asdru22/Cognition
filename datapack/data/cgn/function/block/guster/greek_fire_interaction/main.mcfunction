@@ -1,1 +1,0 @@
-execute if predicate cgn:random_chance/1_10 run return run function cgn:block/greek_fire/extinguish

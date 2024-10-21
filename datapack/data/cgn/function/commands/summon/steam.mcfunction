@@ -1,1 +1,0 @@
-execute summon item_display run function cgn:entity/steam/summon

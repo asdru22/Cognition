@@ -1,6 +1,0 @@
-{
-    "parent": "cgn:item/tool/shield/blocking",
-    "textures": {
-        "1": "cgn:item/tool/soulmender"
-    }
-}

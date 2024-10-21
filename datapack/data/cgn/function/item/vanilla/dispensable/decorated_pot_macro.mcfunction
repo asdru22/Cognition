@@ -1,1 +1,0 @@
-$setblock ~ ~ ~ decorated_pot{sherds:$(sherds)}

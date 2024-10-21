@@ -1,1 +1,0 @@
-execute as @e[type=item_display,tag=cgn.stygian_totem_schedule] at @s positioned ~ ~-1 ~ run function cgn:block/stygian_totem/schedule/set_dropper
